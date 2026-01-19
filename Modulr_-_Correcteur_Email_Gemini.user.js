@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      2.1
+// @version      2.2
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA
 // @author       Sheana
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -497,21 +497,24 @@ BROUILLON À RÉÉCRIRE :
 
     // Init
     function init() {
-        if (!window.location.href.includes('mode=email')) return;
+        // Accepter mode=email, mode=reply, mode=send, etc.
+        const validModes = ['mode=email', 'mode=reply', 'mode=send', 'mode=new'];
+        const hasValidMode = validModes.some(mode => window.location.href.includes(mode));
+        if (!hasValidMode) return;
 
         // Exposer fonction pour reset la clé API
         window.resetGeminiKey = function() {
             GM_setValue('gemini_api_key', '');
             alert('Clé API supprimée. Au prochain clic sur le bouton, tu pourras entrer une nouvelle clé.');
         };
-        console.log('Modulr Gemini v2.1: Pour changer de clé API, tape resetGeminiKey() dans la console');
+        console.log('Modulr Gemini v2.2: Pour changer de clé API, tape resetGeminiKey() dans la console');
 
         waitForElement('.tox-toolbar', (toolbar) => {
             const button = createGeminiButton();
             button.classList.add('gemini-correction-btn');
             const group = createToolbarGroup(button);
             toolbar.appendChild(group);
-            console.log('Modulr Gemini v2.1: Bouton ajouté !');
+            console.log('Modulr Gemini v2.2: Bouton ajouté !');
         });
     }
 
