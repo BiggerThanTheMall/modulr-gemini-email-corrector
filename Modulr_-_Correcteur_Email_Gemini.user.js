@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      2.2
+// @version      2.3
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA
 // @author       Sheana
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -255,8 +255,17 @@ BROUILLON À RÉÉCRIRE :
         };
     }
 
-    // Appeler l'API Gemini avec retry
-    async function callGemini(text, retryCount = 0) {
+    // Liste des modèles Gemini à essayer (du plus récent au plus stable)
+    const GEMINI_MODELS = [
+        'gemini-2.0-flash',
+        'gemini-1.5-flash',
+        'gemini-1.5-flash-latest',
+        'gemini-1.5-pro',
+        'gemini-pro'
+    ];
+
+    // Appeler l'API Gemini avec fallback automatique sur plusieurs modèles
+    async function callGemini(text, modelIndex = 0) {
         let apiKey = GM_getValue('gemini_api_key', '');
 
         if (!apiKey) {
@@ -268,8 +277,13 @@ BROUILLON À RÉÉCRIRE :
             }
         }
 
-        // Modèles Gemini disponibles
-        const model = 'gemini-1.5-flash';
+        // Sélectionner le modèle actuel
+        const model = GEMINI_MODELS[modelIndex];
+        if (!model) {
+            throw new Error('Tous les modèles ont échoué. Vérifie ta clé API ou réessaie plus tard.');
+        }
+
+        console.log(`Modulr Gemini: Essai avec ${model}...`);
 
         return new Promise((resolve, reject) => {
             GM_xmlhttpRequest({
@@ -292,26 +306,41 @@ BROUILLON À RÉÉCRIRE :
                     try {
                         const data = JSON.parse(response.responseText);
                         if (data.error) {
-                            // Si rate limited et pas trop de retries, essayer un autre modèle
-                            if (data.error.message.includes('quota') && retryCount < 3) {
-                                console.log(`Rate limited sur ${model}, retry avec un autre modèle...`);
-                                // Attendre un peu puis retry
-                                await new Promise(r => setTimeout(r, 2000));
-                                resolve(await callGemini(text, retryCount + 1));
+                            console.log(`Modulr Gemini: Erreur avec ${model}: ${data.error.message}`);
+                            // Essayer le modèle suivant
+                            if (modelIndex < GEMINI_MODELS.length - 1) {
+                                console.log(`Modulr Gemini: Passage au modèle suivant...`);
+                                resolve(await callGemini(text, modelIndex + 1));
                             } else {
                                 reject(new Error(data.error.message));
                             }
                         } else if (data.candidates && data.candidates[0]) {
+                            console.log(`Modulr Gemini: Succès avec ${model}`);
                             resolve(data.candidates[0].content.parts[0].text);
                         } else {
-                            reject(new Error('Réponse inattendue de Gemini'));
+                            // Réponse inattendue, essayer le modèle suivant
+                            if (modelIndex < GEMINI_MODELS.length - 1) {
+                                resolve(await callGemini(text, modelIndex + 1));
+                            } else {
+                                reject(new Error('Réponse inattendue de Gemini'));
+                            }
                         }
                     } catch (e) {
-                        reject(e);
+                        // Erreur de parsing, essayer le modèle suivant
+                        if (modelIndex < GEMINI_MODELS.length - 1) {
+                            resolve(await callGemini(text, modelIndex + 1));
+                        } else {
+                            reject(e);
+                        }
                     }
                 },
                 onerror: function(error) {
-                    reject(new Error('Erreur réseau'));
+                    // Erreur réseau, essayer le modèle suivant
+                    if (modelIndex < GEMINI_MODELS.length - 1) {
+                        callGemini(text, modelIndex + 1).then(resolve).catch(reject);
+                    } else {
+                        reject(new Error('Erreur réseau'));
+                    }
                 }
             });
         });
@@ -507,14 +536,14 @@ BROUILLON À RÉÉCRIRE :
             GM_setValue('gemini_api_key', '');
             alert('Clé API supprimée. Au prochain clic sur le bouton, tu pourras entrer une nouvelle clé.');
         };
-        console.log('Modulr Gemini v2.2: Pour changer de clé API, tape resetGeminiKey() dans la console');
+        console.log('Modulr Gemini v2.3: Pour changer de clé API, tape resetGeminiKey() dans la console');
 
         waitForElement('.tox-toolbar', (toolbar) => {
             const button = createGeminiButton();
             button.classList.add('gemini-correction-btn');
             const group = createToolbarGroup(button);
             toolbar.appendChild(group);
-            console.log('Modulr Gemini v2.2: Bouton ajouté !');
+            console.log('Modulr Gemini v2.3: Bouton ajouté !');
         });
     }
 
