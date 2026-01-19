@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      2.3
+// @version      2.4
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA
 // @author       Sheana
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -255,13 +255,12 @@ BROUILLON À RÉÉCRIRE :
         };
     }
 
-    // Liste des modèles Gemini à essayer (du plus récent au plus stable)
+    // Liste des modèles Gemini à essayer (janvier 2025)
     const GEMINI_MODELS = [
+        'gemini-2.5-flash',
+        'gemini-2.5-flash-lite',
         'gemini-2.0-flash',
-        'gemini-1.5-flash',
-        'gemini-1.5-flash-latest',
-        'gemini-1.5-pro',
-        'gemini-pro'
+        'gemini-2.0-flash-lite'
     ];
 
     // Appeler l'API Gemini avec fallback automatique sur plusieurs modèles
@@ -536,14 +535,14 @@ BROUILLON À RÉÉCRIRE :
             GM_setValue('gemini_api_key', '');
             alert('Clé API supprimée. Au prochain clic sur le bouton, tu pourras entrer une nouvelle clé.');
         };
-        console.log('Modulr Gemini v2.3: Pour changer de clé API, tape resetGeminiKey() dans la console');
+        console.log('Modulr Gemini v2.4: Pour changer de clé API, tape resetGeminiKey() dans la console');
 
         waitForElement('.tox-toolbar', (toolbar) => {
             const button = createGeminiButton();
             button.classList.add('gemini-correction-btn');
             const group = createToolbarGroup(button);
             toolbar.appendChild(group);
-            console.log('Modulr Gemini v2.3: Bouton ajouté !');
+            console.log('Modulr Gemini v2.4: Bouton ajouté !');
         });
     }
 
