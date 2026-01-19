@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      2.4
+// @version      2.5
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA
 // @author       Sheana
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -39,6 +39,15 @@ RÈGLES DE FORMATAGE ABSOLUES :
 - Après "Cordialement," → PAS de ligne vide, directement le nom
 - Le nom du signataire sur la ligne juste après la formule de politesse
 
+RÈGLES DE GENRE (TRÈS IMPORTANT) :
+- JAMAIS de "é(e)" ou "informé(e)" → choisis le bon genre
+- Détecte le genre du destinataire :
+  * Si "Monsieur" ou prénom masculin (Yacine, Mohamed, Pierre, etc.) → accords masculins
+  * Si "Madame" ou prénom féminin (Sonia, Nadia, Marie, etc.) → accords féminins
+  * Si le brouillon contient déjà des accords ("conviée", "informée") → garde ce genre
+  * Si aucun indice → utilise le masculin par défaut
+- Exemples : "vous êtes informé" (homme) / "vous êtes informée" (femme)
+
 RÈGLES DE RÉDACTION :
 - Corrige toutes les fautes d'orthographe, grammaire, ponctuation
 - Reformule de manière fluide et professionnelle
@@ -47,13 +56,13 @@ RÈGLES DE RÉDACTION :
 - Abréviations : "Cie" pour compagnie d'assurance, "CP" pour conditions particulières
 
 COLLABORATEURS DU CABINET (reconnais-les même avec fautes) :
-- Sheana KRIEF
-- Jake CASIMIR (peut être écrit "casmir")
-- Ghaïs KALAH (peut être écrit "ghais", "gais", etc.)
-- Eddy KALAH
-- Nadia KALAH
-- Doryan KALAH
-- Youness OUACHAB (peut être écrit "ouachbab")
+- Sheana KRIEF (femme)
+- Jake CASIMIR (homme) (peut être écrit "casmir")
+- Ghaïs KALAH (homme) (peut être écrit "ghais", "gais", etc.)
+- Eddy KALAH (homme)
+- Nadia KALAH (femme)
+- Doryan KALAH (homme)
+- Youness OUACHAB (homme) (peut être écrit "ouachbab")
 
 SIGNATURE :
 - Termine TOUJOURS par "Cordialement," ou "Bien cordialement," suivi du Prénom NOM du collaborateur
@@ -476,16 +485,16 @@ BROUILLON À RÉÉCRIRE :
                 replaceMessageContent(content, result.corps);
             }
 
-            // Proposer l'objet si généré
+            // Remplacer l'objet automatiquement si vide
             if (result.objet) {
-                const currentSubject = document.querySelector('#send_email_subject')?.value || '';
-                const confirmMsg = currentSubject
-                    ? `Remplacer l'objet actuel ?\n\nActuel : "${currentSubject}"\nProposé : "${result.objet}"`
-                    : `Utiliser cet objet ?\n\n"${result.objet}"`;
-
-                if (confirm(confirmMsg)) {
+                const subjectField = document.querySelector('#send_email_subject');
+                const currentSubject = subjectField?.value?.trim() || '';
+                
+                if (!currentSubject) {
+                    // Objet vide → on remplace automatiquement
                     setSubject(result.objet);
                 }
+                // Si l'objet n'est pas vide, on ne touche pas
             }
 
             showNotification('✅ Email corrigé !');
@@ -535,14 +544,14 @@ BROUILLON À RÉÉCRIRE :
             GM_setValue('gemini_api_key', '');
             alert('Clé API supprimée. Au prochain clic sur le bouton, tu pourras entrer une nouvelle clé.');
         };
-        console.log('Modulr Gemini v2.4: Pour changer de clé API, tape resetGeminiKey() dans la console');
+        console.log('Modulr Gemini v2.5: Pour changer de clé API, tape resetGeminiKey() dans la console');
 
         waitForElement('.tox-toolbar', (toolbar) => {
             const button = createGeminiButton();
             button.classList.add('gemini-correction-btn');
             const group = createToolbarGroup(button);
             toolbar.appendChild(group);
-            console.log('Modulr Gemini v2.4: Bouton ajouté !');
+            console.log('Modulr Gemini v2.5: Bouton ajouté !');
         });
     }
 
