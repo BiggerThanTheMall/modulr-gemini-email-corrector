@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      2.6
+// @version      2.7
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA
 // @author       Sheana
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -53,7 +53,13 @@ RÈGLES DE RÉDACTION :
 - Reformule de manière fluide et professionnelle
 - Garde le même sens et TOUTES les informations importantes
 - Développe si nécessaire pour la clarté
-- Abréviations : "Cie" pour compagnie d'assurance, "CP" pour conditions particulières "CG" pour conditions générales, et autres abréviations/lexiques du monde de l'assurance 
+
+RÈGLES DE RÉDACTION :
+- Corrige toutes les fautes d'orthographe, grammaire, ponctuation
+- Reformule de manière fluide et professionnelle
+- Garde le même sens et TOUTES les informations importantes
+- Développe si nécessaire pour la clarté
+- Abréviations : "Cie" ou "cnie' pour compagnie d'assurance, "CP" pour conditions particulières "CG" pour conditions générales, "IPID" par IPID (fiche d'information obligatoire) et autres abréviations/lexiques du monde de l'assurance 
 
 COLLABORATEURS DU CABINET (reconnais-les même avec fautes) :
 - Sheana KRIEF (femme)
@@ -62,7 +68,7 @@ COLLABORATEURS DU CABINET (reconnais-les même avec fautes) :
 - Eddy KALAH (homme)
 - Nadia KALAH (femme)
 - Doryan KALAH (homme)
-- Youness OUACHAB (homme) (peut être écrit "ouachbab")
+- Youness OUACHBAB (homme) (peut être écrit "ouachab")
 
 SIGNATURE :
 - Termine TOUJOURS par "Cordialement," ou "Bien cordialement," suivi du Prénom NOM du collaborateur
@@ -116,12 +122,18 @@ BROUILLON À RÉÉCRIRE :
 `;
 
     // ============================================
-    // FONCTION PRINCIPALE : Ajouter le bouton à une toolbar
+    // FONCTION PRINCIPALE : Ajouter le bouton à un éditeur TinyMCE
     // ============================================
-    function addButtonToToolbar(toolbar) {
-        // Vérifier si le bouton existe déjà dans cette toolbar
-        if (toolbar.querySelector('.gemini-correction-btn')) {
-            console.log('Modulr Gemini: Bouton déjà présent dans cette toolbar');
+    function addButtonToEditor(tinyMceContainer) {
+        // Vérifier si le bouton existe déjà dans cet éditeur
+        if (tinyMceContainer.querySelector('.gemini-correction-btn')) {
+            return; // Déjà présent, on ne fait rien
+        }
+
+        // Trouver la PREMIÈRE toolbar (celle du haut)
+        const toolbar = tinyMceContainer.querySelector('.tox-toolbar');
+        if (!toolbar) {
+            console.log('Modulr Gemini: Pas de toolbar trouvée dans le conteneur');
             return;
         }
 
@@ -129,39 +141,35 @@ BROUILLON À RÉÉCRIRE :
         button.classList.add('gemini-correction-btn');
         const group = createToolbarGroup(button);
         toolbar.appendChild(group);
-        console.log('Modulr Gemini v2.6: Bouton ajouté à la toolbar !');
+        console.log('Modulr Gemini v2.7: Bouton ajouté !');
     }
 
     // ============================================
     // OBSERVER : Surveille les changements dans le DOM
     // ============================================
     function setupObserver() {
-        // Observer pour détecter l'apparition de nouvelles toolbars TinyMCE
+        // Observer pour détecter l'apparition de nouveaux éditeurs TinyMCE
         const observer = new MutationObserver((mutations) => {
             for (const mutation of mutations) {
                 // Vérifier les nœuds ajoutés
                 for (const node of mutation.addedNodes) {
                     if (node.nodeType !== Node.ELEMENT_NODE) continue;
 
-                    // Chercher .tox-toolbar dans le nœud ajouté ou ses enfants
-                    let toolbars = [];
+                    // Chercher les conteneurs TinyMCE (.tox-tinymce ou .tox)
+                    let editors = [];
                     
-                    if (node.classList && node.classList.contains('tox-toolbar')) {
-                        toolbars.push(node);
+                    // Le nœud lui-même est un éditeur ?
+                    if (node.classList && (node.classList.contains('tox-tinymce') || node.classList.contains('tox'))) {
+                        editors.push(node);
                     }
                     
+                    // Chercher dans les enfants
                     if (node.querySelectorAll) {
-                        toolbars = toolbars.concat([...node.querySelectorAll('.tox-toolbar')]);
+                        editors = editors.concat([...node.querySelectorAll('.tox-tinymce, .tox')]);
                     }
 
-                    // Aussi vérifier si c'est un conteneur TinyMCE
-                    if (node.classList && (node.classList.contains('tox') || node.classList.contains('tox-tinymce'))) {
-                        const innerToolbar = node.querySelector('.tox-toolbar');
-                        if (innerToolbar) toolbars.push(innerToolbar);
-                    }
-
-                    for (const toolbar of toolbars) {
-                        addButtonToToolbar(toolbar);
+                    for (const editor of editors) {
+                        addButtonToEditor(editor);
                     }
                 }
             }
@@ -173,7 +181,7 @@ BROUILLON À RÉÉCRIRE :
             subtree: true
         });
 
-        console.log('Modulr Gemini v2.6: Observer actif - surveillance des nouvelles toolbars');
+        console.log('Modulr Gemini v2.7: Observer actif');
         return observer;
     }
 
@@ -183,11 +191,11 @@ BROUILLON À RÉÉCRIRE :
     function setupPeriodicCheck() {
         // Vérification toutes les 2 secondes au cas où l'observer rate quelque chose
         setInterval(() => {
-            const toolbars = document.querySelectorAll('.tox-toolbar');
-            for (const toolbar of toolbars) {
-                if (!toolbar.querySelector('.gemini-correction-btn')) {
-                    console.log('Modulr Gemini: Toolbar sans bouton détectée (check périodique)');
-                    addButtonToToolbar(toolbar);
+            const editors = document.querySelectorAll('.tox-tinymce, .tox');
+            for (const editor of editors) {
+                if (!editor.querySelector('.gemini-correction-btn')) {
+                    console.log('Modulr Gemini: Éditeur sans bouton détecté (check périodique)');
+                    addButtonToEditor(editor);
                 }
             }
         }, 2000);
@@ -606,12 +614,12 @@ BROUILLON À RÉÉCRIRE :
             GM_setValue('gemini_api_key', '');
             alert('Clé API supprimée. Au prochain clic sur le bouton, tu pourras entrer une nouvelle clé.');
         };
-        console.log('Modulr Gemini v2.6: Pour changer de clé API, tape resetGeminiKey() dans la console');
+        console.log('Modulr Gemini v2.7: Pour changer de clé API, tape resetGeminiKey() dans la console');
 
-        // 1. Ajouter le bouton aux toolbars déjà présentes
-        const existingToolbars = document.querySelectorAll('.tox-toolbar');
-        for (const toolbar of existingToolbars) {
-            addButtonToToolbar(toolbar);
+        // 1. Ajouter le bouton aux éditeurs déjà présents
+        const existingEditors = document.querySelectorAll('.tox-tinymce, .tox');
+        for (const editor of existingEditors) {
+            addButtonToEditor(editor);
         }
 
         // 2. Configurer l'observer pour les futures toolbars
@@ -620,7 +628,7 @@ BROUILLON À RÉÉCRIRE :
         // 3. Vérification périodique (backup)
         setupPeriodicCheck();
 
-        console.log('Modulr Gemini v2.6: Initialisation complète !');
+        console.log('Modulr Gemini v2.7: Initialisation complète !');
     }
 
     // Démarrer dès que possible
