@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.1
+// @version      3.2
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples externe
 // @author       Sheana
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -120,11 +120,17 @@ const EXEMPLES_URL = 'https://gist.githubusercontent.com/BiggerThanTheMall/ed367
             console.log('Modulr Gemini: Téléchargement des exemples...');
 
             const headers = { 'Accept': 'application/vnd.github.raw+json' };
-            let token = GM_getValue('github_token', '');
-if (!token) {
-    token = prompt('Entre ton token GitHub (classic, commence par ghp_) :');
-    if (token) GM_setValue('github_token', token);
-}
+const token = '';
+```
+
+**3.** Dans le bloc `// ==UserScript==` en haut, remplace :
+```
+// @connect      api.github.com
+```
+
+Par :
+```
+// @connect      gist.githubusercontent.com
             if (token) {
                 headers['Authorization'] = `Bearer ${token}`;
             }
