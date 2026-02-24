@@ -1,14 +1,16 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      2.7
-// @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA
+// @version      3.1
+// @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples externe
 // @author       Sheana
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @connect      generativelanguage.googleapis.com
+// @connect      raw.githubusercontent.com
+// @connect      api.github.com
 // @updateURL    https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/Modulr_-_Correcteur_Email_Gemini.user.js
 // @downloadURL  https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/Modulr_-_Correcteur_Email_Gemini.user.js
 // @homepageURL  https://github.com/BiggerThanTheMall/modulr-gemini-email-corrector
@@ -18,12 +20,149 @@
     'use strict';
 
     // ============================================
-    // CONFIGURATION - Ta clé API Gemini
+    // CONFIGURATION
     // ============================================
-    const GEMINI_API_KEY = GM_getValue('gemini_api_key', '');
 
-    // Prompt amélioré pour la correction + objet - Style professionnel LTOA
-    const CORRECTION_PROMPT = `Tu es le rédacteur professionnel du cabinet LTOA Assurances à Lyon. Tu transformes des brouillons d'emails en messages professionnels impeccables.
+    // URL du fichier d'exemples sur GitHub (repo PRIVÉ)
+const EXEMPLES_URL = 'https://gist.githubusercontent.com/BiggerThanTheMall/ed3677e5396db3a07e74f98fb523b3a4/raw/724dc432e781c6317c37b357c4a61713582c9fbf/exemples-emails.txt';;
+
+    // Date d'expiration du token GitHub (31 décembre 2026)
+    const TOKEN_EXPIRY = new Date('2026-12-31');
+
+    // Durée du cache des exemples (1 heure)
+    const CACHE_DURATION = 60 * 60 * 1000;
+
+    let exemplesCache = null;
+    let exemplesCacheTime = 0;
+
+    // ============================================
+    // RAPPEL EXPIRATION TOKEN
+    // ============================================
+    function checkTokenExpiry() {
+        const now = new Date();
+        const daysLeft = Math.ceil((TOKEN_EXPIRY - now) / (1000 * 60 * 60 * 24));
+
+        // Afficher le rappel tout le mois de décembre 2026
+        if (now.getFullYear() === 2026 && now.getMonth() === 11) { // 11 = décembre
+            // Ne montrer qu'une fois par jour max
+            const lastReminder = GM_getValue('token_reminder_date', '');
+            const today = now.toISOString().split('T')[0];
+
+            if (lastReminder !== today) {
+                GM_setValue('token_reminder_date', today);
+
+                let message, bgColor;
+                if (daysLeft <= 0) {
+                    message = `⚠️ Token GitHub EXPIRÉ ! Renouvelle-le sur github.com/settings/tokens puis : setGithubToken('nouveau_token')`;
+                    bgColor = '#e53935';
+                } else if (daysLeft <= 7) {
+                    message = `⚠️ Token GitHub expire dans ${daysLeft} jour${daysLeft > 1 ? 's' : ''} ! Pense à le renouveler.`;
+                    bgColor = '#e53935';
+                } else {
+                    message = `🔑 Rappel : ton token GitHub expire le 31/12/2026 (dans ${daysLeft} jours). Pense à le renouveler avant.`;
+                    bgColor = '#FF9800';
+                }
+
+                showTokenReminder(message, bgColor);
+            }
+        }
+    }
+
+    function showTokenReminder(message, bgColor) {
+        const notif = document.createElement('div');
+        notif.innerHTML = `
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:10px;">
+                <span>${message}</span>
+                <span style="cursor:pointer; font-size:18px; line-height:1;" id="close-token-reminder">✕</span>
+            </div>
+            <div style="margin-top:6px; font-size:11px; opacity:0.85;">
+                Console → setGithubToken('nouveau_token')
+            </div>
+        `;
+        notif.style.cssText = `
+            position: fixed; top: 20px; right: 20px; padding: 14px 18px;
+            background: ${bgColor}; color: white; border-radius: 6px; z-index: 99999;
+            font-family: Arial, sans-serif; font-size: 13px; max-width: 420px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3); line-height: 1.4;
+        `;
+        document.body.appendChild(notif);
+
+        // Fermer au clic sur la croix
+        notif.querySelector('#close-token-reminder').addEventListener('click', () => notif.remove());
+
+        // Auto-fermer après 15 secondes
+        setTimeout(() => { if (notif.parentNode) notif.remove(); }, 15000);
+    }
+
+    // ============================================
+    // CHARGEMENT DES EXEMPLES EXTERNES
+    // ============================================
+    function loadExemples() {
+        return new Promise((resolve, reject) => {
+            const now = Date.now();
+
+            if (exemplesCache && (now - exemplesCacheTime) < CACHE_DURATION) {
+                resolve(exemplesCache);
+                return;
+            }
+
+            try {
+                const cached = GM_getValue('exemples_cache', '');
+                const cachedTime = GM_getValue('exemples_cache_time', 0);
+                if (cached && (now - cachedTime) < CACHE_DURATION) {
+                    exemplesCache = cached;
+                    exemplesCacheTime = cachedTime;
+                    resolve(cached);
+                    return;
+                }
+            } catch(e) {}
+
+            console.log('Modulr Gemini: Téléchargement des exemples...');
+
+            const headers = { 'Accept': 'application/vnd.github.raw+json' };
+            let token = GM_getValue('github_token', '');
+if (!token) {
+    token = prompt('Entre ton token GitHub (classic, commence par ghp_) :');
+    if (token) GM_setValue('github_token', token);
+}
+            if (token) {
+                headers['Authorization'] = `Bearer ${token}`;
+            }
+
+            GM_xmlhttpRequest({
+                method: 'GET',
+                url: EXEMPLES_URL + '?t=' + now,
+                headers: headers,
+                onload: function(response) {
+                    if (response.status === 200 && response.responseText) {
+                        exemplesCache = response.responseText;
+                        exemplesCacheTime = now;
+                        try {
+                            GM_setValue('exemples_cache', response.responseText);
+                            GM_setValue('exemples_cache_time', now);
+                        } catch(e) {}
+                        console.log(`Modulr Gemini: ${response.responseText.length} chars d'exemples chargés`);
+                        resolve(response.responseText);
+                    } else {
+                        console.warn('Modulr Gemini: HTTP ' + response.status);
+                        if (response.status === 404 || response.status === 401) {
+                            console.warn('Modulr Gemini: Vérifie l\'URL et le token → setGithubToken()');
+                        }
+                        resolve(GM_getValue('exemples_cache', '') || '');
+                    }
+                },
+                onerror: function() {
+                    resolve(GM_getValue('exemples_cache', '') || '');
+                }
+            });
+        });
+    }
+
+    // ============================================
+    // CONSTRUCTION DU PROMPT
+    // ============================================
+    function buildPrompt(exemples) {
+        const systemPrompt = `Tu es le rédacteur professionnel du cabinet LTOA Assurances à Lyon. Tu transformes des brouillons d'emails en messages professionnels impeccables.
 
 STYLE ATTENDU :
 - Ton courtois et professionnel du secteur de l'assurance
@@ -39,27 +178,62 @@ RÈGLES DE FORMATAGE ABSOLUES :
 - Après "Cordialement," → PAS de ligne vide, directement le nom
 - Le nom du signataire sur la ligne juste après la formule de politesse
 
-RÈGLES DE GENRE (TRÈS IMPORTANT) :
+RÈGLES DE TUTOIEMENT / VOUVOIEMENT (TRÈS IMPORTANT) :
+- Si le brouillon utilise le TU → garde le TU
+- Si le brouillon utilise le VOUS → garde le VOUS
+- Si le brouillon mélange TU et VOUS → utilise le VOUS
+- Si aucun indice → VOUS par défaut
+- Le tutoiement est souvent utilisé entre collègues ou contacts proches
+- Le vouvoiement est la norme pour les clients et les compagnies
+
+RÈGLES DE GENRE :
+- Écrire AU MASCULIN par défaut sauf indice contraire
 - JAMAIS de "é(e)" ou "informé(e)" → choisis le bon genre
-- Détecte le genre du destinataire :
-  * Si "Monsieur" ou prénom masculin (Yacine, Mohamed, Pierre, etc.) → accords masculins
-  * Si "Madame" ou prénom féminin (Sonia, Nadia, Marie, etc.) → accords féminins
-  * Si le brouillon contient déjà des accords ("conviée", "informée") → garde ce genre
-  * Si aucun indice → utilise le masculin par défaut
-- Exemples : "vous êtes informé" (homme) / "vous êtes informée" (femme)
+- Si "Monsieur" ou prénom masculin → masculin
+- Si "Madame" ou prénom féminin → féminin
+- Si aucun indice → MASCULIN par défaut
+
+RÈGLES D'ÉNUMÉRATION (TRÈS IMPORTANT) :
+- Quand le brouillon liste 3 éléments ou plus (documents, pièces, garanties, contrats, références, etc.) → LISTE À TIRETS
+- Format : un tiret "- " par élément, un élément par ligne
+- Introduire la liste par une phrase qui se termine par " :"
+- Exemple :
+  Nous aurions besoin des pièces suivantes :
+  - Permis de conduire
+  - Carte grise du véhicule
+  - RIB
+- Si seulement 1 ou 2 éléments → les garder en ligne dans le texte
+
+DÉTECTION DES INSTRUCTIONS DE TON / STYLE (TRÈS IMPORTANT) :
+Le rédacteur peut inclure des INSTRUCTIONS destinées à toi dans son brouillon.
+Ces instructions sont TOUJOURS entre DOUBLES PARENTHÈSES (( )).
+
+⚠️ ATTENTION À NE PAS CONFONDRE :
+- SIMPLES parenthèses ( ) = texte NORMAL qui fait partie du mail
+  Exemples : "garantie tous risques (tous dommages, assistance 0km)", "contrat MRH (multirisque habitation)", "(réf. SIN-2024-0892)"
+  → Ces parenthèses simples font partie du contenu, NE PAS les supprimer
+
+- DOUBLES parenthèses (( )) = INSTRUCTIONS POUR TOI, pas du texte à envoyer
+  Exemples : "((ton sympathique))", "((relance ferme))", "((urgent))", "((faire comprendre qu'on est déçu))"
+  → SUPPRIME ces doubles parenthèses du texte final
+  → ADAPTE le ton global du mail en fonction de l'instruction
+
+Exemples d'instructions en doubles parenthèses :
+  * ((ton sympathique et convivial)) → ton chaleureux, amical
+  * ((ton formel)) ou ((très formel)) → ton soutenu, solennel
+  * ((relance ferme)) → ton direct et assertif
+  * ((urgent)) → marquer l'urgence
+  * ((faire comprendre qu'on est déçu)) → diplomatie mais fermeté
+  * ((mail pour un avocat)) → registre juridique adapté
+
+Si AUCUNE double parenthèse → ton professionnel standard (courtois, neutre)
 
 RÈGLES DE RÉDACTION :
 - Corrige toutes les fautes d'orthographe, grammaire, ponctuation
 - Reformule de manière fluide et professionnelle
-- Garde le même sens et TOUTES les informations importantes
+- Garde le même sens et TOUTES les informations (noms, références, numéros, dates, montants)
 - Développe si nécessaire pour la clarté
-
-RÈGLES DE RÉDACTION :
-- Corrige toutes les fautes d'orthographe, grammaire, ponctuation
-- Reformule de manière fluide et professionnelle
-- Garde le même sens et TOUTES les informations importantes
-- Développe si nécessaire pour la clarté
-- Abréviations : "Cie" ou "cnie' pour compagnie d'assurance, "CP" pour conditions particulières "CG" pour conditions générales, "IPID" par IPID (fiche d'information obligatoire) et autres abréviations/lexiques du monde de l'assurance 
+- Abréviations ne garder que le mot sans l'abréviation: "RI" pour relevé d'information (à ne pas confondre avec RIB (relevé d'identité bancaire) "Cie" pour compagnie, "CP" pour conditions particulières, "CG" pour conditions générales, "IPID" pour fiche d'information, "MRH" pour multirisque habitation, "RC Pro" pour responsabilité civile professionnelle, "PJ" pour protection juridique
 
 COLLABORATEURS DU CABINET (reconnais-les même avec fautes) :
 - Sheana KRIEF (femme)
@@ -72,136 +246,84 @@ COLLABORATEURS DU CABINET (reconnais-les même avec fautes) :
 
 SIGNATURE :
 - Termine TOUJOURS par "Cordialement," ou "Bien cordialement," suivi du Prénom NOM du collaborateur
-- Si aucun collaborateur mentionné, termine juste par "Cordialement," sans nom
+- Si aucun collaborateur mentionné → "Cordialement," sans nom`;
 
-EXEMPLE DE FORMATAGE CORRECT (note les lignes vides entre paragraphes) :
+        let exemplesSection = '';
+        if (exemples && exemples.trim()) {
+            exemplesSection = `
 
-Bonjour Monsieur MAHFOUDI,
+═══════════════════════════════════════════
+BASE D'EXEMPLES DE RÉFÉRENCE
+Voici des exemples réels du style d'écriture du cabinet LTOA.
+Inspire-toi du ton, du niveau de détail, de la structure et du formatage.
+Note comment les énumérations sont en tirets, comment le tutoiement est préservé,
+et comment les instructions en ((doubles parenthèses)) modifient le ton.
+Les parenthèses simples ( ) font partie du texte normal.
+═══════════════════════════════════════════
 
-Merci pour votre transparence et pour le transfert de leur message.
+${exemples}
 
-Chose importante à préciser : nous ne sommes pas une banque. Nous ne sommes pas là pour vous vendre un produit à tout prix. Notre rôle de courtier, c'est de vous apporter un conseil : comparer objectivement, expliquer clairement ce pour quoi vous cotisez (garanties, franchises, plafonds, exclusions) et vous accompagner dans le suivi.
+═══════════════════════════════════════════
+FIN DES EXEMPLES
+═══════════════════════════════════════════`;
+        }
 
-Pour être honnête, je suis surpris par la tournure de leur réponse. Elle met en avant des arguments assez généraux pour orienter votre choix, mais elle ne dit pas grand-chose sur ce qui compte réellement pour vous dans un contrat d'assurance : les conditions contractuelles et le coût réel en cas de sinistre (franchises, limites, modalités d'indemnisation).
-
-Les avis Google ne reflètent pas toujours la qualité d'un contrat : ils concernent souvent une agence ou un service en particulier, et l'assurance est un domaine où les clients satisfaits laissent rarement un avis. Ce qui compte réellement, c'est ce qui est prévu noir sur blanc au contrat.
-
-Dans tous les cas, que vous choisissiez la banque ou nous, nous continuerons à faire notre travail jusqu'au bout : le devoir de conseil et le suivi seront assurés, avec un seul objectif : que vous soyez correctement couvert et parfaitement au clair sur votre choix.
-
-Bien cordialement,
-Jake CASIMIR
-
-AUTRE EXEMPLE :
-
-Bonjour Madame,
-
-J'ai bien demandé la réédition des documents auprès de la compagnie, car nous n'avons pas la main sur leur édition directe. Je leur ai demandé de nous les faire parvenir dès que possible.
-
-Cela nous permettra d'en conserver une copie à jour et de pouvoir vous les transmettre rapidement. Je ne manquerai pas de revenir vers vous dès réception.
-
-Cordialement,
-Ghaïs KALAH
-
-AUTRE EXEMPLE :
-
-Bonjour,
-
-Notre cliente nous confirme n'avoir rien reçu. Pourriez-vous éditer les documents de Mme BOUTELDJI Sonia à jour des informations transmises et nous les faire parvenir ? Nous avons besoin de l'avis d'échéance et du certificat d'adhésion.
-
-Idem pour Mme BOUTELDJI Sabrina.
-
-Merci grandement, je compte sur votre réactivité.
-
-Cordialement,
-Jake CASIMIR
+        const outputFormat = `
 
 RÉPONDS UNIQUEMENT EN JSON VALIDE (sans markdown, sans backticks), format exact :
 {"objet": "Objet court et professionnel", "corps": "Le texte complet de l'email corrigé avec les sauts de ligne"}
 
+IMPORTANT : Dans le champ "corps", utilise \\n pour les sauts de ligne. Pour les tirets de liste, écris "- " en début de ligne.
+
 BROUILLON À RÉÉCRIRE :
 `;
 
+        return systemPrompt + exemplesSection + outputFormat;
+    }
+
     // ============================================
-    // FONCTION PRINCIPALE : Ajouter le bouton à un éditeur TinyMCE
+    // BOUTON + TOOLBAR
     // ============================================
     function addButtonToEditor(tinyMceContainer) {
-        // Vérifier si le bouton existe déjà dans cet éditeur
-        if (tinyMceContainer.querySelector('.gemini-correction-btn')) {
-            return; // Déjà présent, on ne fait rien
-        }
-
-        // Trouver la PREMIÈRE toolbar (celle du haut)
+        if (tinyMceContainer.querySelector('.gemini-correction-btn')) return;
         const toolbar = tinyMceContainer.querySelector('.tox-toolbar');
-        if (!toolbar) {
-            console.log('Modulr Gemini: Pas de toolbar trouvée dans le conteneur');
-            return;
-        }
-
+        if (!toolbar) return;
         const button = createGeminiButton();
         button.classList.add('gemini-correction-btn');
         const group = createToolbarGroup(button);
         toolbar.appendChild(group);
-        console.log('Modulr Gemini v2.7: Bouton ajouté !');
+        console.log('Modulr Gemini v3.1: Bouton ajouté !');
     }
 
-    // ============================================
-    // OBSERVER : Surveille les changements dans le DOM
-    // ============================================
     function setupObserver() {
-        // Observer pour détecter l'apparition de nouveaux éditeurs TinyMCE
         const observer = new MutationObserver((mutations) => {
             for (const mutation of mutations) {
-                // Vérifier les nœuds ajoutés
                 for (const node of mutation.addedNodes) {
                     if (node.nodeType !== Node.ELEMENT_NODE) continue;
-
-                    // Chercher les conteneurs TinyMCE (.tox-tinymce ou .tox)
                     let editors = [];
-                    
-                    // Le nœud lui-même est un éditeur ?
                     if (node.classList && (node.classList.contains('tox-tinymce') || node.classList.contains('tox'))) {
                         editors.push(node);
                     }
-                    
-                    // Chercher dans les enfants
                     if (node.querySelectorAll) {
                         editors = editors.concat([...node.querySelectorAll('.tox-tinymce, .tox')]);
                     }
-
-                    for (const editor of editors) {
-                        addButtonToEditor(editor);
-                    }
+                    for (const editor of editors) addButtonToEditor(editor);
                 }
             }
         });
-
-        // Observer tout le document
-        observer.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
-
-        console.log('Modulr Gemini v2.7: Observer actif');
+        observer.observe(document.body, { childList: true, subtree: true });
         return observer;
     }
 
-    // ============================================
-    // VÉRIFICATION PÉRIODIQUE (backup)
-    // ============================================
     function setupPeriodicCheck() {
-        // Vérification toutes les 2 secondes au cas où l'observer rate quelque chose
         setInterval(() => {
             const editors = document.querySelectorAll('.tox-tinymce, .tox');
             for (const editor of editors) {
-                if (!editor.querySelector('.gemini-correction-btn')) {
-                    console.log('Modulr Gemini: Éditeur sans bouton détecté (check périodique)');
-                    addButtonToEditor(editor);
-                }
+                if (!editor.querySelector('.gemini-correction-btn')) addButtonToEditor(editor);
             }
         }, 2000);
     }
 
-    // Créer le bouton style Modulr/TinyMCE avec icône robot
     function createGeminiButton() {
         const button = document.createElement('button');
         button.type = 'button';
@@ -216,19 +338,12 @@ BROUILLON À RÉÉCRIRE :
                 </svg>
             </span>
         `;
-
-        button.addEventListener('mouseenter', () => {
-            button.style.backgroundColor = '#dee0e2';
-        });
-        button.addEventListener('mouseleave', () => {
-            button.style.backgroundColor = '';
-        });
-
+        button.addEventListener('mouseenter', () => { button.style.backgroundColor = '#dee0e2'; });
+        button.addEventListener('mouseleave', () => { button.style.backgroundColor = ''; });
         button.addEventListener('click', handleCorrection);
         return button;
     }
 
-    // Créer groupe toolbar
     function createToolbarGroup(button) {
         const group = document.createElement('div');
         group.className = 'tox-toolbar__group';
@@ -237,105 +352,57 @@ BROUILLON À RÉÉCRIRE :
         return group;
     }
 
-    // Extraire le contenu du message (sans la signature)
     function getMessageContent() {
-        // Chercher l'iframe TinyMCE - plusieurs sélecteurs possibles
         let iframe = document.querySelector('iframe[id^="body_ifr"]');
+        if (!iframe) iframe = document.querySelector('iframe[id*="_ifr"]');
+        if (!iframe) iframe = document.querySelector('.tox-edit-area iframe');
+        if (!iframe) iframe = document.querySelector('.tox-edit-area__iframe');
         if (!iframe) {
-            iframe = document.querySelector('iframe[id*="_ifr"]');
-        }
-        if (!iframe) {
-            iframe = document.querySelector('.tox-edit-area iframe');
-        }
-        if (!iframe) {
-            iframe = document.querySelector('.tox-edit-area__iframe');
-        }
-        if (!iframe) {
-            // Chercher dans tous les iframes
             const iframes = document.querySelectorAll('iframe');
             for (const f of iframes) {
                 try {
-                    if (f.contentDocument && f.contentDocument.body && f.contentDocument.body.isContentEditable) {
-                        iframe = f;
-                        break;
-                    }
+                    if (f.contentDocument && f.contentDocument.body && f.contentDocument.body.isContentEditable) { iframe = f; break; }
                 } catch(e) {}
             }
         }
-
-        if (!iframe) {
-            console.log('Modulr Gemini: Aucun iframe trouvé');
-            console.log('Iframes disponibles:', document.querySelectorAll('iframe'));
-            return null;
-        }
-
-        console.log('Modulr Gemini: iframe trouvé:', iframe.id || iframe);
+        if (!iframe) return null;
 
         let iframeDoc;
-        try {
-            iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-        } catch(e) {
-            console.log('Modulr Gemini: Erreur accès iframe:', e);
-            return null;
-        }
+        try { iframeDoc = iframe.contentDocument || iframe.contentWindow.document; }
+        catch(e) { return null; }
 
         const body = iframeDoc.body;
-        if (!body) {
-            console.log('Modulr Gemini: body non trouvé dans iframe');
-            return null;
-        }
+        if (!body) return null;
 
-        console.log('Modulr Gemini: Contenu body:', body.innerHTML);
-
-        // Prendre les premiers divs avant la signature (tables, images, etc.)
         const children = Array.from(body.children);
         let messageHtml = '';
         let messageElements = [];
 
         for (const child of children) {
-            // Stop si on trouve une signature (table, image, ligne de séparation)
-            if (child.querySelector('img') ||
-                child.querySelector('table') ||
-                child.innerHTML.includes('border-top') ||
-                child.innerHTML.includes('--')) {
-                break;
-            }
-
+            if (child.querySelector('img') || child.querySelector('table') ||
+                child.innerHTML.includes('border-top') || child.innerHTML.includes('--')) break;
             if (child.tagName === 'DIV' || child.tagName === 'P') {
                 messageHtml += child.outerHTML;
                 messageElements.push(child);
             }
         }
 
-        // Si aucun div trouvé, prendre tout le contenu texte
         if (messageElements.length === 0) {
             const text = body.innerText || body.textContent;
-            if (text && text.trim()) {
-                return {
-                    text: text.trim(),
-                    elements: [],
-                    body: body,
-                    useFullBody: true
-                };
-            }
+            if (text && text.trim()) return { text: text.trim(), elements: [], body, useFullBody: true };
         }
 
-        // Convertir HTML en texte
         const text = messageHtml
             .replace(/<br\s*\/?>/gi, '\n')
             .replace(/<\/div>\s*<div>/gi, '\n')
-            .replace(/<[^>]+>/g, '')
-            .trim();
+            .replace(/<[^>]+>/g, '').trim();
 
-        return {
-            text: text,
-            elements: messageElements,
-            body: body,
-            useFullBody: false
-        };
+        return { text, elements: messageElements, body, useFullBody: false };
     }
 
-    // Liste des modèles Gemini à essayer (janvier 2025)
+    // ============================================
+    // APPEL GEMINI
+    // ============================================
     const GEMINI_MODELS = [
         'gemini-2.5-flash',
         'gemini-2.5-flash-lite',
@@ -343,24 +410,16 @@ BROUILLON À RÉÉCRIRE :
         'gemini-2.0-flash-lite'
     ];
 
-    // Appeler l'API Gemini avec fallback automatique sur plusieurs modèles
-    async function callGemini(text, modelIndex = 0) {
+    async function callGemini(text, fullPrompt, modelIndex = 0) {
         let apiKey = GM_getValue('gemini_api_key', '');
-
         if (!apiKey) {
             apiKey = prompt('Entre ta clé API Gemini (gratuite sur aistudio.google.com) :');
-            if (apiKey) {
-                GM_setValue('gemini_api_key', apiKey);
-            } else {
-                throw new Error('Clé API requise');
-            }
+            if (apiKey) GM_setValue('gemini_api_key', apiKey);
+            else throw new Error('Clé API requise');
         }
 
-        // Sélectionner le modèle actuel
         const model = GEMINI_MODELS[modelIndex];
-        if (!model) {
-            throw new Error('Tous les modèles ont échoué. Vérifie ta clé API ou réessaie plus tard.');
-        }
+        if (!model) throw new Error('Tous les modèles ont échoué. Vérifie ta clé API.');
 
         console.log(`Modulr Gemini: Essai avec ${model}...`);
 
@@ -368,121 +427,70 @@ BROUILLON À RÉÉCRIRE :
             GM_xmlhttpRequest({
                 method: 'POST',
                 url: `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-                headers: {
-                    'Content-Type': 'application/json'
-                },
+                headers: { 'Content-Type': 'application/json' },
                 data: JSON.stringify({
-                    contents: [{
-                        parts: [{
-                            text: CORRECTION_PROMPT + text
-                        }]
-                    }],
-                    generationConfig: {
-                        temperature: 0.3
-                    }
+                    contents: [{ parts: [{ text: fullPrompt + text }] }],
+                    generationConfig: { temperature: 0.3 }
                 }),
                 onload: async function(response) {
                     try {
                         const data = JSON.parse(response.responseText);
                         if (data.error) {
-                            console.log(`Modulr Gemini: Erreur avec ${model}: ${data.error.message}`);
-                            // Essayer le modèle suivant
-                            if (modelIndex < GEMINI_MODELS.length - 1) {
-                                console.log(`Modulr Gemini: Passage au modèle suivant...`);
-                                resolve(await callGemini(text, modelIndex + 1));
-                            } else {
-                                reject(new Error(data.error.message));
-                            }
+                            if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
+                            else reject(new Error(data.error.message));
                         } else if (data.candidates && data.candidates[0]) {
                             console.log(`Modulr Gemini: Succès avec ${model}`);
                             resolve(data.candidates[0].content.parts[0].text);
                         } else {
-                            // Réponse inattendue, essayer le modèle suivant
-                            if (modelIndex < GEMINI_MODELS.length - 1) {
-                                resolve(await callGemini(text, modelIndex + 1));
-                            } else {
-                                reject(new Error('Réponse inattendue de Gemini'));
-                            }
+                            if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
+                            else reject(new Error('Réponse inattendue'));
                         }
                     } catch (e) {
-                        // Erreur de parsing, essayer le modèle suivant
-                        if (modelIndex < GEMINI_MODELS.length - 1) {
-                            resolve(await callGemini(text, modelIndex + 1));
-                        } else {
-                            reject(e);
-                        }
+                        if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
+                        else reject(e);
                     }
                 },
-                onerror: function(error) {
-                    // Erreur réseau, essayer le modèle suivant
-                    if (modelIndex < GEMINI_MODELS.length - 1) {
-                        callGemini(text, modelIndex + 1).then(resolve).catch(reject);
-                    } else {
-                        reject(new Error('Erreur réseau'));
-                    }
+                onerror: function() {
+                    if (modelIndex < GEMINI_MODELS.length - 1) callGemini(text, fullPrompt, modelIndex + 1).then(resolve).catch(reject);
+                    else reject(new Error('Erreur réseau'));
                 }
             });
         });
     }
 
-    // Normaliser les sauts de ligne : exactement 1 ligne vide entre paragraphes
+    // ============================================
+    // FORMATAGE + REMPLACEMENT
+    // ============================================
     function normalizeLineBreaks(text) {
         return text
-            // Trim chaque ligne
-            .split('\n')
-            .map(line => line.trim())
-            .join('\n')
-            // Remplacer 3+ sauts de ligne par exactement 2 (= 1 ligne vide)
+            .split('\n').map(line => line.trim()).join('\n')
             .replace(/\n{3,}/g, '\n\n')
-            // S'assurer qu'il y a une ligne vide après "Bonjour..."
             .replace(/(Bonjour[^,\n]*,)\n(?!\n)/g, '$1\n\n')
-            // S'assurer qu'il y a une ligne vide avant "Cordialement" ou "Bien cordialement"
+            .replace(/(Salut[^,\n]*,)\n(?!\n)/g, '$1\n\n')
             .replace(/([^\n])\n((?:Bien )?[Cc]ordialement)/g, '$1\n\n$2')
-            // Supprimer la ligne vide entre "Cordialement," et le nom (garder 1 seul \n)
             .replace(/((?:Bien )?[Cc]ordialement,)\n\n+/g, '$1\n')
             .trim();
     }
 
-    // Convertir le texte en HTML pour TinyMCE
     function textToHtml(text) {
-        // Normaliser d'abord les sauts de ligne
         const normalizedText = normalizeLineBreaks(text);
-        
-        // Séparer par les doubles sauts de ligne (paragraphes)
-        // puis traiter les simples sauts de ligne à l'intérieur
         const lines = normalizedText.split('\n');
-        
         let html = '';
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-            if (line === '') {
-                // Ligne vide = saut de paragraphe (un <br> dans un div vide)
-                html += '<div><br></div>';
-            } else {
-                html += `<div>${line}</div>`;
-            }
+        for (const line of lines) {
+            html += line === '' ? '<div><br></div>' : `<div>${line}</div>`;
         }
-        
         return html;
     }
 
-    // Remplacer le contenu
     function replaceMessageContent(content, newText) {
         const { elements, body, useFullBody } = content;
-
-        // Convertir le texte corrigé en HTML propre
         const newHtml = textToHtml(newText);
 
         if (useFullBody || elements.length === 0) {
-            // Remplacer tout le contenu du body (garder la signature si présente)
             const signature = body.querySelector('table') || body.querySelector('img');
             if (signature) {
-                // Supprimer tout avant la signature
                 const signatureParent = signature.closest('div') || signature;
-                while (body.firstChild && body.firstChild !== signatureParent) {
-                    body.removeChild(body.firstChild);
-                }
-                // Insérer le nouveau contenu avant la signature
+                while (body.firstChild && body.firstChild !== signatureParent) body.removeChild(body.firstChild);
                 const wrapper = document.createElement('div');
                 wrapper.innerHTML = newHtml + '<div><br></div>';
                 body.insertBefore(wrapper, signatureParent);
@@ -490,92 +498,70 @@ BROUILLON À RÉÉCRIRE :
                 body.innerHTML = newHtml;
             }
         } else {
-            // Créer un conteneur pour le nouveau contenu
             const wrapper = document.createElement('div');
             wrapper.innerHTML = newHtml;
-            
-            // Insérer avant le premier élément
             elements[0].parentNode.insertBefore(wrapper, elements[0]);
-            
-            // Supprimer tous les anciens éléments du message
-            for (const el of elements) {
-                el.remove();
-            }
+            for (const el of elements) el.remove();
         }
     }
 
-    // Remplir le champ objet
     function setSubject(subject) {
         const subjectField = document.querySelector('#send_email_subject');
         if (subjectField) {
             subjectField.value = subject;
-            // Déclencher les événements pour que Modulr détecte le changement
             subjectField.dispatchEvent(new Event('input', { bubbles: true }));
             subjectField.dispatchEvent(new Event('change', { bubbles: true }));
         }
     }
 
-    // Gérer le clic
+    // ============================================
+    // GESTION DU CLIC
+    // ============================================
     async function handleCorrection() {
         const button = document.querySelector('.gemini-correction-btn');
         if (!button) return;
-        
-        const originalHtml = button.innerHTML;
 
-        // Indicateur de chargement
+        const originalHtml = button.innerHTML;
         button.innerHTML = `<span class="tox-icon tox-tbtn__icon-wrap">⏳</span>`;
         button.disabled = true;
 
         try {
             const content = getMessageContent();
             if (!content || !content.text) {
-                alert('Impossible de trouver le contenu du message.\n\nVérifie que tu as écrit quelque chose dans le corps de l\'email.');
+                alert('Vérifie que tu as écrit quelque chose dans le corps de l\'email.');
                 return;
             }
 
-            console.log('Texte original:', content.text);
+            const exemples = await loadExemples();
+            const fullPrompt = buildPrompt(exemples);
+            console.log(`Modulr Gemini: Prompt = ${fullPrompt.length} chars`);
 
-            const response = await callGemini(content.text);
-            console.log('Réponse Gemini:', response);
+            const response = await callGemini(content.text, fullPrompt);
 
-            // Parser le JSON
             let result;
             try {
-                // Nettoyer la réponse (enlever ```json si présent)
-                const cleanResponse = response
-                    .replace(/```json\n?/g, '')
-                    .replace(/```\n?/g, '')
-                    .trim();
-                result = JSON.parse(cleanResponse);
+                const clean = response.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+                result = JSON.parse(clean);
             } catch(e) {
-                console.log('Erreur parsing JSON, utilisation du texte brut');
-                // Fallback: utiliser la réponse comme texte brut
                 result = { corps: response, objet: null };
             }
 
-            // Remplacer le corps du message
-            if (result.corps) {
-                replaceMessageContent(content, result.corps);
-            }
+            if (result.corps) replaceMessageContent(content, result.corps);
 
-            // Remplacer l'objet automatiquement si vide
             if (result.objet) {
                 const subjectField = document.querySelector('#send_email_subject');
-                const currentSubject = subjectField?.value?.trim() || '';
-                
-                if (!currentSubject) {
-                    // Objet vide → on remplace automatiquement
-                    setSubject(result.objet);
-                }
-                // Si l'objet n'est pas vide, on ne touche pas
+                if (!subjectField?.value?.trim()) setSubject(result.objet);
             }
 
             showNotification('✅ Email corrigé !');
 
+            // Vérifier l'expiration du token après chaque correction
+            checkTokenExpiry();
+
         } catch (error) {
             console.error('Erreur:', error);
             if (error.message.includes('quota')) {
-                alert('⚠️ Quota API Gemini épuisé !\n\nSolutions :\n1. Attends quelques minutes et réessaie\n2. Crée une nouvelle clé API sur aistudio.google.com\n3. Change de clé : tape "resetGeminiKey()" dans la console');
+                alert('⚠️ Quota API épuisé ! Attends quelques minutes ou resetGeminiKey()');
             } else {
                 alert('Erreur: ' + error.message);
             }
@@ -585,21 +571,13 @@ BROUILLON À RÉÉCRIRE :
         }
     }
 
-    // Notification
     function showNotification(message) {
         const notif = document.createElement('div');
         notif.textContent = message;
         notif.style.cssText = `
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 12px 20px;
-            background: #4CAF50;
-            color: white;
-            border-radius: 4px;
-            z-index: 99999;
-            font-family: Arial, sans-serif;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            position: fixed; top: 20px; right: 20px; padding: 12px 20px;
+            background: #4CAF50; color: white; border-radius: 4px; z-index: 99999;
+            font-family: Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         `;
         document.body.appendChild(notif);
         setTimeout(() => notif.remove(), 3000);
@@ -609,33 +587,56 @@ BROUILLON À RÉÉCRIRE :
     // INIT
     // ============================================
     function init() {
-        // Exposer fonction pour reset la clé API
         window.resetGeminiKey = function() {
             GM_setValue('gemini_api_key', '');
-            alert('Clé API supprimée. Au prochain clic sur le bouton, tu pourras entrer une nouvelle clé.');
+            alert('Clé API Gemini supprimée.');
         };
-        console.log('Modulr Gemini v2.7: Pour changer de clé API, tape resetGeminiKey() dans la console');
 
-        // 1. Ajouter le bouton aux éditeurs déjà présents
+        window.setGithubToken = function(token) {
+            GM_setValue('github_token', token);
+            exemplesCache = null;
+            exemplesCacheTime = 0;
+            GM_setValue('exemples_cache', '');
+            GM_setValue('exemples_cache_time', 0);
+            loadExemples().then(ex => {
+                if (ex) alert('✅ Token OK ! ' + ex.length + ' chars d\'exemples chargés.');
+                else alert('⚠️ Token sauvegardé mais erreur chargement. Vérifie l\'URL.');
+            });
+        };
+
+        window.reloadExemples = function() {
+            exemplesCache = null;
+            exemplesCacheTime = 0;
+            GM_setValue('exemples_cache', '');
+            GM_setValue('exemples_cache_time', 0);
+            loadExemples().then(ex => {
+                if (ex) alert('✅ Exemples rechargés ! ' + ex.length + ' chars.');
+                else alert('⚠️ Aucun exemple chargé.');
+            });
+        };
+
+        console.log('Modulr Gemini v3.1 — Commandes :');
+        console.log('  resetGeminiKey()           → Changer clé API Gemini');
+        console.log('  setGithubToken("ghp_xxx")  → Token GitHub (repo privé)');
+        console.log('  reloadExemples()           → Recharger les exemples');
+
+        loadExemples().then(ex => {
+            console.log(ex ? `Exemples pré-chargés: ${ex.length} chars` : 'Aucun exemple (ça marchera quand même)');
+        });
+
         const existingEditors = document.querySelectorAll('.tox-tinymce, .tox');
-        for (const editor of existingEditors) {
-            addButtonToEditor(editor);
-        }
+        for (const editor of existingEditors) addButtonToEditor(editor);
 
-        // 2. Configurer l'observer pour les futures toolbars
         setupObserver();
-
-        // 3. Vérification périodique (backup)
         setupPeriodicCheck();
 
-        console.log('Modulr Gemini v2.7: Initialisation complète !');
+        // Vérifier le token au chargement aussi
+        checkTokenExpiry();
+
+        console.log('Modulr Gemini v3.1: Init OK !');
     }
 
-    // Démarrer dès que possible
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+    else init();
 
 })();
