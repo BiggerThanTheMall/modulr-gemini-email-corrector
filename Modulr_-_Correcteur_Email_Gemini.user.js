@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3
+// @version      3.3.1
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples externe
 // @author       Sheana
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -161,7 +161,8 @@ RÈGLES DE RÉDACTION :
 - Reformule de manière fluide et professionnelle
 - Garde le même sens et TOUTES les informations (noms, références, numéros, dates, montants)
 - Développe si nécessaire pour la clarté
-- Abréviations : "Cie" pour compagnie, "CP" pour conditions particulières, "CG" pour conditions générales, "IPID" pour fiche d'information, "MRH" pour multirisque habitation, "RC Pro" pour responsabilité civile professionnelle, "PJ" pour protection juridique
+- Si une abrévation est donnée, developpe la sans rajouter l'abréviation en question entre parenthèses
+- Abréviations : "Cie" pour compagnie, "CP" pour conditions particulières, "CG" pour conditions générales, "IPID" pour fiche d'information, "MRH" pour multirisque habitation, "RC Pro" pour responsabilité civile professionnelle, "PJ" pour protection juridique, "RI" pour relevé d'information, a ne pas confondre avec RIB
 
 COLLABORATEURS DU CABINET (reconnais-les même avec fautes) :
 - Sheana KRIEF (femme)
