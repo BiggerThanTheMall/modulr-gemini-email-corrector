@@ -157,8 +157,8 @@ BROUILLON À RÉÉCRIRE :`;
     // APPEL GEMINI
     // ============================================
     const GEMINI_MODELS = [
-        'gemini-3-flash-preview',
-        'gemini-3.1-flash-lite-preview'
+        'gemini-3-flash',
+        'gemini-3.1-flash-lite'
     ];
 
     async function callGemini(text, fullPrompt, modelIndex = 0) {
