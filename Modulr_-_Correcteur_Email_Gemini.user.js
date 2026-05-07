@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.2
+// @version      3.3.3
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples externe
-// @author       le g
+// @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
