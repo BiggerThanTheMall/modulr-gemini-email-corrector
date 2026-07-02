@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.4
+// @version      3.3.5
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples externe
 // @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -157,8 +157,8 @@ BROUILLON À RÉÉCRIRE :`;
     // APPEL GEMINI
     // ============================================
     const GEMINI_MODELS = [
-        'gemini-3-flash-preview',
-        'gemini-3.1-flash-lite-preview'
+        'gemini-3-flash',
+        'gemini-3.1-flash-lite'
     ];
 
     async function callGemini(text, fullPrompt, modelIndex = 0) {
