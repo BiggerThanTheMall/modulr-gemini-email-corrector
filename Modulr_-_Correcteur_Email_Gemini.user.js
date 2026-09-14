@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.5
+// @version      3.3.6
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples externe
 // @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -102,8 +102,8 @@ DÉTECTION DES INSTRUCTIONS :
 - Les parenthèses simples ( ) font partie du contenu normal : NE LES SUPPRIME PAS.
 
 SIGNATURE :
-- Termine toujours par "Cordialement," ou "Bien cordialement," suivi du Prénom NOM du collaborateur.
-- Staff LTOA : Sheana KRIEF, Jake CASIMIR, Ghaïs KALAH, Eddy KALAH, Nadia KALAH, Doryan KALAH, Youness OUACHBAB.`;
+- Termine toujours par "Cordialement," ou "Bien cordialement," suivi du Prénom NOM du collaborateur, ne pas remplir par Nom du collaborateur si certidue en dessous de 99%.
+- Staff LTOA : Jake CASIMIR, Ghaïs KALAH, Eddy KALAH, Nadia KALAH, Doryan KALAH, Youness OUACHBAB.`;
 
         let exemplesSection = exemples ? `\n\nBASE D'EXEMPLES :\n${exemples}` : '';
 
@@ -157,8 +157,8 @@ BROUILLON À RÉÉCRIRE :`;
     // APPEL GEMINI
     // ============================================
     const GEMINI_MODELS = [
-        'gemini-3-flash',
-        'gemini-3.1-flash-lite'
+        'gemini-3.5-flash',
+        'gemini-3.5-flash-lite'
     ];
 
     async function callGemini(text, fullPrompt, modelIndex = 0) {
