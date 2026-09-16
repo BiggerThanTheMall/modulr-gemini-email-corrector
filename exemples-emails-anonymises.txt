@@ -1,1 +1,3815 @@
-__CONTENT_PLACEHOLDER__
+n petit laïus de présentation avec un petit mot disant Bonjour messieurs, bon navré pour la petite confusion d'hier soir. Bon, toujours est-il que là, les choses ont été reprises complètement. Donc vous trouverez ci-joint la dernière version de l'assurance de prêt pour couvrir votre projet professionnel. L'assuré 1, l'assuré 2, je te laisse reprendre les noms ChatGPT là. Assuré 1, tu identifies, assuré 2, tu m'identifies également les dates de naissance et tu m'identifies également les dates de naissance et tu m'identifies également par leur quotité. Et ensuite, eh bien, tu expliques que monsieur, l'assuré 2, monsieur [PERSONNE_013], aura un questionnaire allégé et bla bla, enfin, tu reprends ce qui est marqué dans l'assurance de prêt. Merci.
+Réflexion durant 18s
+
+Objet, Assurance de prêt, SAS FIT FACTORY HUB ONE, dernière version
+
+Bonjour Messieurs,
+
+Je reviens vers vous, navrée pour la petite confusion d’hier soir. Les éléments ont été repris intégralement, vous trouverez donc ci-joint la dernière version de l’assurance de prêt destinée à couvrir votre projet professionnel.
+
+Pour rappel des informations assurés,
+
+Assuré 1, Monsieur [PERSONNE_043], né le [DATE_NAISSANCE], quotité [QUOTITE].
+
+Assuré 2, Monsieur [PERSONNE_009], né le [DATE_NAISSANCE], quotité [QUOTITE].
+
+Concernant les formalités médicales, Monsieur [PERSONNE_009], assuré 2, bénéficie d’un questionnaire médical allégé, uniquement un questionnaire médical est requis à ce stade. Pour Monsieur [PERSONNE_043], assuré 1, des formalités complémentaires sont prévues, avec dosage de cotinine urinaire, électrocardiogramme de repos, questionnaire médical approfondi, et profil sanguin. 
+
+ASSURANCE DE PRET - SAS FIT FAC…
+
+Sources
+Ah, fini le mail, il n'est pas fini. Tu leur dis que je les remercie pour la confiance et que si ils souhaitent qu'on valide en l'état, il suffit d'avoir un bon pour accord afin qu'on passe directement à la souscription et puis qu'on a de toute façon une cellule VIP. Je vais donner les éléments ici que tu peux rajouter.La cellule VIP de la compagnie vous contactera afin de recueillir vos disponibilités. Si vous préférez être contactés par email plutôt que par téléphone, merci de me le préciser. Si vous souhaitez procéder par WhatsApp, merci de me l’indiquer également.
+L’objectif est d’avancer au plus vite. Les centres médicaux proposent généralement des créneaux tôt le matin (dès 6h30 ou 7h00 selon les villes) et disposent de disponibilités sur l’ensemble du territoire. Ainsi, même si vous êtes en déplacement, je pourrai vous proposer un rendez-vous rapide, au plus proche de votre localisation.
+Je vous joins la proposition détaillée. Si cela vous convient, je lance la procédure administrative pour que vous soyez couverts dès le déblocage des fonds prévu en mars.
+Bien à vous,
+
+Objet, Assurance de prêt, SAS FIT FACTORY HUB ONE, validation et lancement de la souscription
+
+Bonjour Messieurs,
+
+Je reviens vers vous, navrée pour la petite confusion d’hier soir. Les éléments ont été repris intégralement, vous trouverez ci-joint la dernière version de l’assurance de prêt destinée à couvrir votre projet professionnel, ainsi que la proposition détaillée.
+
+Pour rappel des informations assurés,
+
+Assuré 1, Monsieur [PERSONNE_043], né le [DATE_NAISSANCE], quotité [QUOTITE].
+
+Assuré 2, Monsieur [PERSONNE_009], né le [DATE_NAISSANCE], quotité [QUOTITE].
+
+Concernant les formalités médicales, Monsieur [PERSONNE_009], assuré 2, bénéficie d’un questionnaire médical allégé, uniquement un questionnaire médical est requis à ce stade. Pour Monsieur [PERSONNE_043], assuré 1, des formalités complémentaires sont prévues, avec dosage de cotinine urinaire, électrocardiogramme de repos, questionnaire médical approfondi, et profil sanguin.
+
+Je vous remercie pour votre confiance. Si vous souhaitez que nous validions en l’état, il suffit de me confirmer votre bon pour accord, afin que nous passions immédiatement à la souscription.
+
+Dans le cadre de la mise en place, une cellule VIP de la compagnie vous contactera afin de recueillir vos disponibilités. Si vous préférez être contactés par email plutôt que par téléphone, merci de me le préciser. Si vous souhaitez procéder par WhatsApp, merci de me l’indiquer également.
+
+L’objectif est d’avancer au plus vite. Les centres médicaux proposent généralement des créneaux tôt le matin, dès 6h30 ou 7h00 selon les villes, et disposent de disponibilités sur l’ensemble du territoire. Ainsi, même si vous êtes en déplacement, je pourrai vous proposer un rendez-vous rapide, au plus proche de votre localisation.
+
+Si cela vous convient, je lance la procédure administrative afin que vous soyez couverts dès le déblocage des fonds prévu en mars.
+
+Bien à vous,
+
+Dire le mail en leur disant que bon, comme convenu hier, on peut prendre un rendez-vous dans un centre pour faire les formalités médicales. Voilà, je les remercie de leur confiance et du coup, je suis quand même contente de leur annoncer que la prime d'assurance du coup pour toute la durée du prêt et pour les deux assurés représente un total de 9615,20 euros, voilà, avec des cotisations constantes et annuelles qui sont reprises dans le devis que je laisse découvrir.
+
+Objet, Assurance de prêt, SAS FIT FACTORY HUB ONE, formalités médicales et prime totale
+
+Bonjour Messieurs,
+
+Comme convenu lors de notre échange d’hier, nous pouvons dès à présent planifier un rendez-vous dans un centre médical afin de réaliser les formalités médicales nécessaires à la mise en place de l’assurance de prêt.
+
+Je vous remercie pour votre confiance, et je suis également ravie de pouvoir vous confirmer que la prime d’assurance, pour toute la durée du prêt et pour les 2 assurés, représente un total de 9 615,20€. Les cotisations sont constantes et annuelles, et l’ensemble des montants est repris dans le devis que je vous laisse découvrir en détail.
+
+Je vous joins la proposition détaillée. Si cela vous convient, je lance la procédure administrative afin que vous soyez couverts dès le déblocage des fonds prévu en mars.
+
+La cellule VIP de la compagnie vous contactera afin de recueillir vos disponibilités. Si vous préférez être contactés par email plutôt que par téléphone, merci de me le préciser. Si vous souhaitez procéder par WhatsApp, merci de me l’indiquer également.
+
+L’objectif est d’avancer au plus vite. Les centres médicaux proposent généralement des créneaux tôt le matin, dès 6h30 ou 7h00 selon les villes, et disposent de disponibilités sur l’ensemble du territoire. Ainsi, même si vous êtes en déplacement, je pourrai vous proposer un rendez-vous rapide, au plus proche de votre localisation.
+
+Bien à vous,
+
+je vous remercie par avance pour votre confiance et vous cobnfirme etre a votre entiere dispositiuon pour vous cpommenter cette propostion .
+
+
+reformule cette email pour une relanc au client irectement: Bonjour Monsieur [PERSONNE_086],
+
+je reviens vers vous concernant la proposition de prévoyance que nous vouqs avons fait parvenir. Pour rappel vous trouverez ci-dessous notre proposition. 
+
+1. Solution APRIL
+
+Franchise 30/03/03
+Cela signifie que :
+
+l’indemnisation débute après 30 jours en cas de maladie,
+après 3 jours en cas d’hospitalisation,
+après 3 jours en cas d’accident.
+
+Capital décès : 72 000€
+Montant versé aux bénéficiaires en cas de décès.
+
+Indemnités journalières : 66€ par jour
+C’est le montant versé chaque jour d’arrêt de travail, pour compenser la perte de revenus.
+
+Rente d’invalidité : 2 000€ par mois
+Versée à partir d’un taux d’invalidité de 33%, si la personne ne peut plus travailler normalement sur le long terme.
+
+Cotisation mensuelle : 182€
+
+2. Solution UNIM
+
+Franchise 30/0/05
+Cela signifie que :
+
+l’indemnisation débute après 30 jours en cas de maladie,
+dès le 1er jour en cas d’hospitalisation,
+après 5 jours en cas d’accident.
+
+Capital décès : 45 000€
+
+Indemnisation en cas d’invalidité permanente totale : 21 900€ par an
+Cette garantie se déclenche dès 10% d’invalidité, ce qui est l’un des seuils les plus bas du marché et constitue donc une très bonne protection.
+
+Indemnités journalières : 60€ par jour
+Somme versée pendant les arrêts de travail pour remplacer les revenus.
+
+Cotisation mensuelle : 141€
+
+Aucune garantie optionnelle n’a été ajoutée volontairement, car son activité salariée lui apporte déjà une première protection de base. L’objectif est donc de compléter intelligemment sans surprotéger inutilement.
+
+
+
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+Objet : Relance – proposition de prévoyance
+
+Bonjour Monsieur [PERSONNE_086],
+
+Je me permets de revenir vers vous concernant la proposition de prévoyance que nous vous avons adressée. Afin de pouvoir avancer sur votre dossier, pourriez-vous m’indiquer si vous souhaitez retenir l’une des 2 solutions ci-dessous, ou si vous souhaitez que nous ajustions certains paramètres ?
+
+1. Solution APRIL
+Franchise 30/03/03 : indemnisation après 30 jours en cas de maladie, après 3 jours en cas d’hospitalisation, après 3 jours en cas d’accident.
+Capital décès : 72 000€
+Indemnités journalières : 66€ par jour
+Rente d’invalidité : 2 000€ par mois (à partir de 33% d’invalidité)
+Cotisation mensuelle : 182€
+
+2. Solution UNIM
+Franchise 30/0/05 : indemnisation après 30 jours en cas de maladie, dès le 1er jour en cas d’hospitalisation, après 5 jours en cas d’accident.
+Capital décès : 45 000€
+Indemnisation en cas d’invalidité permanente totale : 21 900€ par an (dès 10% d’invalidité)
+Indemnités journalières : 60€ par jour
+Cotisation mensuelle : 141€
+
+Pour information, nous n’avons volontairement ajouté aucune option, votre activité salariée vous apportant déjà une première protection. L’objectif est de compléter de manière cohérente, sans surprotéger.
+
+Je reste à votre disposition par téléphone si vous souhaitez que nous en discutions rapidement, et je vous remercie de nous en tenir informés de votre décision.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+PROJET REPAM NIVEAU 3 pdf.pdf
+PDF
+Contrat sante Alptis 2 (1).pdf
+PDF
+Contrat sante Alptis 1 .pdf
+PDF
+Peux tu me faire un comparatif des garantie entre les ddeux contrats et me le présenter sous forme d'email stp 
+Réflexion durant 15s
+E-mail
+Objet
+
+Bonjour Monsieur [PERSONNE_086],
+
+Comme convenu, vous trouverez ci-dessous un comparatif clair des garanties entre les 2 solutions proposées.
+
+Comparatif des garanties
+
+Franchise, délai avant indemnisation
+Solution APRIL, franchise 30/03/03, indemnisation après 30 jours en cas de maladie, après 3 jours en cas d’hospitalisation, après 3 jours en cas d’accident
+Solution UNIM, franchise 30/0/05, indemnisation après 30 jours en cas de maladie, dès le 1er jour en cas d’hospitalisation, après 5 jours en cas d’accident
+
+Décès
+Solution APRIL, capital décès 72 000€, montant versé aux bénéficiaires en cas de décès
+Solution UNIM, capital décès 45 000€, montant versé aux bénéficiaires en cas de décès
+
+Arrêt de travail
+Solution APRIL, indemnités journalières 66€ par jour, versées pendant l’arrêt de travail pour compenser la perte de revenus
+Solution UNIM, indemnités journalières 60€ par jour, versées pendant l’arrêt de travail pour remplacer les revenus
+
+Invalidité
+Solution APRIL, rente d’invalidité 2 000€ par mois, versée à partir d’un taux d’invalidité de 33%
+Solution UNIM, indemnisation en cas d’invalidité permanente totale 21 900€ par an, garantie indiquée comme se déclenchant dès 10% d’invalidité
+
+Cotisation mensuelle
+Solution APRIL, 182€
+Solution UNIM, 141€
+
+Points clés à retenir
+Solution APRIL, capital décès plus élevé, indemnités journalières plus élevées, rente mensuelle en invalidité à partir de 33%
+Solution UNIM, meilleure protection en cas d’hospitalisation (dès le 1er jour), cotisation plus basse, indemnisation invalidité exprimée en montant annuel, déclenchement annoncé dès 10%
+
+Nous n’avons volontairement ajouté aucune garantie optionnelle, votre activité salariée vous apportant déjà une première protection de base. L’objectif est de compléter intelligemment, sans surprotéger inutilement.
+
+Je vous remercie de me confirmer la solution que vous souhaitez retenir, ou les ajustements que vous aimeriez apporter.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+mais par rapport au doc et tu vois pas bien que c'est paq smonsieur [PERSONNE_086] 
+Réflexion durant 1m 52s
+E-mail
+Objet
+
+Bonjour,
+
+Je fais suite à notre envoi et vous transmets ci dessous un comparatif des garanties entre les 2 solutions de prévoyance proposées, afin de vous permettre de choisir plus facilement.
+
+Comparatif des garanties
+
+Délai avant indemnisation, franchise
+Solution APRIL, indemnisation après 30 jours en cas de maladie, après 3 jours en cas d’hospitalisation, après 3 jours en cas d’accident
+Solution UNIM, indemnisation après 30 jours en cas de maladie, dès le 1er jour en cas d’hospitalisation, après 5 jours en cas d’accident
+
+Garantie décès, capital versé aux bénéficiaires
+Solution APRIL, 72 000€
+Solution UNIM, 45 000€
+
+Arrêt de travail, indemnités journalières
+Solution APRIL, 66€ par jour
+Solution UNIM, 60€ par jour
+
+Invalidité
+Solution APRIL, rente d’invalidité de 2 000€ par mois, versée à partir d’un taux d’invalidité de 33%
+Solution UNIM, indemnisation en cas d’invalidité permanente totale de 21 900€ par an, déclenchement annoncé dès 10% d’invalidité
+
+Cotisation mensuelle
+Solution APRIL, 182€
+Solution UNIM, 141€
+
+Synthèse
+APRIL, capital décès et indemnités journalières plus élevés, rente mensuelle en invalidité à partir de 33%
+UNIM, meilleure prise en charge en cas d’hospitalisation, dès le 1er jour, cotisation plus basse, seuil de déclenchement invalidité annoncé très bas
+
+Enfin, aucune option n’a été ajoutée volontairement, votre situation vous apportant déjà une première protection de base. L’objectif est de compléter de manière cohérente, sans surprotéger.
+
+Je vous remercie de me confirmer la solution que vous souhaitez retenir, ou si vous souhaitez que j’ajuste certains paramètres, montant des indemnités journalières, capital décès, franchise.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+tu te fois de ma gueule ou quoi. JE TE DEMANDE DE PRENDRE LES DOCUMENTS PRIS EN COMPTE . il y a âs desolution april. 
+Réflexion durant 9m 36s
+E-mail
+Objet
+
+Bonjour,
+
+Comme convenu, vous trouverez ci dessous un comparatif des garanties entre les 2 contrats transmis, REPAM Santé Professionnel Niveau 3 avec la surcomplémentaire « Sérénité & Confort+ », et Alptis Solution Professions Indépendantes Niveau 4.
+
+1, Hospitalisation
+
+REPAM Niveau 3 + surcomplémentaire,
+Frais de séjour en secteur conventionné, frais réels,
+Frais de séjour en secteur non conventionné, 450% de la Base de remboursement de la Sécurité sociale,
+Honoraires en secteur conventionné, praticiens adhérents à un dispositif de pratique tarifaire maîtrisée, 450% de la Base de remboursement de la Sécurité sociale,
+Honoraires en secteur conventionné, praticiens non adhérents à un dispositif de pratique tarifaire maîtrisée, 450% de la Base de remboursement de la Sécurité sociale,
+Honoraires en secteur non conventionné, 450% de la Base de remboursement de la Sécurité sociale,
+Chambre particulière en hospitalisation, 100€ par jour,
+Forfait patient urgences, frais réels,
+Frais de confort télévision internet téléphone, 5€ par jour dans la limite de 30 jours par an,
+Lit et repas accompagnant, 30€ par jour pour les moins de 18 ans et les plus de 70 ans.
+
+Alptis Niveau 4,
+Frais de séjour, frais réels, 300% de la Base de remboursement de la Sécurité sociale,
+Honoraires, praticiens adhérents à un dispositif de pratique tarifaire maîtrisée, 300% de la Base de remboursement de la Sécurité sociale,
+Honoraires, praticiens non adhérents à un dispositif de pratique tarifaire maîtrisée, 200% de la Base de remboursement de la Sécurité sociale,
+Chambre particulière, 100€ par jour,
+Forfait journalier hospitalier, frais réels,
+Séjour accompagnant enfant de moins de 16 ans, 50€ par jour, maximum 60 jours par an.
+
+Point à retenir, sur l’hospitalisation et surtout les honoraires, REPAM avec surcomplémentaire est plus protecteur, 450% contre 300% sur Alptis Niveau 4.
+
+2, Soins courants, consultations, examens, transports
+
+REPAM Niveau 3,
+Consultations et visites, praticiens adhérents à un dispositif de pratique tarifaire maîtrisée, 200% de la Base de remboursement de la Sécurité sociale,
+Consultations et visites, praticiens non adhérents à un dispositif de pratique tarifaire maîtrisée, 150% de la Base de remboursement de la Sécurité sociale,
+Honoraires paramédicaux, 200% de la Base de remboursement de la Sécurité sociale,
+Analyses et examens de laboratoire, 200% de la Base de remboursement de la Sécurité sociale,
+Matériel médical, 200% de la Base de remboursement de la Sécurité sociale,
+Médicaments et vaccins, 100% de la Base de remboursement de la Sécurité sociale.
+
+Alptis Niveau 4,
+Honoraires médicaux, praticiens adhérents à un dispositif de pratique tarifaire maîtrisée, 300% de la Base de remboursement de la Sécurité sociale,
+Honoraires médicaux, praticiens non adhérents à un dispositif de pratique tarifaire maîtrisée, 200% de la Base de remboursement de la Sécurité sociale,
+Honoraires paramédicaux, 300% de la Base de remboursement de la Sécurité sociale,
+Analyses et examens de laboratoire, 300% de la Base de remboursement de la Sécurité sociale,
+Transport, 300% de la Base de remboursement de la Sécurité sociale,
+Médicaments, 100% de la Base de remboursement de la Sécurité sociale,
+Actes de prévention, 100% de la Base de remboursement de la Sécurité sociale.
+
+Point à retenir, sur les soins courants, Alptis Niveau 4 est globalement plus protecteur, notamment sur consultations, paramédical, analyses et transports.
+
+3, Dentaire
+
+REPAM Niveau 3 + surcomplémentaire,
+Soins dentaires pris en charge par l’Assurance Maladie, 200% de la Base de remboursement de la Sécurité sociale,
+Prothèses du panier 100% Santé, frais réels,
+Prothèses à tarifs maîtrisés ou libres, 250% les 2 premières années puis 300% à partir de la 3e année, avec en plus une majoration de +100% via la surcomplémentaire,
+Orthodontie, 250% les 2 premières années puis 300% à partir de la 3e année, avec en plus une majoration de +50% via la surcomplémentaire,
+Actes non pris en charge par l’Assurance Maladie, forfait 100€ les 2 premières années puis 200€ à partir de la 3e année, avec en plus +200€ via la surcomplémentaire,
+Implantologie et parodontologie, 300€ les 2 premières années puis 400€ à partir de la 3e année, avec en plus +200€ via la surcomplémentaire,
+Plafond annuel dentaire hors 100% Santé, 2500€ les 2 premières années puis 3500€ à partir de la 3e année.
+
+Alptis Niveau 4,
+Soins et prothèses du panier 100% Santé, frais réels,
+Soins hors panier 100% Santé, 250% de la Base de remboursement de la Sécurité sociale,
+Inlay core, 250% de la Base de remboursement de la Sécurité sociale,
+Prothèses prises en charge par l’Assurance Maladie, 400% de la Base de remboursement de la Sécurité sociale,
+Prothèses non prises en charge par l’Assurance Maladie, 400€ par prothèse, dans la limite de 2 prothèses par an,
+Implants dentaires, 600€ par implant, dans la limite de 2 implants par an,
+Orthodontie, 300% de la Base de remboursement de la Sécurité sociale, et 600€ maximum par an sur l’orthodontie non prise en charge,
+Parodontie non prise en charge, 400€ maximum par an,
+Plafond annuel de remboursement hors soins, 2500€ par an.
+
+Point à retenir, sur le dentaire, les 2 solutions sont solides, REPAM se distingue par un plafond annuel pouvant monter à 3500€ à partir de la 3e année, Alptis se distingue par une lecture très simple des forfaits implants, 600€ par implant.
+
+4, Optique, lentilles, chirurgie réfractive
+
+REPAM Niveau 3 + surcomplémentaire,
+Panier 100% Santé classe A, frais réels,
+Hors 100% Santé classe B à tarifs libres, base de 220€ à 410€ selon la complexité, avec en plus +200€ via la surcomplémentaire, utilisables sur les équipements hors 100% Santé pris en charge ou sur les lentilles,
+Lentilles, 125€ par an, avec en plus +200€ via la surcomplémentaire,
+Chirurgie réfractive, 600€ par an et par bénéficiaire, avec en plus +200€ via la surcomplémentaire.
+
+Alptis Niveau 4,
+Panier 100% Santé classe A, frais réels,
+Hors panier 100% Santé classe B, verres simples 350€, verres complexes 550€, verres très complexes 650€, combinaisons 450€ à 600€ selon les verres,
+Lentilles, 300€ par an,
+Chirurgie réfractive, 550€ par œil.
+
+Point à retenir, sur l’optique et la chirurgie réfractive, REPAM avec surcomplémentaire est généralement plus protecteur grâce à l’ajout de +200€.
+
+5, Aides auditives, cures, services
+
+REPAM,
+Aides auditives 100% Santé classe I, frais réels,
+Transport, 150% de la Base de remboursement de la Sécurité sociale, porté à 200% avec la surcomplémentaire,
+Forfaits complémentaires, naissance ou adoption 150€, maladie redoutée 300€,
+Assistance 24 heures sur 24, accès au réseau de soins OPTILYS,
+Autres frais non pris en charge par l’Assurance Maladie, enveloppe surcomplémentaire, notamment médecines douces, pharmacie, abonnement à un club de sport.
+
+Alptis,
+Aides auditives 100% Santé, frais réels,
+Cures thermales, frais d’établissement 300€ et transport hébergement 300€ par an, honoraires jusqu’à 300% selon la situation,
+Services inclus, tiers payant et télétransmission, assistance santé individuelle, protection juridique santé, exonération des cotisations en cas de décès accidentel, ateliers de prévention.
+
+Point d’attention, REPAM prévoit des délais d’attente sur les modules « Sérénité » et « Sérénité+ », 6 mois sur toutes les garanties sauf accident, 9 mois sur toutes les garanties ou actes relatifs à la maternité, et aucun délai d’attente sur les modules « Confort » et « Confort+ ». Sur l’extrait Alptis transmis, aucun délai d’attente n’est mentionné, ce point se vérifie dans la notice d’information.
+
+Si vous le souhaitez, je peux également vous proposer une recommandation synthétique en fonction de vos postes de dépenses habituels, hospitalisation, consultations, dentaire, optique.
+
+Je vous remercie de me confirmer la solution que vous souhaitez retenir, ou si vous souhaitez que nous ajustions le niveau de garanties.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+je voudrais que ca soit plus claire. la on compred pas quel est l emeilleure contrat 
+E-mail
+Objet
+
+Bonjour,
+
+Vous avez raison, je vous reprécise le comparatif de façon beaucoup plus lisible, avec une conclusion claire sur le contrat le plus avantageux selon vos priorités.
+
+Conclusion rapide
+Si votre priorité est l’hospitalisation avec dépassements d’honoraires, le contrat REPAM Niveau 3 avec la surcomplémentaire « Sérénité & Confort+ » est le plus protecteur.
+Si votre priorité est le quotidien, consultations, analyses, paramédical, transport, le contrat Alptis Professions Indépendantes Niveau 4 est le plus protecteur.
+Sur l’optique, les deux sont très bons, REPAM avec surcomplémentaire est souvent plus avantageux, Alptis est très lisible et performant, notamment sur les lentilles.
+Sur le dentaire, les deux sont solides, REPAM devient plus intéressant dans le temps grâce à un plafond annuel plus élevé à partir de la 3e année, Alptis est très intéressant si vous voulez des forfaits simples et immédiats, notamment pour les implants.
+
+Comparatif clair par poste
+
+1, Hospitalisation, dépassements, chambre particulière
+Meilleur contrat, REPAM Niveau 3 avec surcomplémentaire,
+Pourquoi, prise en charge des honoraires plus élevée, 450% de la Base de remboursement de la Sécurité sociale, contre 300% sur Alptis pour les praticiens adhérents à un dispositif de pratique tarifaire maîtrisée, et 200% sur Alptis pour les non adhérents.
+Chambre particulière, équivalent, 100€ par jour sur les deux.
+
+2, Soins courants, consultations, examens, paramédical, transport
+Meilleur contrat, Alptis Niveau 4,
+Pourquoi, remboursements plus élevés sur le quotidien, consultations et honoraires médicaux jusqu’à 300% de la Base de remboursement de la Sécurité sociale, paramédical 300%, analyses 300%, transport 300%, REPAM Niveau 3 est inférieur sur ces postes.
+
+3, Dentaire
+Meilleur contrat, selon le besoin,
+Si vous souhaitez une protection qui progresse et un plafond plus élevé à partir de la 3e année, REPAM avec surcomplémentaire est plus intéressant, plafond annuel pouvant atteindre 3 500€ hors panier 100% Santé.
+Si vous souhaitez des forfaits très lisibles et une bonne couverture immédiate, Alptis est très pertinent, notamment implants 600€ par implant, dans la limite de 2 implants par an, et un plafond annuel global hors soins de 2 500€.
+
+4, Optique, lentilles, chirurgie réfractive
+Meilleur contrat, très proche, avec un avantage fréquent pour REPAM avec surcomplémentaire,
+REPAM avec surcomplémentaire, bonus sur les forfaits et prise en charge renforcée, notamment chirurgie réfractive 600€ par an et +200€ via la surcomplémentaire.
+Alptis, très bon sur l’optique, forfaits élevés selon la complexité, lentilles 300€ par an, chirurgie réfractive 550€ par œil.
+En pratique, si vous faites de la chirurgie réfractive, REPAM avec surcomplémentaire est souvent plus avantageux, si votre priorité est surtout lentilles, Alptis est très compétitif.
+
+5, Points complémentaires à connaître
+REPAM, existence de délais d’attente sur certains modules « Sérénité » et « Sérénité+ », et absence de délai sur « Confort » et « Confort+ », ce point est important à valider selon la formule exacte retenue.
+Alptis, sur l’extrait transmis, les délais d’attente ne sont pas indiqués, nous le vérifions dans la notice d’information.
+
+Ma recommandation simple, sans ambiguïté
+Si vous voulez le meilleur niveau de protection en cas d’hospitalisation et de dépassements d’honoraires, je recommande REPAM Niveau 3 avec surcomplémentaire.
+Si vous voulez le meilleur niveau de remboursement au quotidien, je recommande Alptis Niveau 4.
+Si vous me confirmez vos postes de dépenses habituels, hospitalisation, consultations, dentaire, optique, je vous indique la solution la plus cohérente pour votre situation, sans surcoût inutile.
+
+Je reste à votre disposition pour en discuter rapidement par téléphone, et je vous remercie de nous en tenir informés de votre choix.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+mais N0N c'est moi qui te demande de quelque chose de plus lisible pour un client avec des conparatif plus claire sans trop rentrer das le detail 
+E-mail
+Objet
+
+Bonjour,
+
+Voici un comparatif très simple et lisible des 2 contrats transmis, pour vous aider à choisir rapidement.
+
+En 1 phrase
+REPAM Niveau 3 avec surcomplémentaire est le plus protecteur en hospitalisation, Alptis Niveau 4 est le plus avantageux sur les soins du quotidien.
+
+Comparatif rapide par besoin
+
+Hospitalisation, dépassements d’honoraires
+Meilleur, REPAM Niveau 3 avec surcomplémentaire
+Pourquoi, prise en charge plus élevée des honoraires en cas de dépassements
+
+Consultations, examens, analyses, paramédical, transport
+Meilleur, Alptis Niveau 4
+Pourquoi, remboursements plus élevés sur les soins courants
+
+Chambre particulière
+Équivalent
+100€ par jour sur les 2 contrats
+
+Dentaire
+Équivalent, avec un avantage selon votre objectif
+REPAM, plus intéressant si vous cherchez un plafond plus élevé dans le temps
+Alptis, très lisible et performant sur implants et forfaits
+
+Optique, lentilles, chirurgie réfractive
+Très proche
+REPAM est souvent plus protecteur sur la chirurgie réfractive
+Alptis est très bon et simple à comprendre, notamment sur les lentilles
+
+Si vous souhaitez, je peux vous recommander la solution la plus adaptée en 1 message, en fonction de votre priorité, hospitalisation ou soins courants, et de vos postes de dépenses habituels.
+
+Je vous remercie de me confirmer la solution que vous souhaitez retenir, ou si vous souhaitez que nous en discutions 10 minutes par téléphone.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+ok [PERSONNE_112] mail est très bien mais peux tu eviter le language familier du type pourquoi , remboursement... fait une phrase complete 
+E-mail
+Objet
+
+Bonjour,
+
+Je vous transmets ci-dessous un comparatif simple et lisible des 2 contrats transmis, afin de vous aider à faire votre choix.
+
+En synthèse, le contrat REPAM Niveau 3 avec surcomplémentaire est le plus protecteur en cas d’hospitalisation, tandis que le contrat Alptis Niveau 4 est généralement plus avantageux sur les soins du quotidien.
+
+Comparatif rapide par poste
+
+Hospitalisation, dépassements d’honoraires
+Le contrat REPAM Niveau 3 avec surcomplémentaire prévoit une prise en charge plus élevée des honoraires en cas de dépassements, ce qui en fait la solution la plus protectrice sur ce poste.
+
+Consultations, examens, analyses, soins paramédicaux, transport
+Le contrat Alptis Niveau 4 propose des niveaux de remboursement plus élevés sur la plupart des soins courants, ce qui en fait la solution la plus favorable pour le suivi médical au quotidien.
+
+Chambre particulière
+Les 2 contrats proposent un niveau équivalent, avec une chambre particulière indemnisée à hauteur de 100€ par jour.
+
+Dentaire
+Les 2 contrats présentent un bon niveau de couverture. Le contrat REPAM devient particulièrement intéressant si vous recherchez une protection renforcée dans le temps grâce à un plafond annuel plus élevé. Le contrat Alptis se distingue par des forfaits simples et lisibles, notamment pour les implants.
+
+Optique, lentilles, chirurgie réfractive
+Les 2 contrats sont très proches. Le contrat REPAM avec surcomplémentaire est souvent plus avantageux en cas de chirurgie réfractive, tandis que le contrat Alptis est particulièrement compétitif sur la prise en charge des lentilles.
+
+Si vous le souhaitez, je peux également vous confirmer la solution la plus cohérente en fonction de votre priorité, hospitalisation ou soins courants, et de vos habitudes de dépenses.
+
+Je vous remercie de me confirmer la solution que vous souhaitez retenir, ou si vous souhaitez que nous en discutions rapidement par téléphone.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+pour info le contrat alptis ets notre concurrent 
+
+
+Vous avez dit :
+reformule ce  mail stp: Bonjour Madame , 
+
+Chaque client Orus détient un espace en ligne, créé automatiquement à la souscription.
+Il faut aller sur le site https://www.orus.eu/, cliquer sur Se connecter, puis le client renseigne son adresse mail et copie-colle le mot de passe généré dans sa boîte mail afin d’accéder à son espace client.
+
+ChatGPT a dit :
+Objet : Accès à votre espace client Orus
+
+Bonjour Madame,
+
+Chaque client Orus dispose d’un espace en ligne, créé automatiquement lors de la souscription.
+
+Pour y accéder, il vous suffit de vous rendre sur le site Orus, puis de cliquer sur « Se connecter ». Le client renseigne ensuite son adresse électronique et copie-colle le mot de passe généré, reçu dans sa boîte mail, afin d’accéder à son espace client.
+
+Je reste à votre disposition si besoin.
+
+Bien cordialement,
+
+
+Vous avez dit :
+c'est elle la cliente 
+
+ChatGPT a dit :
+Objet : Accès à votre espace client Orus
+
+Bonjour Madame,
+
+Votre espace client Orus a été créé automatiquement lors de votre souscription.
+
+Pour y accéder, je vous invite à vous rendre sur le site Orus, puis à cliquer sur « Se connecter ». Vous pourrez ensuite renseigner votre adresse électronique et copier-coller le mot de passe généré que vous avez reçu dans votre boîte mail, afin d’accéder à votre espace en ligne.
+
+Je reste à votre disposition si besoin.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Madame [PERSONNE_079],
+
+Après plusieurs échnages avec la compagnie d'assurance HEOMIE anciennement ECA; A ce jour ils n'ont pas reçu de chèques. 
+
+Pouvez-vous vérifier si le chèque a été debité ou non et a quel date celui ci a été envoyé a la compgnie ? 
+
+ChatGPT a dit :
+Objet : Suivi du règlement par chèque HEOMIE (anciennement ECA)
+
+Bonjour Madame [PERSONNE_079],
+
+Après plusieurs échanges avec la compagnie d’assurance HEOMIE (anciennement ECA), celle-ci nous confirme qu’à ce jour aucun chèque n’a été réceptionné.
+
+Pouvez-vous, s’il vous plaît, vérifier si le chèque a bien été débité et, le cas échéant, à quelle date il a été envoyé à la compagnie ?
+
+Dans l’attente de votre retour.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Boujour madame [PERSONNE_089],
+
+SUite anotre appel téléphonique je me suis rendu compte qu'il me manque votre adresse ainsi que vpotre ville de naissance afon d'effectuer la tarificatio. de votre devi 
+
+ChatGPT a dit :
+Objet : Éléments manquants pour finaliser votre devis
+
+Bonjour Madame [PERSONNE_089],
+
+Suite à notre échange téléphonique, je me permets de revenir vers vous car il me manque 2 informations afin de finaliser la tarification de votre devis : votre adresse complète, votre ville de naissance.
+
+Dès réception, je pourrai finaliser le devis et revenir vers vous.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Madame [PERSONNE_097],
+
+Nous avons bien reçu votre demande de résilaition. 
+Celle-ci ne peux malheureusement pas etre prise en compte. Votre déménagement en Algerie ne constitue pas une clause de nulité du contrat. 
+votre contrat est résiliable sous condition que vous nous en fassiez la demande 2 mois avant. C'est a dire avant le 31 octobre. 
+Nous ne pouvons donc pas résilier votre contrat au 31/12/2025. 
+
+ChatGPT a dit :
+Objet : Votre demande de résiliation
+
+Bonjour Madame [PERSONNE_097],
+
+Nous accusons réception de votre demande de résiliation.
+
+Nous sommes au regret de vous informer que celle-ci ne peut malheureusement pas être prise en compte à ce jour. En effet, votre déménagement en Algérie ne constitue pas un motif permettant une résiliation anticipée du contrat.
+
+Conformément aux conditions de résiliation, votre contrat peut être résilié à échéance, sous réserve de nous adresser votre demande au moins 2 mois avant la date d’échéance, soit avant le 31 octobre.
+
+En conséquence, nous ne sommes pas en mesure de procéder à une résiliation au 31/12/2025.
+
+Je reste à votre disposition pour toute question et, si vous le souhaitez, pour vous indiquer la prochaine échéance à laquelle la résiliation pourra être prise en compte.
+
+Bien cordialement,
+
+répond lui et dis lui que c'esyt pas le cas : Bonjour,
+Nous faisons suite à votre mail
+
+Nous vous informons que les documents ont été transmis à l’assuré et sont disponibles sur l’espace partenaire
+
+Cordialement
+[PERSONNE_094]
+Le service gestion IARD.
+Heomi.
+
+Bonjour Madame,
+
+Je vous remercie pour votre retour.
+
+Sauf erreur de notre part, ce n’est pas le cas à ce jour : nous ne retrouvons pas les documents sur l’espace partenaire, et notre assuré nous confirme ne pas les avoir reçus.
+
+Pouvez-vous, s’il vous plaît, soit nous les transmettre directement par retour de mail, soit nous indiquer précisément où ils sont accessibles sur l’espace (rubrique, référence du dossier, date de dépôt) afin que nous puissions les récupérer ?
+
+Merci de votre aide, et merci de nous en tenir informés.
+
+Cordialement, 😈
+
+reformule en mode profesionnel stp: Bonjour Madame [PERSONNE_073],
+
+Nous comprenons que vous soyez impatiente de recevoir votre attestaion, cependant la compagnie d'assurance n'a pas terminé de les édité. Soyez rassuré vous etes couverte et nous reviendrons vers vous des que nous aurons reçu les attestaions 
+
+Belle journée 
+
+Bonjour Madame [PERSONNE_073],
+
+Nous comprenons votre attente concernant la réception de votre attestation.
+
+À ce jour, la compagnie d’assurance n’a pas encore finalisé l’édition des documents. Nous vous confirmons toutefois que vos garanties sont bien en vigueur et que vous êtes couverte.
+
+Nous reviendrons vers vous dès réception des attestations.
+
+Bonne journée, 😈
+
+peux tu refortmuler ce ùail: Bonjour madame [PERSONNE_069],
+je reviens vers vous suite a nos derniers échanges
+
+Concernant vos assurances emprunteur.
+Au vu de la durée des prets restant ainsi que des montants, nous ne sommes pas en mesure de vous proposer une solution interessante. Nou sfacturons des frais de dossier ce qui ne vous permettrais pas de faire des économies a comparé de votre assurance actuelle. 
+
+Concernant votre assurance auto:
+Vous etes assuré a la Macif avec une formule tiers + pour une mensualité de 60€ par mois. 
+Nous pouvons vous accompagner avec une fortmule tiers + auprès de l'assureur AXA pour u!ne mensualité de 46€ avec l'assitance 0 KM et des franchises bien moindre a comparé de votre contrat Macif. Vous trouverez la proposition jointe a ce mail. 
+
+Concernant votre assurance MRH:
+Votre contrat vous offre une bonne couverture et nous ne sommes pas en mesure de vous offrir un meilleure tarif. 
+
+Concernant votre assurance santé:
+Nous avons trouvé une solution haute gamme avec avec un meilleure tarif Que nous aimerions vous présenter de vive voix avec [PERSONNE_055]. 
+
+Quand etes vous disponible ? 
+
+Bonjour Madame [PERSONNE_069],
+
+Je reviens vers vous suite à nos derniers échanges.
+
+Assurances emprunteur
+Au regard des montants assurés et de la durée restante de vos prêts, nous ne sommes malheureusement pas en mesure de vous proposer une solution réellement avantageuse. En effet, nous appliquons des frais de dossier, ce qui ne vous permettrait pas de réaliser des économies par rapport à votre assurance actuelle.
+
+Assurance automobile
+Vous êtes actuellement assurée à la Macif en formule « tiers + », pour une mensualité de 60€ par mois.
+Nous pouvons vous proposer une formule « tiers + » auprès de l’assureur AXA, pour une mensualité de 46€ par mois, incluant l’assistance 0 kilomètre, avec des franchises sensiblement inférieures à celles de votre contrat Macif. Vous trouverez la proposition en pièce jointe.
+
+Assurance multirisque habitation
+Votre contrat actuel offre une bonne couverture, et nous ne sommes pas en mesure de vous proposer un tarif plus compétitif à garanties équivalentes.
+
+Assurance santé
+Nous avons identifié une solution haut de gamme avec un meilleur tarif, que nous souhaiterions vous présenter de vive voix avec [PERSONNE_055].
+
+Quand seriez-vous disponible pour un échange téléphonique ?
+
+Bien cordialement,
+
+donne moi l'objet du mail stp 
+
+Objet : Point sur vos contrats d’assurance et proposition automobile / santé
+
+Coucou [PERSONNE_109],
+Merci pour les éléments de l’assurance du captur. Je te ferais un retour rapidement.
+
+Pour la propositon a 19,32€ il est deja inclu une assistance 0KM. Dis moi si c’est Ok pour toi, et dans ce cas la on lance la mise en place de ce contrat et la résiliation de ton contrat actuel. 
+
+Merci pour la signature du document, je vais t’en envoyer un nouveau a signer sous peu. 
+
+Belle semaine, 
+A bientôt
+
+Objet : Assurance Captur, validation de la formule et suite à donner
+
+Coucou [PERSONNE_109],
+
+Merci pour les éléments concernant l’assurance du Captur. Je te ferai un retour rapidement.
+
+Pour la proposition à 19,32€, l’assistance 0 kilomètre est déjà incluse. Dis-moi si c’est bon pour toi, et dans ce cas, on lance la mise en place du contrat ainsi que la résiliation de ton contrat actuel.
+
+Merci également pour la signature du document. Je vais t’en envoyer un nouveau à signer sous peu.
+
+Belle semaine,
+À bientôt
+
+
+Vous avez dit :
+Bonjour Monsieur [PERSONNE_075],
+
+Comme convenu lors de notre échange téléphonique, je vous remercie de bien vouloir me transmettre les éléments ci-dessous afin de me permettre de réaliser une étude assurantielle complète pour votre garage :
+
+un extrait Kbis de moins de 3 mois idéalement,
+une copie de votre pièce d’identité,
+le bail du local,
+le chiffre d’affaires réalisé en 2025 ainsi que le prévisionnel pour 2026,
+le montant en euros de la valeur du matériel à assurer dans le local (machines, outillage, etc.),
+W garage à inclure au contrat (si oui, merci de m’en adresser une copie),
+l’existence de véhicules d’entreprise assurés ou à assurer (le cas échéant, merci de me transmettre les cartes grises et votre permis de conduire).
+Dans un premier temps, ces éléments seront suffisants pour avancer sur l’étude.
+
+Je reste dans l’attente de votre retour.
+
+Bonne journée !
+
+Bien cordialement,
+
+
+Bonjour Monsieur [PERSONNE_074],
+
+Comme convenu lors de notre échange téléphonique, je vous remercie de bien vouloir me transmettre les éléments ci-dessous afin de me permettre de réaliser une étude assurantielle complète pour votre garage :
+
+Un extrait Kbis de moins de 3 mois idéalement,
+Répartition de l'activité en pourcentage (exemple : 70% mécanique / 15% réparation auto / 15% pneus)
+UIe copie de votre pièce d’identité,
+Une copie de votre contrat d'assurance actuelle 
+Une copie de votre échéancier 2026
+Le chiffre d’affaires réalisé en 2025 ainsi que le prévisionnel pour 2026,
+Le montant en euros de la valeur du matériel à assurer dans le local (machines, outillage, etc.),
+W garage à inclure au contrat (si oui, merci de m’en adresser une copie),
+L’existence de véhicules d’entreprise assurés ou à assurer (le cas échéant, merci de me transmettre les cartes grises).
+Dans un premier temps, ces éléments seront suffisants pour avancer sur l’étude. N'hésitez pas à me faire par de vos disponibilités afin que nous puissions échanger plus tranquillement sur le sujet. 
+
+Je reste dans l’attente de votre retour.
+
+Bonne journée !
+
+Bien cordialement,
+
+
+
+voci 2 aiolsquej'ai envoyé a 2 prospects pour le meme typoe de contrat que je veux souscrire. peux tu rectifier, merge et m'en faire un seul modele unique qui ùe serviraa tout le mode alavenir ? 
+
+ChatGPT a dit :
+Objet : Éléments nécessaires pour votre étude d’assurance garage
+
+Bonjour Monsieur [NOM],
+
+Comme convenu lors de notre échange téléphonique, je vous remercie de bien vouloir me transmettre les éléments ci-dessous afin de me permettre de réaliser une étude assurantielle complète pour votre garage :
+
+un extrait Kbis de moins de 3 mois idéalement,
+une copie de votre pièce d’identité,
+le bail du local,
+la répartition de votre activité en pourcentage (exemple : 70% mécanique, 15% réparation automobile, 15% pneumatiques),
+une copie de votre contrat d’assurance actuel,
+une copie de votre échéancier 2026,
+le chiffre d’affaires réalisé en 2025 ainsi que le prévisionnel pour 2026,
+le montant en euros de la valeur du matériel à assurer dans le local (machines, outillage, etc.),
+W Garage à inclure au contrat (si oui, merci de m’en adresser une copie),
+l’existence de véhicules d’entreprise assurés ou à assurer (le cas échéant, merci de me transmettre les cartes grises ainsi qu’une copie du permis de conduire du ou des conducteurs).
+
+Dans un premier temps, ces éléments seront suffisants pour avancer sur l’étude.
+
+Si vous le souhaitez, vous pouvez également me communiquer vos disponibilités afin que nous puissions échanger plus tranquillement sur votre besoin et finaliser le cadrage de l’étude.
+
+Je reste dans l’attente de votre retour.
+
+Bonne journée !
+
+Bien cordialement,
+
+
+Vous avez dit :
+belle mise en page, tirets etc
+
+ChatGPT a dit :
+Objet : Éléments nécessaires pour votre étude d’assurance garage
+
+Bonjour Monsieur [NOM],
+
+Comme convenu lors de notre échange téléphonique, je vous remercie de bien vouloir me transmettre les éléments ci-dessous afin de me permettre de réaliser une étude assurantielle complète pour votre garage.
+
+Merci de m’adresser :
+
+Un extrait Kbis de moins de 3 mois idéalement.
+
+Une copie de votre pièce d’identité.
+
+Le bail du local.
+
+La répartition de votre activité en pourcentage (exemple : 70% mécanique, 15% réparation automobile, 15% pneumatiques).
+
+Une copie de votre contrat d’assurance actuel.
+
+Une copie de votre échéancier 2026.
+
+Le chiffre d’affaires réalisé en 2025 ainsi que le prévisionnel pour 2026.
+
+Le montant en euros de la valeur du matériel à assurer dans le local (machines, outillage, etc.).
+
+W Garage à inclure au contrat (si oui, merci de m’en adresser une copie).
+
+L’existence de véhicules d’entreprise assurés ou à assurer (le cas échéant, merci de me transmettre les cartes grises ainsi qu’une copie du permis de conduire du ou des conducteurs).
+
+Dans un premier temps, ces éléments seront suffisants pour avancer sur l’étude.
+
+Si vous le souhaitez, vous pouvez également me communiquer vos disponibilités afin que nous puissions échanger plus tranquillement sur votre besoin et finaliser le cadrage de l’étude.
+
+Je reste dans l’attente de votre retour.
+
+Bonne journée !
+
+Bien cordialement,
+
+
+Vous avez dit :
+“compagnie d'assurance L'abeille et j'écris pour le compte de [PERSONNE_014], [ADRESSE].”
+00:15
+
+ChatGPT a dit :
+Entendu, je note que vous intervenez pour la compagnie d'assurance "L'Abeille" et que vous rédigez au nom d'[PERSONNE_007], [ADRESSE]. Si vous avez un message ou un contenu précis à formuler pour elle, je suis à votre disposition pour vous aider à le structurer.
+
+
+Vous avez dit :
+Alors tu t'es trompé, hein. Moi, je ne suis pas Allianz, je ne suis pas l'abeille. J'écris au nom de ma cliente, donc j'écris pour [PERSONNE_068] à l'abeille, qui est la société d'assurance où [PERSONNE_068] est assurée. Tu me comprends ?
+
+ChatGPT a dit :
+Oui, je comprends parfaitement.
+
+Vous n’écrivez pas “pour L’Abeille” (comme si vous étiez la compagnie). Vous écrivez pour votre cliente [PERSONNE_007], et votre courrier/email est adressé à L’Abeille, l’assureur auprès duquel elle est assurée.
+
+Formulation propre à utiliser selon le contexte :
+
+Dans un e-mail à l’assureur :
+« Je vous contacte pour le compte de Madame [PERSONNE_007], assurée auprès de L’Abeille. »
+
+Dans un courrier (en-tête / première phrase) :
+« Objet : [objet] – Madame [PERSONNE_007], assurée auprès de L’Abeille
+Nous intervenons pour le compte de Madame [PERSONNE_007] et vous prions de bien vouloir… »
+
+Si vous me donnez l’objet exact (sinistre, résiliation, demande d’attestation, modification du contrat, réclamation, etc.) et ce que vous voulez obtenir de L’Abeille, je vous rédige le message complet en version très formelle, prêt à envoyer (avec un objet).
+
+
+Vous avez dit :
+“[PERSONNE_068], ben, trucmuche là.”
+00:03
+
+ChatGPT a dit :
+Pas de souci, je suis là pour ça ! Si vous préférez, vous pouvez juste me donner les détails de ce que vous voulez dire, et je vous aiderai à tout formuler avec soin. Quand vous êtes prête !
+
+
+Vous avez dit :
+“Très bien. Alors voilà, j'aimerais écrire à mon assureur, du coup, à l'ABEille Assurance, qui se trouve du coup [ADRESSE_ASSUREUR]. J'ai un numéro de contrat qui porte le numéro [REFERENCE_CONTRAT], une référence client qui est de [REFERENCE_CLIENT]. Et j'aimerais dire, du coup, à cet assureur qui m'assure en prévoyance, que je souhaite qu'on mette en place un nantissement de ma garantie décès. J'ai aujourd'hui, via ce contrat, un capital garanti de [MONTANT_CAPITAL] au bénéfice de mes ayants droits, comme indiqué dans ma clause bénéficiaire. Je souhaite détourner du coup cette clause bénéficiaire au profit d'un établissement bancaire pour que cette somme soit pour partie, en fait, utilisée pour assurer en décès et en invalidité absolue et définitive, puisque c'est également prévu dans mon contrat ABEille perte totale et irréversible d'autonomie, que je puisse avoir la somme de [MONTANT_NANTISSEMENT].”
+01:27
+
+ChatGPT a dit :
+Je vous propose un message
+
+
+Vous avez dit :
+“qui serait au bénéfice dans l'établissement bancaire puisque j'achète les parts d'une SCI à mon associé.”
+00:09
+
+ChatGPT a dit :
+D’accord, je vois mieux le contexte ! En gros, vous souhaitez modifier la clause bénéficiaire de votre contrat prévoyance pour qu’en cas de décès ou d’invalidité absolue, la somme de [MONTANT_NANTISSEMENT] revienne à la banque, dans le cadre de l’achat des parts de la SCI à votre associé.
+
+Si vous êtes prête, je vous rédige la version formelle finale, avec objet et tout ce qu’il faut.
+
+
+Vous avez dit :
+“Allez, t'as parfaitement bien compris.”
+00:01
+
+ChatGPT a dit :
+Super ! Je vais m’atteler à te formuler ça de manière bien claire et professionnelle. On va s’assurer que tout soit précis pour ton assureur. Quand tu veux, on déroule ça !
+
+
+Vous avez dit :
+“Allez, vas-y.”
+00:00
+
+ChatGPT a dit :
+Objet : Modification de la clause bénéficiaire du contrat de prévoyance
+
+Madame, Monsieur,
+
+Au nom de Madame [PERSONNE_007] (contrat n° [REFERENCE_CONTRAT], référence client [REFERENCE_CLIENT]), je vous informe de son souhait de modifier la clause bénéficiaire de sa garantie décès.
+
+Actuellement, son capital garanti est de [MONTANT_CAPITAL] pour ses ayants droit. Elle souhaite qu’un montant de [MONTANT_NANTISSEMENT] soit attribué, en cas de décès ou d’invalidité absolue et définitive, à l’établissement bancaire finançant l’achat de parts d’une SCI.
+
+Nous vous remercions par avance de nous indiquer la marche à suivre pour formaliser cette modification.
+
+Dans l’attente de votre retour, je vous prie d’agréer mes salutations distinguées.
+
+
+Vous avez dit :
+“Alors non, je suis [PERSONNE_068] et je souhaite écrire à la BEI pour lui dire que j'ai besoin qu'il me... Alors je ne redemande pas l'autorisation hein, j'exige en fait et je pense que c'est un droit que mon contrat soit détourné au profit d'une assurance de prêt. Et donc est-ce que tu peux vérifier sur internet ce qu'il en est ? Et à ce moment-là, j'écris à la banque, j'écris à l'assureur pour lui dire voilà, je veux une clause de nantissement au profit de l'établissement bancaire Crédit agricole de Cannes.”
+00:32
+
+ChatGPT a dit :
+En France, il est tout à fait possible de mettre en place un nantissement sur un contrat d’assurance décès au profit d’une banque, notamment lorsque ce nantissement garantit un prêt, comme dans votre cas pour l’achat des parts d’une SCI. Vous avez donc le droit d’exiger que la clause bénéficiaire soit modifiée au profit de l’établissement bancaire. Maintenant, vous pouvez formuler votre demande directement à votre assureur en précisant le montant et l’établissement concerné.
+
+
+Vous avez dit :
+“Alors vas-y, tu me formules ça pour l'abeille, et la banque c'est le Crédit Agricole, [ADRESSE_BANQUE].”
+00:08
+
+ChatGPT a dit :
+Objet : Mise en place d’un nantissement sur la clause bénéficiaire
+
+Madame, Monsieur,
+
+Je vous informe que je souhaite mettre en place un nantissement sur ma clause bénéficiaire, au profit de l’établissement Crédit Agricole, situé [ADRESSE_BANQUE], dans le cadre de l’achat des parts d’une SCI.
+
+Je demande que la somme de [MONTANT_NANTISSEMENT], en cas de décès ou d’invalidité absolue et définitive, soit affectée à cette banque. Je vous remercie de m’indiquer la procédure pour formaliser cette modification.
+
+Dans cette attente, je vous prie d’agréer mes salutations distinguées.
+
+
+Vous avez dit :
+“Non, je ne vais pas leur dire que j'attends qu'ils me donnent la démarche, en fait. La démarche, c'est celle-là, je la connais. Donc tu leur demandes de rédiger cette clause de nantissement au bénéfice de ma banque et que c'est hyper urgent. Voilà, vas-y.”
+00:15
+
+ChatGPT a dit :
+Bien sûr, on va être direct. Voici une version sans équivoque :
+
+Objet : Demande urgente de rédaction de clause de nantissement
+
+Madame, Monsieur,
+
+Je vous demande de rédiger sans délai une clause de nantissement sur ma garantie décès, d’un montant de [MONTANT_NANTISSEMENT], au profit du Crédit Agricole, [ADRESSE_BANQUE]. Cette opération est urgente et nécessaire dans le cadre de l’acquisition de parts d’une SCI.
+
+Merci de
+
+
+Vous avez dit :
+“Arrête-toi, arrête-toi. T'es con ou quoi, en fait ? J'aimerais que tu reprennes le contexte, d'accord ? Donc tu me fais ce putain de courrier rapidement. Tu expliques, je suis assuré sur un contrat dont je vais te donner la référence tout à l'heure. J'ai un capital décès depuis 2010. Je suis assuré depuis 2017, hein, sur ce contrat depuis le [DATE_EFFET_CONTRAT]. Sur ce contrat, il est prévu [MONTANT_CAPITAL] de capital décès, [MONTANT_CAPITAL] de capital pour la perte totale irréversible d'autonomie, en plus des garanties classiques. Je souhaite donc une clause de nantissement concernant le capital décès et la perte totale irréversible d'autonomie afin que le Crédit Agricole soit protégé dans le cadre du financement des parts de la SCI Ammonessocié. Voilà, et je veux qu'effectivement, ça se fasse de façon urgente, mais soit un peu plus rondouillard, mais l'article de loi qui me permet de le faire, ça, ce serait intelligent, tu vois. Allez, vas-y.”
+00:58
+
+ChatGPT a dit :
+En France, il est possible de mettre en place un nantissement sur un contrat d’assurance au profit d’une banque. La loi prévoit que, tant que le bénéficiaire n’a pas accepté la clause, vous pouvez établir ce nantissement. Une fois le nantissement en place, la banque est protégée, et l’assureur doit respecter ce nantissement en cas de décès ou d’invalidité, même si le bénéficiaire accepte par la suite. Vous avez donc la base légale pour demander ce nantissement à votre assureur de façon urgente.
+
+
+Vous avez dit :
+“Allez, vas-y, fais-moi le courrier qui va bien.”
+00:02
+
+ChatGPT a dit :
+Objet : Mise en place urgente d’un nantissement sur mon contrat d’assurance
+
+Madame, Monsieur,
+
+Je suis assurée depuis le [DATE_EFFET_CONTRAT] sur mon contrat référencé n° [REFERENCE_CONTRAT]. Ce contrat prévoit un capital décès de [MONTANT_CAPITAL] ainsi qu’un capital pour la perte totale et irréversible d’autonomie de [MONTANT_CAPITAL], en plus des garanties classiques.
+
+Je demande la rédaction immédiate d’une clause de nantissement sur ces capitaux au profit du Crédit Agricole, [ADRESSE_BANQUE], afin de garantir le financement des parts de la SCI que j’acquiers. En vertu du Code des assurances (articles L132-10 et suivants), le nantissement est pleinement possible avant toute acceptation de bénéficiaire.
+
+Je vous demande de procéder sans délai pour sécuriser l’opération en cours.
+
+Je vous prie de traiter cette demande avec la plus grande diligence.
+
+Cordialement, [PERSONNE_007].
+
+donne moi toutes le sgaranties de son contrat et rappelle la cotisation (mail)
+
+Voici un mail prêt à envoyer, clair, structuré par poste, reprenant l’ensemble des garanties du contrat et la cotisation, conformément à votre demande.
+
+E-mail
+Objet
+
+Madame,
+
+Après vérification de votre contrat d’assurance habitation, vous trouverez ci-dessous le récapitulatif complet des garanties dont vous bénéficiez, ainsi que le montant de la cotisation.
+
+1. Garanties couvrant le logement et les biens
+
+Sont garantis, sans franchise, sauf mention contraire
+Incendie
+Dégâts des eaux
+Événements climatiques
+Catastrophes naturelles avec franchise légale
+Catastrophes technologiques
+Attentats et actes de terrorisme
+Protection juridique liée au logement
+Déménagement, travaux et dégât des eaux avec seuil d’intervention de 512€
+
+2. Vol et vandalisme au domicile
+
+Vol des biens à l’intérieur du logement
+Dégradations consécutives à un vol
+Conditions de sécurité conformes au niveau 1 requis
+Garantie sans franchise
+
+3. Vol à l’extérieur du domicile
+
+Vol des biens portés ou emportés d’une valeur supérieure à 99€
+Appareils nomades, bagages, vélos, sac à main
+Plafond annuel global de 1 000€
+Plafond par bien de 800€
+Plafond spécifique ordinateurs portables de 1 000€
+Limitation à 2 sinistres par an
+
+4. Bris des vitres
+
+Vitres, fenêtres, baies vitrées, portes-fenêtres, fenêtres de toit
+Cloisons de verre, marquises, garde-corps, séparations de balcon
+Dommages causés par les éclats de verre aux biens immobiliers et mobiliers
+Garantie sans franchise
+
+5. Capital sécurité
+
+En cas d’insuffisance du capital mobilier déclaré
+10 000€ supplémentaires par pièce déclarée
+Plafond maximum de 80 000€
+
+6. Dommages aux appareils électriques
+
+Dommages dus à surtension, foudre ou dysfonctionnement électrique
+Plafond de 29 520€ par sinistre
+Détérioration des denrées alimentaires jusqu’à 1 000€
+Garantie sans franchise
+
+7. Dépannage d’urgence
+
+Fuite d’eau
+Panne d’électricité
+Fuite de gaz
+Clés perdues, volées ou cassées
+Porte claquée
+Intervention sous 4 heures, 24 heures sur 24 et 7 jours sur 7
+Garantie sans franchise
+
+8. Valeur de rééquipement
+
+Indemnisation à valeur à neuf des biens de moins de 10 ans
+
+9. Responsabilités et protections juridiques
+
+Responsabilité locative avec franchise 0€
+Défense et recours avec seuil d’intervention de 590€
+Responsabilité civile vie privée
+Dommages corporels couverts jusqu’à 20 000 000€
+Protection juridique et accompagnement en cas de violences intrafamiliales
+Garantie sans franchise
+
+10. Services inclus
+
+Assistance en cas de sinistre d’ampleur
+Avance de frais de premières nécessités
+Assistance au domicile
+Assistance en déplacement
+Service déménagement
+
+Cotisation
+
+Montant annuel toutes taxes comprises : 375,26€
+Soit 30,73€ par mois
+Contribution attentat de 6,50€ prélevée lors de la première cotisation
+
+Je reste bien entendu à votre disposition pour toute question ou pour ajuster les garanties si nécessaire.
+
+Bien cordialement,
+
+[PERSONNE_055]
+
+plus résume et succint.? avec le sgaranties vrm interessantes (pas communes a tous els contrats) et importantes merci? par poste
+
+Voici une version très synthétique, par poste, en mettant uniquement les garanties réellement différenciantes et importantes, avec rappel de la cotisation.
+
+E-mail
+Objet
+
+Madame,
+
+Suite à votre demande, vous trouverez ci-dessous une synthèse des garanties les plus intéressantes et spécifiques de votre contrat d’assurance habitation, ainsi que le montant de la cotisation.
+
+1. Vol renforcé, au domicile et à l’extérieur
+
+Vol et vandalisme à l’intérieur du logement, sans franchise
+Vol à l’extérieur du domicile (appareils nomades, sacs, bagages, vélos)
+Plafond annuel de 1 000€, avec jusqu’à 1 000€ pour les ordinateurs portables
+Garantie rarement incluse d’office dans les contrats standards
+
+2. Capital sécurité en cas de sinistre majeur
+
+Complément automatique du capital mobilier assuré
+10 000€ supplémentaires par pièce déclarée
+Plafond maximal de 80 000€
+Protection essentielle en cas de sous-évaluation du mobilier
+
+3. Dommages aux appareils électriques étendus
+
+Prise en charge des appareils endommagés par surtension ou foudre
+Plafond élevé de 29 520€ par sinistre
+Indemnisation des denrées alimentaires jusqu’à 1 000€
+Garantie sans franchise
+
+4. Dépannage d’urgence 24 heures sur 24
+
+Intervention sous 4 heures
+Fuite d’eau, panne électrique, fuite de gaz
+Porte claquée, clés perdues ou volées
+Service inclus sans franchise, très opérationnel au quotidien
+
+5. Valeur de rééquipement à neuf
+
+Indemnisation à valeur à neuf des biens de moins de 10 ans
+Évite une décote importante en cas de sinistre
+
+6. Responsabilité civile vie privée à haut plafond
+
+Dommages corporels couverts jusqu’à 20 000 000€
+Niveau de protection supérieur à la moyenne du marché
+Garantie sans franchise
+
+Cotisation
+
+375,26€ par an toutes taxes comprises
+Soit 30,73€ par mois
+Contribution attentat de 6,50€ prélevée lors de la première échéance
+
+Je reste à votre disposition pour toute précision ou pour ajuster le contrat selon vos besoins.
+
+Bien cordialement,
+
+[PERSONNE_055]
+
+ok parfait; mtn reformule ce mail et fautes : Bonjour Madame [PERSONNE_101],
+
+je n'ai pas eu de retour concernant votre conteata cutel automobile afin d'affiner notre devis (a savoir vos garanties, et vos franchises;
+
+quoi qu'il en soit, vous trouverez en pj votre devis mrh,  : 
+
+
+1. Vol renforcé, au domicile et à l’extérieur
+
+Vol et vandalisme à l’intérieur du logement, sans franchise
+Vol à l’extérieur du domicile (appareils nomades, sacs, bagages, vélos)
+Plafond annuel de 1 000€, avec jusqu’à 1 000€ pour les ordinateurs portables
+Garantie rarement incluse d’office dans les contrats standards
+
+2. Capital sécurité en cas de sinistre majeur
+
+Complément automatique du capital mobilier assuré
+10 000€ supplémentaires par pièce déclarée
+Plafond maximal de 80 000€
+Protection essentielle en cas de sous-évaluation du mobilier
+
+3. Dommages aux appareils électriques étendus
+
+Prise en charge des appareils endommagés par surtension ou foudre
+Plafond élevé de 29 520€ par sinistre
+Indemnisation des denrées alimentaires jusqu’à 1 000€
+Garantie sans franchise
+
+4. Dépannage d’urgence 24 heures sur 24
+
+Intervention sous 4 heures
+Fuite d’eau, panne électrique, fuite de gaz
+Porte claquée, clés perdues ou volées
+Service inclus sans franchise, très opérationnel au quotidien
+
+5. Valeur de rééquipement à neuf
+
+Indemnisation à valeur à neuf des biens de moins de 10 ans
+Évite une décote importante en cas de sinistre
+
+6. Responsabilité civile vie privée à haut plafond
+
+Dommages corporels couverts jusqu’à 20 000 000€
+Niveau de protection supérieur à la moyenne du marché
+Garantie sans franchise
+
+Cotisation
+
+375,26€ par an toutes taxes comprises
+Soit 30,73€ par mois
+Contribution attentat de 6,50€ prélevée lors de la première échéance
+
+Je reste à votre disposition pour toute précision ou pour ajuster le contrat selon vos besoins.
+
+Bien cordialement, 
+
+(dis qu'lle aura le dvsi habitation en pj)
+
+Voici une version reformulée, corrigée et professionnelle, avec un objet, en restant claire et concise, et en précisant bien que le devis habitation est en pièce jointe.
+
+E-mail
+Objet
+
+Madame [PERSONNE_101],
+
+Je n’ai pas eu de retour de votre part concernant votre contrat actuel d’assurance automobile, notamment sur les garanties et les franchises, ce qui ne m’a pas permis d’affiner davantage notre proposition sur ce point.
+
+Quoi qu’il en soit, vous trouverez en pièce jointe votre devis d’assurance multirisque habitation, accompagné ci-dessous d’un récapitulatif des garanties les plus importantes et différenciantes.
+
+Vol renforcé, au domicile et à l’extérieur
+Vol et vandalisme à l’intérieur du logement, sans franchise, vol à l’extérieur du domicile pour les appareils nomades, sacs, bagages et vélos, plafond annuel de 1 000€, avec jusqu’à 1 000€ pour les ordinateurs portables.
+
+Capital sécurité en cas de sinistre majeur
+Complément automatique du capital mobilier assuré, 10 000€ supplémentaires par pièce déclarée, dans la limite de 80 000€, protection essentielle en cas de sous-évaluation du mobilier.
+
+Dommages aux appareils électriques étendus
+Prise en charge des dommages liés à la surtension ou à la foudre, plafond de 29 520€ par sinistre, indemnisation des denrées alimentaires jusqu’à 1 000€, sans franchise.
+
+Dépannage d’urgence 24 heures sur 24
+Intervention sous 4 heures en cas de fuite d’eau, panne électrique, fuite de gaz, porte claquée ou clés perdues ou volées, service inclus sans franchise.
+
+Valeur de rééquipement à neuf
+Indemnisation à valeur à neuf des biens de moins de 10 ans, permettant d’éviter une décote significative en cas de sinistre.
+
+Responsabilité civile vie privée à haut plafond
+Dommages corporels couverts jusqu’à 20 000 000€, niveau de protection supérieur à la moyenne du marché, sans franchise.
+
+Cotisation
+375,26€ par an toutes taxes comprises, soit 30,73€ par mois.
+Contribution attentat de 6,50€ prélevée lors de la première échéance.
+
+Je reste à votre disposition pour toute précision ou pour ajuster le contrat selon vos besoins, et bien entendu pour reprendre le point automobile dès réception des éléments manquants.
+
+Bien cordialement,
+
+[PERSONNE_055]
+
+Bonjour amdame, conformement a lechange qye vous avez eu avec ma collegue cette smeian,e vous trouverez ci joint votre devis d'asurance uato pour votre auto 
+[IMMATRICULATION] afin de reduire les garanties au minimum conformement a votre dmeande. j'ia tout de meme prit la liberté d'ajotuer l'option bris de glace et garantie en cas de ctastrophe tehcnologie, climatique oua ttentat. afin de garantir qu ela vouture vous soit rmebourse et que vous puissiez la vendre. cela represeté 1€ par mois.
+je vous laisse en prendre conaniassance e tme confirmer votre accord par retour de mail ou tel afin de proceder a la mise en palce et rmeplacement de votre ocntrat actuel.
+cordiaement
+
+Voici une version reformulée, corrigée et professionnelle, avec un objet, fluide et claire.
+
+E-mail
+Objet
+
+Madame,
+
+Conformément à l’échange que vous avez eu avec ma collègue cette semaine, vous trouverez en pièce jointe votre devis d’assurance automobile pour votre véhicule [IMMATRICULATION].
+
+Ce devis a été établi afin de réduire les garanties au strict minimum, conformément à votre demande. J’ai toutefois pris la liberté d’y ajouter deux options importantes
+la garantie bris de glace
+la garantie en cas de catastrophe technologique, climatique ou d’attentat
+
+Ces garanties permettent de s’assurer que votre véhicule puisse être indemnisé en cas de sinistre majeur, notamment afin de préserver sa valeur et de vous permettre, le cas échéant, de le revendre. Leur impact représente environ 1€ par mois.
+
+Je vous laisse en prendre connaissance et me confirmer votre accord par retour de mail ou par téléphone, afin que nous puissions procéder à la mise en place du contrat et au remplacement de votre contrat actuel.
+
+Je reste à votre disposition pour toute précision complémentaire.
+
+Cordialement,
+
+[PERSONNE_055]
+
+Bonjour,
+
+je vous remercie pour la trnamsision du document signé.
+
+afi n de proceder a la msie en palce, mecri de em communiquer la methde reglement que vous souuhaitez.
+
+bienc oridlament
+[PERSONNE_100]
+
+Voici une version corrigée, fluide et professionnelle, avec un objet, prête à envoyer.
+
+E-mail
+Objet
+
+Bonjour,
+
+Je vous remercie pour la transmission du document signé.
+
+Afin de procéder à la mise en place du contrat, je vous remercie de bien vouloir m’indiquer le mode de règlement que vous souhaitez utiliser.
+
+Je reste à votre disposition pour toute précision complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_107]
+
+Bonjoujr onsieur [PERSONNE_092]
+
+Nous tenons a vous remrcié pour le temsp accordé lors de notre rdv du 1/12.
+
+Afin de fluidifier et faciliter les changes, vous trouverez ci apres un resumé de nos echnages ainsi qu'un ... de ce que nous devons mettre en palce poru recuperer vos adhérents sous el smeilleures ospscies.
+
+vous trouverez ci apres les tarifs format image cocnernant la cnie agis qui nous vous rappelons permet la sosucirption ena ffaire nouvelle jsuqua 69. et le rneovuellement sans limite d'age au dela.
+les agranties de ce contrat s'elevent a 3200€ de capital
+
+delai de carnce 3 mois
+
+Nous avons egalement une autre compagnie dont nous avons discute, ECA, qui elle a des garanties au frais réels, donc sans limite plafond de garantie. cela permet + de soupless et une meilleure asisstance de la fmaille des defunts. les ce contrat confere l'avantage de se rneovueller automatiquement chaque année. gain de temps pour vous et nous.
+le sel inconvenient a ce contrat est sa limit d'age fixée a 59 ans. delai de carence pour ce contrat 9 mois.
+
+vous terouverez egalement ci apres le lient vers notre site internet qui tarifie rapdiement a l'aide des informations que vous rmeplirez directement afin d'oebtnir le prix pour ces deux solution. cela permt d'obtneir le prix si vous etes directement avec votre adherent a cote de vous et de comparer les deux solution.
+
+Je vous laisse prendre conasisance des informations et commencer a comminiquer les tarifs et conditions.
+
+nous restons dans l'attente d'une liste exhaustive des adherents a assurés (nom prneom adresse date de nbaissa,ce tel mail et pays de rapatriement choisi + formule (indiv ou fmaille, avec les memes infos pour le smemebres de la fmaille si ya) par mois d'echance. bienc ordialement
+[PERSONNE_057]
+
+Voici une version entièrement reformulée, corrigée et structurée, avec un ton professionnel et clair, prête à être envoyée.
+
+E-mail
+Objet
+
+Bonjour Monsieur [PERSONNE_092],
+
+Nous tenons à vous remercier pour le temps que vous nous avez accordé lors de notre rendez-vous du 18 décembre.
+
+Afin de fluidifier nos échanges et de faciliter la mise en place de notre collaboration, vous trouverez ci-dessous un résumé de nos discussions ainsi que les solutions que nous vous proposons pour assurer vos adhérents dans les meilleures conditions.
+
+1. Solution AGIS
+
+Vous trouverez en pièce jointe les tarifs concernant la compagnie AGIS.
+Cette compagnie permet la souscription en affaire nouvelle jusqu’à 69 ans, avec un renouvellement possible sans limite d’âge au-delà.
+
+Le contrat prévoit :
+• un capital garanti de 3 200 €
+• un délai de carence de 3 mois
+
+2. Solution ECA
+
+Nous avons également évoqué la solution proposée par la compagnie ECA.
+Ce contrat fonctionne sur une prise en charge aux frais réels, sans plafond de garantie, offrant ainsi davantage de souplesse et une meilleure assistance pour les familles des défunts.
+
+Ce contrat présente les avantages suivants :
+
+Renouvellement automatique chaque année, sans démarche à effectuer
+
+Gain de temps pour vous comme pour nous
+
+Le principal point de vigilance concerne :
+
+une limite d’âge à la souscription fixée à 59 ans
+
+un délai de carence de 9 mois
+
+3. Outil de tarification en ligne
+
+Vous trouverez également ci-dessous le lien vers notre site internet, qui permet de réaliser une tarification rapide à partir des informations renseignées.
+Cet outil vous permettra, notamment lorsque vous êtes en rendez-vous avec un adhérent, d’obtenir immédiatement les tarifs et de comparer les deux solutions.
+
+Je vous invite à prendre connaissance de ces éléments et à commencer à communiquer les tarifs et conditions auprès de vos adhérents.
+
+Enfin, afin de pouvoir avancer, nous restons dans l’attente d’une liste exhaustive des adhérents à assurer, comprenant :
+
+nom, prénom, adresse
+
+date de naissance
+
+numéro de téléphone et adresse électronique
+
+pays de rapatriement choisi
+
+formule retenue (individuelle ou familiale)
+
+le cas échéant, les mêmes informations pour les membres de la famille
+
+le tout classé par mois d’échéance.
+
+Nous restons bien entendu à votre disposition pour toute question ou précision complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+Bonjour Madame,
+
+Je reviens vers vous afin de vous confirmer la reisliation du contrat de Mme [PERSONNE_015].
+
+Je reste bien entendu a votre entiere dispo
+gk
+
+Voici une version corrigée, formelle et concise, avec un objet, prête à être envoyée.
+
+E-mail
+Objet
+
+Bonjour Madame,
+
+Je reviens vers vous afin de vous confirmer la résiliation du contrat de Madame [PERSONNE_015].
+
+Je reste bien entendu à votre entière disposition pour toute information complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+Bonjour
+je vous remercie de bien vouloir proceder a la reisliation du contrat de monsieur [PERSONNE_044] etant decedé le [DATE_DECES]
+
+Voici une version corrigée, formelle et professionnelle, avec un objet, prête à être envoyée.
+
+E-mail
+Objet
+
+Bonjour,
+
+Je vous remercie de bien vouloir procéder à la résiliation du contrat de Monsieur [PERSONNE_044], décédé le [DATE_DECES].
+
+Je reste à votre disposition pour vous transmettre tout document justificatif nécessaire.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+Bonjour madame je vous remercie pour votre email, pourriez vous en prévention m'envoyer l'acte de deces de monsieur au cas ou la cnie me le demandait
+
+bien cordialement
+
+Voici une version corrigée, fluide et professionnelle, avec un objet, prête à envoyer.
+
+E-mail
+Objet
+
+Bonjour Madame,
+
+Je vous remercie pour votre message.
+
+À titre préventif, pourriez-vous me transmettre l’acte de décès de Monsieur, au cas où la compagnie d’assurance me le demanderait pour le traitement du dossier.
+
+Je vous remercie par avance et reste à votre disposition pour toute précision complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+Bonjour,
+
+vous trouverez ci dessous la demande de reisliation de notre cliente mme [PERSONNE_039] compte tenu de la receptionde l'avis d'écheance tardi.bien cordialement
+
+Voici une version corrigée, claire et professionnelle, avec un objet, prête à être envoyée.
+
+E-mail
+Objet
+
+Bonjour,
+
+Vous trouverez ci-dessous la demande de résiliation concernant notre cliente, Madame [PERSONNE_039], compte tenu de la réception tardive de l’avis d’échéance.
+
+Je reste à votre disposition pour toute information ou pièce complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+Bonjour madame,nous avons bien trnamsis votre demande résil a la cnie
+
+bien cordialement
+
+Voici une version corrigée, fluide et professionnelle, avec un objet, prête à être envoyée.
+
+E-mail
+Objet
+
+Bonjour Madame,
+
+Nous vous confirmons avoir bien transmis votre demande de résiliation à la compagnie d’assurance.
+
+Nous ne manquerons pas de revenir vers vous dès réception de leur retour et vous remercions de nous en tenir informés le cas échéant.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+Bonjour,
+
+Je vous confirme avoir pu échanger ce matin avec les services d’AXA. Ils ont pris le temps de revoir le devis avec moi et de me formuler la proposition que je vous transmets en pièce jointe.
+
+À mon sens, cette offre présente un excellent rapport qualité-prix. Je vous invite à prendre connaissance du détail des garanties : cette fois, il ne manque réellement rien.
+
+Vous bénéficiez d’une couverture très complète, et il n’existe pas, à ce jour, d’offre plus avantageuse sur le marché.
+
+Bien entendu, je reste à votre entière disposition si vous souhaitez en discuter. Vous pouvez me joindre quand vous le souhaitez.
+
+Si vous souhaitez que je vous adresse les documents pour signature électronique, il vous suffit de me le confirmer par retour d’e-mail et je m’en occupe immédiatement.
+
+Dans l’attente de votre retour,
+
+
+Bien cordialement 
+
+[PERSONNE_106]
+
+jjste l'objet
+
+Voici un objet clair, professionnel et efficace :
+
+Transmission de la proposition AXA révisée – Offre complète et optimisée
+
+Hello [PERSONNE_076],
+
+on loupe chacun les appels de l'autre. tj aucune nouvelle pour le moement. je croise les doigts. cordialement je te tiendrai au coruant
+
+Voici une version reformulée, fluide et professionnelle, tout en restant simple et naturelle.
+
+Hello [PERSONNE_076],
+
+Nous nous manquons mutuellement au téléphone. À ce stade, je n’ai toujours pas de nouvelle. Je croise les doigts et ne manquerai pas de te tenir informé dès que j’ai un retour.
+
+Cordialement,
+
+Bonjour madame.
+
+merci pour le jsutifictif et votre reactivite et confiance,;
+
+Je reste à votre disposition pour toute demande d'information complémentaire,
+je ne manquerai aps de revenir vers ovus uaplus vite 
+Cordialement,
+
+
+[PERSONNE_054]
+Responsable relation client
+
+Voici une version corrigée, fluide et professionnelle, prête à être envoyée.
+
+E-mail
+Objet
+
+Bonjour Madame,
+
+Je vous remercie pour la transmission du justificatif, ainsi que pour votre réactivité et votre confiance.
+
+Je reste à votre disposition pour toute demande d’information complémentaire et ne manquerai pas de revenir vers vous dans les meilleurs délais.
+
+Cordialement,
+
+[PERSONNE_054]
+Responsable relation client
+
+Bonjour Monsieur [PERSONNE_092],
+
+Nous tenons à vous remercier pour le temps que vous nous avez accordé lors de notre rendez-vous du 18 décembre.
+
+Afin de fluidifier nos échanges et de faciliter la mise en place de notre collaboration, vous trouverez ci-dessous un résumé de nos discussions ainsi que les solutions que nous vous proposons pour assurer vos adhérents dans les meilleures conditions.
+
+1. Solution AGIS
+
+Vous trouverez en pièce jointe les tarifs concernant la compagnie AGIS.
+Cette compagnie permet la souscription en affaire nouvelle jusqu’à 69 ans, avec un renouvellement possible sans limite d’âge au-delà.
+
+Le contrat prévoit :
+• un capital garanti de 3 200 €
+• un délai de carence de 3 mois
+
+2. Solution ECA
+
+Nous avons également évoqué la solution proposée par la compagnie ECA.
+Ce contrat fonctionne sur une prise en charge aux frais réels, sans plafond de garantie, offrant ainsi davantage de souplesse et une meilleure assistance pour les familles des défunts.
+
+Ce contrat présente les avantages suivants :
+
+Renouvellement automatique chaque année, sans démarche à effectuer
+
+Gain de temps pour vous comme pour nous
+
+Le principal point de vigilance concerne :
+
+une limite d’âge à la souscription fixée à 59 ans
+
+un délai de carence de 9 mois
+
+3. Outil de tarification en ligne
+
+Vous trouverez également ci-dessous le lien vers notre site internet, qui permet de réaliser une tarification rapide à partir des informations renseignées.
+Cet outil vous permettra, notamment lorsque vous êtes en rendez-vous avec un adhérent, d’obtenir immédiatement les tarifs et de comparer les deux solutions.
+
+Je vous invite à prendre connaissance de ces éléments et à commencer à communiquer les tarifs et conditions auprès de vos adhérents.
+
+Enfin, afin de pouvoir avancer, nous restons dans l’attente d’une liste exhaustive des adhérents à assurer, comprenant :
+
+nom, prénom, adresse
+
+date de naissance
+
+numéro de téléphone et adresse électronique
+
+pays de rapatriement choisi
+
+formule retenue (individuelle ou familiale)
+
+le cas échéant, les mêmes informations pour les membres de la famille
+
+le tout classé par mois d’échéance.
+
+Nous restons bien entendu à votre disposition pour toute question ou précision complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+dis plutot qu'on revient vers lui afind e lui adresser le sprix qu'il trouvera en pj. reprends les details de garantie, les carrente etc et enleve le site pour trification. mail simple et pro
+
+
+
+Vous avez dit :
+Bonjour [PERSONNE_108],
+Est il posisbled 'avoir les échéancier correspondants a la période de mars 2025 a décembre 2025 et ceux de l'année 2026. 
+Notre cliente ets dans l'attente depuis maintenant une semaine. 
+
+je vous remercie 
+
+ChatGPT a dit :
+Voici une version corrigée, formelle et professionnelle, prête à être envoyée :
+
+Bonjour [PERSONNE_108],
+
+Est-il possible d’obtenir les échéanciers correspondant à la période de mars 2025 à décembre 2025, ainsi que ceux relatifs à l’année 2026 ?
+
+Notre cliente est dans l’attente de ces éléments depuis maintenant une semaine.
+
+Je vous remercie par avance pour votre retour.
+
+Bien cordialement,
+
+
+Vous avez dit :
+répond a ce mail, dis lui que la quittance est en cours d'édition par le service comptabilité et u'elle la recevra entre aujoridhuie t demain : 
+
+Madame, Monsieur
+Je me permets de vous relancer concernant les exemplaires des contrats obsèques y compris la quittance de règlement à ce jour j’attends toujours un retour de votre part d’avance je vous remercie cordialement Madame [PERSONNE_080].
+Envoyé de mon iPhone
+
+ChatGPT a dit :
+Voici une réponse formelle, claire et professionnelle, prête à être envoyée, avec un objet :
+
+Objet : Transmission des contrats obsèques et quittance de règlement
+
+Madame,
+
+Nous faisons suite à votre message et vous informons que la quittance de règlement est actuellement en cours d’édition par notre service comptabilité.
+
+Elle vous sera transmise entre aujourd’hui et demain, accompagnée des exemplaires des contrats obsèques.
+
+Nous vous remercions pour votre patience et restons à votre disposition pour toute précision complémentaire.
+
+Bien cordialement,
+
+
+Vous avez dit :
+fait une relance suite a ce mail resté sans réponse: Bonjour Monsieur [PERSONNE_049],
+
+Je comprends parfaitement votre situation et le fait que vous ne puissiez plus continuer à payer. De notre côté, nous essayons justement de trouver une solution pour vous aider à faire résilier le contrat dans les règles.
+
+Pour que nous puissions demander la résiliation à la compagnie, il nous faut une preuve que vous ne résidez plus en France, ainsi que la date de votre départ.
+
+Par exemple, vous pouvez nous envoyer (au choix) :
+
+une attestation de résidence dans votre nouveau pays,
+
+un contrat de travail à l’étranger,
+
+un justificatif de domicile à l’étranger (facture d’électricité, de téléphone, etc.),
+
+ou tout document officiel indiquant que vous vivez désormais hors de France.
+
+Dès que nous aurons ce document et la date de votre départ, nous pourrons transmettre une demande de résiliation à la compagnie en expliquant votre situation.
+
+N’hésitez pas à me répondre simplement avec le document en pièce jointe, je m’occupe du reste pour vous.
+
+Cordialement,
+
+[PERSONNE_045]
+
+ChatGPT a dit :
+Voici une relance formelle, claire et professionnelle, avec un objet, dans la continuité de votre précédent message :
+
+Objet : Relance – Transmission d’un justificatif de résidence à l’étranger
+
+Bonjour Monsieur [PERSONNE_049],
+
+Je me permets de revenir vers vous concernant mon précédent message, resté à ce jour sans réponse.
+
+Comme indiqué, afin de pouvoir solliciter la résiliation de votre contrat auprès de la compagnie dans les règles, nous avons impérativement besoin d’un justificatif attestant que vous ne résidez plus en France, ainsi que de la date de votre départ.
+
+À titre d’exemple, il peut s’agir d’une attestation de résidence dans votre nouveau pays, d’un contrat de travail à l’étranger, d’un justificatif de domicile à l’étranger ou de tout document officiel confirmant votre installation hors de France.
+
+Dès réception de l’un de ces éléments, nous pourrons transmettre la demande de résiliation à la compagnie en exposant précisément votre situation.
+
+Je reste bien entendu à votre disposition et vous remercie par avance pour votre retour.
+
+Cordialement,
+
+[PERSONNE_045]
+
+
+Vous avez dit :
+Bonjour,
+
+
+
+Notre cliente, madame [PERSONNE_061], vous a demander la résilaition de son contrat a date d'échéance le 31/12/2025. Cette demande c'est vu etre refusé car elle a fait la demande trop tard. 
+J'appuie la demande de la cliente et vous demande de résilier le contrat au 31/12 pyisque l'aviqs d'échéance n'est pas arrivé dans les temps imparti. 
+
+
+JE vous remercie donc de me notifier par retour de mail, la résilaition du contrat a date d'échance. 
+
+j'en profite pour vous souhaiter de belles fetes de fin d'années 
+
+ChatGPT a dit :
+Voici une version corrigée, formelle et juridiquement plus solide, prête à être envoyée, avec un ton professionnel et posé :
+
+Bonjour,
+
+Notre cliente, Madame [PERSONNE_061], a formulé une demande de résiliation de son contrat à échéance du 31/12/2025. Cette demande a été refusée au motif qu’elle aurait été effectuée hors délai.
+
+Nous tenons toutefois à préciser que l’avis d’échéance ne lui est pas parvenu dans les délais impartis. En conséquence, et conformément à la réglementation applicable, nous appuyons la demande de notre cliente et sollicitons la résiliation du contrat à sa date d’échéance, soit au 31/12/2025.
+
+Je vous remercie par avance de bien vouloir nous confirmer, par retour de courriel, la prise en compte de cette résiliation à date d’échéance.
+
+Je profite également de ce message pour vous souhaiter de belles fêtes de fin d’année.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonnour Madame [PERSONNE], 
+
+Suite a notre conversation téléphonique, je vous confirme avoir fait le nécessaire auprès de la compagnie d'asssurance afin de demander al résilaition de votre contrat. 
+je suis dans l'attente d'un retour de la part de la compagnie. 
+SOyez rassurer je vous tindrais informé dans les meilleurs delais. 
+
+En attendant, je prépare  votre devis concernatn l'assuranc obsèque. 
+
+ChatGPT a dit :
+Voici une version corrigée, fluide et professionnelle, prête à être envoyée :
+
+Bonjour Madame [PERSONNE],
+
+Suite à notre conversation téléphonique, je vous confirme avoir effectué les démarches nécessaires auprès de la compagnie d’assurance afin de solliciter la résiliation de votre contrat.
+
+Je suis actuellement dans l’attente de leur retour et ne manquerai pas de vous tenir informée dans les meilleurs délais.
+
+En parallèle, je prépare votre devis concernant l’assurance obsèques.
+
+Bien cordialement,
+
+
+Vous avez dit :
+
+Bonjour, 
+
+
+Après échange avec notre client, il voit depuis son application bancaire que le ttra,sfert d'assurance a deja eu lieu. 
+Vous trouverez ci joint a ce mail, les elements communiqué par le client. 
+
+ChatGPT a dit :
+Voici une version corrigée, formelle et professionnelle, prête à être envoyée :
+
+Bonjour,
+
+Après échange avec notre client, celui-ci constate via son application bancaire que le transfert d’assurance a déjà été effectué.
+
+Vous trouverez ci-joint à ce courriel les éléments communiqués par le client à ce sujet.
+
+Je vous remercie par avance pour votre prise en compte.
+
+Bien cordialement,
+
+
+Vous avez dit :
+BONJOUR MONSIEUR [PERSONNE_081],
+je vous remeercie pour votre retour et vous confirme avoir envoyé les éléments a la compagnie April. 
+
+J'en profite pour vous osuhaiter de belle fetes de fin d'année 
+[PERSONNE_045] 
+
+ChatGPT a dit :
+Voici une version corrigée, formelle et professionnelle, prête à être envoyée :
+
+Bonjour Monsieur [PERSONNE_081],
+
+Je vous remercie pour votre retour et vous confirme avoir transmis les éléments à la compagnie APRIL.
+
+J’en profite pour vous souhaiter de belles fêtes de fin d’année.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+
+Vous avez dit :
+fait moi un rapport d'activité pour aujourdhui 
+
+ChatGPT a dit :
+Pour que je vous fasse un rapport d’activité conforme à votre mise en forme habituelle, il me manque les **actions réalisées
+
+
+Vous avez dit :
+LUXURY PRESSING: suivi échéancier + appel [PERSONNE_108] + mail 
+[PERSONNE_038]: suivi règlement 
+M. [PERSONNE_035]: appel client 
+[PERSONNE_042]: relance GRC 
+[PERSONNE_031]: mail + appel [PERSONNE_110], [PERSONNE_107] et [PERSONNE_085] 
+[PERSONNE_001]: relance résiliation 
+Classement mail ECA 
+[PERSONNE_051] : suivi demande de résiliation, appel cliente + appel écarte + mail ECA 
+M. [PERSONNE_032]: mail client et mail April 
+[TELEPHONE_OU_ID]: Rappel suite appel manqué  ; création fiche clients + lignes devis 
+
+ChatGPT a dit :
+Rappel appel manqué : [TELEPHONE_OU_ID]
+
+LUXURY PRESSING : suivi échéancier, appel [PERSONNE_108], mail
+[PERSONNE_038] : suivi règlement
+[PERSONNE_033] : appel client
+[PERSONNE_042] : relance gestion de la relation client
+[PERSONNE_031] : mail, appel [PERSONNE_110], appel [PERSONNE_107], appel [PERSONNE_085]
+[PERSONNE_001] : relance résiliation
+[PERSONNE_051] : suivi demande de résiliation, appel cliente, appel écarté, mail ECA
+[PERSONNE_028] : mail client, mail APRIL
+
+Classement mails ECA
+Création fiche client [TELEPHONE_OU_ID], création lignes devis
+
+
+Vous avez dit :
+reformule ce mail stp: Bonjour Monsieur [PERSONNE_086],
+
+je reviens vers vous concernant l'analyse des différents devis qui vous on été soumis pour un projet de protection juridique. 
+
+Vous avez reçu une proposition d'Allianz, de Générali et enfin la notre auprès de notre partenaire CFDP. 
+La proposition d'Allianz n'est pas une protection juridique mais un contrat de prévoyance qui prend le relais en cas d'accident. 
+
+La proposition de Generali est complete mais les montants de prise en charge sont assez faible.
+
+
+Par exemple: 
+- pour une expertise amiable contradictoire prise en charge de 1 200€ par le CFDP, 540€ par Generali 
+-Pour une représentation devant le tribunal coorectiionnel prise en charge de 900€ par la CFDP et entre 600€ et 900€ selon la nature de votre litige chez Generali. 
+-Pour une representation en cors d'appel prise en charge de 1 850€  par la CFDP et entre 480 € et 1440€  selon la nature de votre litige chez Generali. 
+
+
+
+
+Pour rappel si vous optez pour la formule double votre cotisation annuel s'élève a 137€ auprès de Generali a contrario de 84$ a la CFDP. 
+J'attire votre attention sur le fait que la CFDP est composé uniquement de juriste, que c'est leur métier de base. 
+
+
+N'ayant pas accès aux conditions générales du contrats, 
+
+ChatGPT a dit :
+Voici une reformulation complète, formelle, claire et professionnelle, conforme à vos règles rédactionnelles (pas de tirets, termes détaillés, montants clairs) :
+
+Bonjour Monsieur [PERSONNE_086],
+
+Je reviens vers vous concernant l’analyse des différentes propositions qui vous ont été transmises dans le cadre de votre projet de protection juridique.
+
+Vous avez en effet reçu une proposition de la compagnie Allianz, une proposition de la compagnie Generali, ainsi que notre proposition établie auprès de notre partenaire, la Compagnie Française de Défense et de Protection Juridique.
+
+Après analyse, il apparaît que la proposition Allianz ne correspond pas à un contrat de protection juridique à proprement parler, mais à un contrat de prévoyance intervenant uniquement en cas d’accident.
+
+La proposition Generali est plus complète sur le principe, toutefois les montants de prise en charge restent sensiblement inférieurs à ceux proposés par la Compagnie Française de Défense et de Protection Juridique.
+
+À titre d’exemples concrets, pour une expertise amiable contradictoire, la prise en charge s’élève à 1200€ auprès de la Compagnie Française de Défense et de Protection Juridique contre 540€ chez Generali.
+Pour une représentation devant le tribunal correctionnel, la prise en charge est de 900€ auprès de la Compagnie Française de Défense et de Protection Juridique contre un montant compris entre 600€ et 900€ selon la nature du litige chez Generali.
+Enfin, pour une représentation en cours d’appel, la prise en charge atteint 1850€ auprès de la Compagnie Française de Défense et de Protection Juridique contre un montant compris entre 480€ et 1440€ chez Generali selon le dossier.
+
+Pour rappel, dans l’hypothèse d’une formule double, la cotisation annuelle s’élève à 137€ auprès de Generali, contre 84€ auprès de la Compagnie Française de Défense et de Protection Juridique.
+
+J’attire également votre attention sur le fait que la Compagnie Française de Défense et de Protection Juridique est composée exclusivement de juristes, dont c’est le cœur de métier.
+
+N’ayant pas, à ce stade, accès aux conditions générales détaillées du contrat Generali, notre analyse repose sur les éléments communiqués dans les devis transmis.
+
+Je reste bien entendu à votre disposition pour échanger plus en détail sur ces propositions et vous accompagner dans votre choix.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Monsieur [PERSONNE_086],
+Lorsque l'assurance d'un pret est changé en cours dupret, la banque est censé ajouter un avenant a votre offre de pret pour mentionner que le porteur de risque est Generali. Sur l'offre de pret que vous nous avez fait parvenir, leporteur de risque est encore la banque (CF capture d'écran). Nous avons donc besoin de l'avenant pour le transmettre a la compagnie d'assurance. 
+
+Je vous remercie de bien vouloir demander a votre banque, l'avenant des deux prets ainsi que les tableaux d'amortissements Actualisé s
+
+ChatGPT a dit :
+Voici une reformulation formelle, claire et professionnelle, prête à être envoyée, avec un objet :
+
+Objet : Demande d’avenants et tableaux d’amortissement actualisés
+
+Bonjour Monsieur [PERSONNE_086],
+
+Lorsque l’assurance d’un prêt est modifiée en cours de prêt, la banque doit établir un avenant à l’offre de prêt afin de mentionner le nouveau porteur de risque, en l’occurrence la compagnie Generali.
+
+Or, sur l’offre de prêt que vous nous avez transmise, le porteur de risque indiqué demeure la banque, comme le montre la capture d’écran jointe. Dans ce contexte, nous avons impérativement besoin de l’avenant correspondant afin de pouvoir le transmettre à la compagnie d’assurance.
+
+Je vous remercie par conséquent de bien vouloir solliciter auprès de votre banque les avenants relatifs aux deux prêts, ainsi que les tableaux d’amortissement actualisés.
+
+Je reste à votre disposition pour toute précision complémentaire.
+
+Bien cordialement,
+
+
+Vous avez dit :
+répond a ce mail avec courtoisie et empatie et explique lui que nous sommes onliger de l'informer de l'etat de son devis mais que bien sur nous restons disponible des qulelle en sera pkus sur le contyrat de son frere: 
+Bonjour.
+
+Je comprends tout à fait que vous classiez ma demande de devis.
+Désolée de votre ressenti mais je ne pense pas avoir fait preuve de manque de courtoisie car à diverses reprises j’ai expliqué à LTOA que je demandais ce devis pour mon frère aîné et que je voyais ce dernier très peu. En effet, après de nombreuses années de conflit familial lui et moi avions coupé les ponts. J’ai décidé de reprendre contact avec lui récemment mais tout en gardant une certaine distance afin de me protéger….Si je ne lui fais pas souscrire un contrat d’assurance obsèques il ne prendra pas l’initiative de le faire lui-même et personne d’autre que moi ne le fera pour lui.
+Je lui ai bien fait passer les deux propositions d’assurances et je sais qu’il attend que je passe le voir chez lui pour donner suite. Je passerai le voir quand cela me sera possible.
+Par ailleurs, j’ai appris il y a peu de temps que dorénavant en cas de décès tous les algériens peuvent bénéficier d’un rapatriement gratuit en Algérie (prise en charge totale) via le consulat, si c’est le cas plus besoin d’assurance finalement. Mais je préfère me renseigner auprès du consulat et j’aviserai ensuite.
+
+PS : concernant mon « manque de courtoisie », je suis à moi seule à l’initiative de 4 contrats d’assurances avec LTOA, mon frère serait ou sera le 5ème….
+(Sans compter mes parents décédés).
+
+Bien cordialement.
+
+[PERSONNE_016]
+
+ChatGPT a dit :
+Voici une réponse courtoise, empathique et apaisante, qui clarifie votre position sans jamais la rigidifier :
+
+Bonjour Madame [PERSONNE_063],
+
+Je vous remercie sincèrement pour votre message et pour les précisions que vous avez bien voulu nous apporter.
+
+Je tiens avant tout à vous rassurer : il n’a jamais été question de remettre en cause votre courtoisie ni votre implication. Nous comprenons parfaitement la situation personnelle et familiale que vous évoquez, ainsi que la délicatesse du contexte dans lequel vous agissez pour votre frère. Votre démarche est à la fois responsable et bienveillante, et nous en mesurons pleinement la portée.
+
+Si nous vous avons informée de l’état de votre devis, c’est uniquement parce que nous sommes tenus, en tant que cabinet, de suivre et d’actualiser les demandes en cours, afin de garantir une gestion rigoureuse et conforme de nos dossiers. Cela n’implique évidemment aucune pression de notre part.
+
+Bien entendu, nous restons pleinement disponibles pour reprendre ce dossier dès que vous aurez davantage de visibilité concernant la décision de votre frère ou à l’issue de vos échanges avec le consulat. Le moment venu, nous vous accompagnerons avec le même soin et la même attention.
+
+Enfin, nous tenons également à vous remercier pour la confiance que vous nous témoignez depuis plusieurs années, tant à titre personnel qu’à travers les contrats que vous avez confiés à notre cabinet.
+
+Nous restons à votre écoute et à votre disposition.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Monsieur [PERSONNE_086],
+
+En effet [PERSONNE_112] m'a fait parvenir la proposition Generali. En revanche la proposition Summun ne me dis rien.
+
+En effet notre rpopsoition est bien la Alsina Senior auprès de la compagnie CFDP. 
+
+ChatGPT a dit :
+Voici une reformulation claire, formelle et professionnelle, prête à être envoyée :
+
+Bonjour Monsieur [PERSONNE_086],
+
+En effet, [PERSONNE_112] m’a bien transmis la proposition établie auprès de la compagnie Generali. En revanche, la proposition « Summum » ne nous a pas été communiquée et ne nous évoque rien à ce stade.
+
+Pour précision, la proposition que nous vous avons adressée correspond à la formule Alsina Senior, souscrite auprès de la compagnie Compagnie Française de Défense et de Protection Juridique.
+
+Je reste bien entendu à votre disposition pour toute question ou complément d’information.
+
+Bien cordialement,
+
+
+Vous avez dit :
+dis lui de ne pas hesiter a nous fournir la summum pour étude comparative$
+
+ChatGPT a dit :
+Voici une formulation simple, courtoise et professionnelle, intégrée naturellement au message :
+
+Bonjour Monsieur [PERSONNE_086],
+
+En effet, [PERSONNE_112] m’a bien transmis la proposition établie auprès de la compagnie Generali. En revanche, la proposition « Summum » ne nous a pas été communiquée et ne nous évoque rien à ce stade.
+
+Pour précision, la proposition que nous vous avons adressée correspond à la formule Alsina Senior, souscrite auprès de la compagnie Compagnie Française de Défense et de Protection Juridique.
+
+Si vous le souhaitez, n’hésitez pas à nous transmettre la proposition « Summum » afin que nous puissions en effectuer une étude comparative objective et complète.
+
+Je reste bien entendu à votre disposition pour toute question ou complément d’information.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonsoir a vous deux,
+
+Alderan m’a fait un retour concernant la souscription. 
+[PERSONNE_090], il manque votre signature. 
+Vous pouvez accéder a la signature de celle-ci vi&a ce lien 
+
+ChatGPT a dit :
+Voici une reformulation claire, formelle et professionnelle, avec un objet :
+
+Objet : Signature manquante – Finalisation de la souscription
+
+Bonsoir à vous deux,
+
+Alderan nous a fait un retour concernant la souscription.
+
+[PERSONNE_090], votre signature est manquante à ce stade. Vous pouvez accéder à l’espace de signature afin de finaliser la souscription via le lien ci-dessous.
+
+Nous restons bien entendu à votre disposition si besoin.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Monsieur [PERSONNE_056],
+
+Comme convenu, vous trouverez ci après le lien de paiement de la cotiation d'assurance rapatriement, qui a  legerement augmenté suites aux nouveau tarifs 2026 auquels vous etes assujetis
+
+ChatGPT a dit :
+Objet : Lien de paiement, cotisation assurance rapatriement 2026
+
+Bonjour Monsieur [PERSONNE_056],
+
+Comme convenu, vous trouverez ci-après le lien de paiement de la cotisation d’assurance rapatriement, laquelle a légèrement augmenté suite à l’application des nouveaux tarifs 2026 auxquels vous êtes assujetti.
+
+Je reste à votre disposition pour toute information complémentaire.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Monsieur,
+
+nous sommes une nouvelle fois ... par votre joli cadeau apporté pa otre fils que nous allons partager avec toute l'equipe.
+
+Nous vous remerions chaleuresement pour votre attention et vous souhations de belles fetes de fin d'année.
+
+Nous restons a votre dispotion afin de pouvoir etudier tous vos conteats d'assurances (santé, automobile etc.) afin de mettre en cocnurrence les garanties et montant de cotsations de vos contrats acutels dans l'optique de vous faire economisr de l'agent.
+
+Tout le cabinet vous remercie et vous souhaite debelles fetes;
+
+ChatGPT a dit :
+Objet : Remerciements, belles fêtes de fin d’année
+
+Bonjour Monsieur,
+
+Nous sommes une nouvelle fois touchés par votre joli cadeau, apporté par votre fils, que nous allons partager avec toute l’équipe.
+
+Nous vous remercions chaleureusement pour cette attention et vous souhaitons de belles fêtes de fin d’année.
+
+Nous restons à votre disposition pour étudier l’ensemble de vos contrats d’assurance (assurance santé, assurance automobile, assurance habitation, protection juridique, assurance emprunteur, prévoyance), afin de comparer les garanties et le montant des cotisations de vos contrats actuels, dans l’objectif de vous proposer une solution plus avantageuse et, si possible, moins coûteuse.
+
+Tout le cabinet vous remercie et vous souhaite d’excellentes fêtes de fin d’année.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour;
+
+Merci de trouver ci joint le rib de Mme [PERSONNE_029] pour ses contrats [REFERENCE_CONTRAT] 
+[REFERENCE_CONTRAT] Bien cordialement
+ dans le cas ou vous ne lauriez aps recu
+
+ChatGPT a dit :
+Objet : Transmission RIB, Mme [PERSONNE_029], contrats [REFERENCE_CONTRAT] et [REFERENCE_CONTRAT]
+
+Bonjour,
+
+Merci de trouver ci-joint le relevé d’identité bancaire de Madame [PERSONNE_029], relatif à ses contrats [REFERENCE_CONTRAT] et [REFERENCE_CONTRAT], dans le cas où vous ne l’auriez pas reçu.
+
+Je vous remercie de bien vouloir me confirmer la bonne prise en compte.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Madame [PERSONNE_065],
+
+je vous remercie pour la transmissions de vos pieces.
+
+Nous les gardons preciusement afin de ne plus vos sollciiter a leur sujet.
+
+Je ne retrouve pas la reposné a votre questio concernant l'augmentation de votre contrat auto,je vias donc y repondre (peut etre a nouveau) afn de massurer de vous y avoirrepondu.
+
+Votre contrat auto arrivant a cheance en decembe, il a dune maniere normale augmenté, au prix de 96.58€, et etant la premiere echance, vous devez regler comme tous les ocntrats d'assurances dommages en franc,e la taxe attentat de 6.90€. soit un total de (mettre le total) la ou avant votre mensualité etait de 92.28€.
+
+Bien cordilement
+
+ChatGPT a dit :
+Objet : Réception de vos documents, évolution de votre cotisation assurance automobile
+
+Bonjour Madame [PERSONNE_065],
+
+Je vous remercie pour la transmission de vos pièces. Nous les conservons précieusement afin de ne plus vous solliciter à ce sujet.
+
+Je ne retrouve pas votre réponse concernant votre question sur l’augmentation de votre contrat d’assurance automobile. Je vous réponds donc ci-dessous, afin de m’assurer que l’information est bien claire.
+
+Votre contrat d’assurance automobile arrivant à échéance en décembre, la cotisation a été ajustée à l’échéance annuelle. Votre nouvelle mensualité est de 96.58€.
+Par ailleurs, s’agissant de la première échéance de ce contrat, la taxe attentat de 6.90€ est également due.
+
+Ainsi, le total à régler pour ce mois-ci est de 103.48€ (96.58€ + 6.90€).
+Pour mémoire, votre précédente mensualité était de 92.28€.
+
+Je reste à votre disposition pour toute information complémentaire.
+
+Bien cordialement,
+
+
+Vous avez dit :
+plutot : je narrive pas a remttre la main sur une potentielle rapon que JE vous aurai envoyé concernan VOTRE interrogation au sujet de votre cotisation d'assurance auto de decembre .. dans le doute etc.
+
+ChatGPT a dit :
+Je n’arrive pas à remettre la main sur un éventuel message que je vous aurais déjà adressé concernant votre interrogation au sujet de votre cotisation d’assurance automobile de décembre. Dans le doute, je vous confirme donc les éléments ci-dessous, afin de m’assurer que l’information est bien claire.
+
+
+Vous avez dit :
+l'information ets bien clair ou soit bien claire .. ?
+
+ChatGPT a dit :
+Les 2 se disent, mais en écrit professionnel je recommande :
+
+« afin de m’assurer que l’information est bien claire » (le plus naturel)
+
+Alternative : « afin de m’assurer que tout est bien clair »
+
+« L’information est bien claire » (sans que) fonctionne aussi, mais la tournure avec « que » est plus fluide dans votre phrase.
+
+
+Vous avez dit :
+et 'soit' ca se dit pas ?
+
+ChatGPT a dit :
+Si, « soit » se dit, mais c’est plus soutenu et un peu moins naturel dans un mail de ce type.
+
+Correct mais plus formel : « afin de m’assurer que l’information soit bien claire »
+
+Le plus courant : « afin de m’assurer que l’information est bien claire »
+
+Très naturel : « afin de m’assurer que tout est bien clair »
+
+Dans votre contexte, je vous conseille « est bien claire » (ou « tout est bien clair »).
+
+
+Vous avez dit :
+troue moi un line fiablequi parle de ca stp. et recent
+
+ChatGPT a dit :
+
+Réflexion durant 18s
+Oui, vous pouvez trouver des sources fiables qui expliquent que « s’assurer que » se construit avec l’indicatif (et qu’on évite le subjonctif « soit » dans cet emploi).
+
+Références (institutionnelles) :
+
+Office québécois de la langue française, Vitrine linguistique : page dédiée au mode verbal avec le verbe s’assurer 
+
+https://vitrinelinguistique.oqlf.gouv.qc.ca/24031/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-avec-le-verbe-sassurer
+Gouvernement du Canada, Clés de la rédaction : « s’assurer que est suivi de l’indicatif (on évite le subjonctif) » 
+
+https://www.noslangues-ourlanguages.gc.ca/cles-de-la-redaction/assurer-de-que-si
+En pratique, dans votre phrase, la tournure la plus naturelle reste : « afin de m’assurer que l’information est bien claire ». 
+
+
+Vous avez dit :
+nn jeveux des sorces literraires francaises stp
+
+ChatGPT a dit :
+
+Réflexion durant 2m 19s
+Sur votre formulation, la bonne option est :
+
+L’information est bien claire.
+« Information » est féminin, donc « claire ».
+
+« Soit » peut parfaitement “se dire”, mais uniquement si vous avez un déclencheur de subjonctif (un verbe ou une locution qui l’impose), par exemple :
+Je veux que l’information soit bien claire.
+Afin que l’information soit bien claire, …
+
+En revanche, après s’assurer que (au sens de vérifier, contrôler), l’usage recommandé est l’indicatif, donc :
+Je souhaite m’assurer que l’information est bien claire. 
+
+Sources (fiables, en français, dont une très récente sur le point précis indicatif vs subjonctif) :
+
+Justice Canada (09/05/2023) – “S’assurer que : particularités d’emploi”
+https://www.justice.gc.ca/eng/rp-pr/csj-sjc/legis-redact/juril/no13.html
+
+CNRTL (TLFi) – Définition et exemples de “s’assurer que”
+https://www.cnrtl.fr/definition/assurer
+
+Vous avez dit :
+Bonjour [PERSONNE_087],
+
+Non c'est bien une affaire nouvelle malheuresement, c'est pour ca que je demandais cela a titre derogatoire puisque nousavons loupé lecoche de quelque mois pour que monsieur soit eligible a la 1ere souscription.
+
+Je vous laisse verifier cela en itnerne, esperant un reotur psitif.
+
+Bien cordiaement,
+[PERSONNE_100]
+
+ChatGPT a dit :
+Objet : Demande dérogatoire, affaire nouvelle
+
+Bonjour [PERSONNE_087],
+
+Non, il s’agit bien d’une affaire nouvelle, malheureusement. C’est la raison pour laquelle je vous sollicitais à titre dérogatoire, puisque nous avons manqué de quelques mois la fenêtre permettant à Monsieur d’être éligible à une première souscription.
+
+Je vous laisse vérifier cela en interne et reste dans l’attente, en espérant un retour positif.
+
+Bien cordialement,
+[PERSONNE_107]
+
+
+Vous avez dit :
+Bonjour [PERSONNE_099] j vous rmercie, veuillez trouver le document demande en pj cordialement
+
+ChatGPT a dit :
+Objet : Transmission du document demandé
+
+Bonjour,
+
+Parfait, je vous remercie. Veuillez trouver en pièce jointe le document demandé.
+
+Cordialement,
+
+
+Vous avez dit :
+Bonjour Madame,
+
+Parfait je vous emercie, nous avons tout tranqsmis a la cnie pour validation.
+
+je reviendra vrs vous une fois les cettiifcats 'adhesion edités afin de vous confirmer la mse en place des contrats
+
+ChatGPT a dit :
+Objet : Transmission à la compagnie, édition des certificats d’adhésion
+
+Bonjour Madame,
+
+Parfait, je vous remercie. Nous avons transmis l’ensemble des éléments à la compagnie pour validation.
+
+Je reviendrai vers vous dès que les certificats d’adhésion seront édités, afin de vous confirmer la mise en place des contrats.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour,
+
+Sauf erreur de ma part, je n'ai pas eu de retour concernant ma proposition de RDV pour le 18/12.
+
+c ok pour vous ?
+
+ChatGPT a dit :
+Objet : Rendez-vous du 18/12
+
+Bonjour,
+
+Sauf erreur de ma part, je n’ai pas eu de retour concernant ma proposition de rendez-vous du 18/12.
+
+Pouvez-vous me confirmer si cela vous convient ?
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Monsieur,
+
+comme convenu, je reviens vers vous concernant votre probleme intevrnu il y a 2 semaines avec votre serrure. j'ai egalemn eu quelques difficuktés a joindre le service sinsitre. Il me confirment que le contrat acutel ne prend pas en charge le changement de serrure. totuefois l'ouverture de porte par serureier peut etre pris en charge. le cas echeant nus derons neogicer avec la cnie puisque le delai a ete depassé. sur fournissage de jsutificatif demails ou de tentatives d'appels lors du sinsitre, nous pourons obtneir gain de cause facielement.
+
+je vous laiss revenir vers moi.
+
+Egalement je me permets de vous  pecier qu'en tant que courtier nous sommes en mesure de retarifer votre contrat habittion pour le mettr ene concurrence avec de sprix plus actuels du marché, et de meilleures garanties afin que cela ne se reproduise pas, totu en restant competifi sur les cotisations. fais le moi savoi si vous le souhaitez
+
+bien cordialement
+
+ChatGPT a dit :
+Objet : Suivi sinistre serrure, prise en charge, mise en concurrence assurance habitation
+
+Bonjour Monsieur,
+
+Comme convenu, je reviens vers vous concernant le problème intervenu il y a 2 semaines avec votre serrure.
+
+J’ai également rencontré quelques difficultés pour joindre le service sinistre. Ils me confirment que votre contrat actuel ne prévoit pas la prise en charge du changement de serrure. En revanche, l’ouverture de porte par un serrurier peut être prise en charge.
+
+Le délai de déclaration étant désormais dépassé, nous devrons néanmoins solliciter la compagnie à titre dérogatoire. Sur présentation de justificatifs (courriels envoyés, tentatives d’appels, captures d’écran du journal d’appels, ou tout autre élément attestant de vos démarches au moment du sinistre), nous pourrons obtenir un accord plus facilement.
+
+Je vous laisse revenir vers moi afin que nous puissions avancer.
+
+Par ailleurs, en tant que courtier, nous pouvons également retarifer votre contrat d’assurance habitation et le mettre en concurrence avec des offres plus actuelles du marché, avec de meilleures garanties, afin d’éviter que cette situation ne se reproduise, tout en restant compétitifs sur les cotisations. Faites-moi savoir si vous souhaitez que nous lancions une étude.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Hello [PERSONNE_071], 
+
+je vous ai fait un super joli devis chez AXA pour votre smart reprnenant les memes garanties, a savoir :
+
+garantie au tiers comprennant l'assistance 0km, le brid de glace sans franchise, garantie corporelle du conducteur à 500K .
+
+je vous laisse en prendre conaissancz
+
+tenez moi au courant si le devis vous covnient 
+
+bisous belle journée (ou soirée)
+
+ChatGPT a dit :
+Objet : Votre devis AXA, assurance automobile SMART
+
+Hello [PERSONNE_067],
+
+Je vous ai préparé un devis AXA pour votre SMART, reprenant les mêmes garanties, à savoir : garantie au tiers incluant l’assistance 0 kilomètre, bris de glace sans franchise, garantie corporelle du conducteur à 500000€.
+
+Je vous laisse en prendre connaissance et me dire si ce devis vous convient.
+
+Belle journée (ou belle soirée),
+
+Bien à vous,
+
+
+Vous avez dit :
+
+Bonjour Monsieur,
+malgré pour vous que vous ayez cette reaction. 
+Suite à votre non retour, nous sommes dans l'obligation de vous infromer du classement de votre devis sans suite. 
+Comme indiqué dans mon email "Si ce classement fait suite à un malentendu ou si vous n'avez pas reçu mes précédentes communications, je vous invite à me contacter rapidement afin que nous puissions reprendre nos échanges."
+
+
+
+Je reste disponible a vpotre convenance
+
+ChatGPT a dit :
+Voici une version formelle, claire et sans fautes, conforme à vos préférences rédactionnelles :
+
+Bonjour Monsieur,
+
+Je prends note de votre réaction, même si je le regrette.
+En l’absence de retour de votre part, nous sommes dans l’obligation de vous informer que votre devis a été classé sans suite.
+
+Comme précisé dans mon précédent message, « Si ce classement fait suite à un malentendu ou si vous n’avez pas reçu mes précédentes communications, je vous invite à me contacter rapidement afin que nous puissions reprendre nos échanges. »
+
+Je reste naturellement disponible à votre convenance.
+
+Bien cordialement,
+
+
+Vous avez dit :
+non non je regrette pas 
+
+ChatGPT a dit :
+Très bien, voici une version ferme, professionnelle et factuelle, sans aucune formule de regret :
+
+Bonjour Monsieur,
+
+Je prends note de votre réaction.
+En l’absence de retour de votre part, nous sommes dans l’obligation de vous informer que votre devis a été classé sans suite.
+
+Comme indiqué dans mon précédent message, « Si ce classement fait suite à un malentendu ou si vous n’avez pas reçu mes précédentes communications, je vous invite à me contacter rapidement afin que nous puissions reprendre nos échanges. »
+
+Je reste disponible à votre convenance.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour Monsieur,
+
+Je prends note de votre réaction, je comprend que celle-ci est due a un malentendue.
+En l’absence de retour de votre part, nous sommes dans l’obligation de vous informer que votre devis a été classé sans suite.
+
+Comme précisé dans mon précédent message, « Si ce classement fait suite à un malentendu ou si vous n’avez pas reçu mes précédentes communications, je vous invite à me contacter rapidement afin que nous puissions reprendre nos échanges. »
+
+Je reste naturellement disponible à votre convenance.
+
+Bien cordialement,
+
+ChatGPT a dit :
+Voici la version corrigée, formelle, fluide et sans fautes, en conservant votre intention (sans expression de regret inutile) :
+
+Bonjour Monsieur,
+
+Je prends note de votre réaction et comprends qu’elle soit liée à un malentendu.
+En l’absence de retour de votre part, nous sommes dans l’obligation de vous informer que votre devis a été classé sans suite.
+
+Comme précisé dans mon précédent message, « Si ce classement fait suite à un malentendu ou si vous n’avez pas reçu mes précédentes communications, je vous invite à me contacter rapidement afin que nous puissions reprendre nos échanges. »
+
+Je reste naturellement disponible à votre convenance.
+
+Bien cordialement,
+
+
+Vous avez dit :
+fait une relance suite a ce mail resté sans réponse: Bonjour [PERSONNE_087],
+
+Après vérification des certificats d’adhésion, j’ai constaté plusieurs erreurs que je vous remercie de bien vouloir corriger.
+
+Concernant le dossier de [PERSONNE_012], né le [DATE_NAISSANCE], bénéficiaire du contrat de Madame [PERSONNE_052] :
+Il apparaît que le bénéficiaire indiqué est son fils, portant le même nom, né en [MOIS_ANNEE_NAISSANCE].
+Merci de bien vouloir rectifier l’attestation et d’y faire figurer correctement Madame [PERSONNE_052] et son époux [PERSONNE_012].
+
+Concernant Madame [PERSONNE_020] :
+Elle est assurée en individuel. Toutefois, l’attestation figurant dans sa fiche client sur l’extranet est celle de [PERSONNE_046], ce qui est incorrect.
+
+Madame [PERSONNE_046] doit apparaître en tant que bénéficiaire du contrat de Monsieur [PERSONNE_040], son conjoint.
+Merci donc de corriger l’attestation de Madame [PERSONNE_020], qui doit apparaître uniquement en individuel.
+
+Je vous remercie par avance pour votre diligence et reste à votre disposition pour toute précision complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+ChatGPT a dit :
+Voici une relance formelle, claire et professionnelle, conforme à vos usages, avec objet, sans tirets ni formules inutiles :
+
+Objet : Relance – Correction des certificats d’adhésion
+
+Bonjour [PERSONNE_087],
+
+Je me permets de revenir vers vous concernant mon email ci-dessous, resté sans réponse à ce jour, relatif à la correction de plusieurs certificats d’adhésion comportant des erreurs.
+
+Ces rectifications étant nécessaires pour la conformité des dossiers concernés, je vous remercie par avance de bien vouloir me confirmer leur prise en charge et le délai de mise à jour des attestations.
+
+Je reste bien entendu à votre disposition pour toute précision complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_045]
+
+
+Vous avez dit :
+fait un mail pour demander au clients si il a pris temps de signer le devis et si il nous le fait parvenir par la poste ou via un email, sous frome de relance 
+
+ChatGPT a dit :
+Voici un mail de relance client, formel, clair et neutre, avec objet, sans tirets, conforme à vos préférences :
+
+Objet : Relance – Retour du devis signé
+
+Bonjour Monsieur,
+
+Je me permets de revenir vers vous afin de savoir si vous avez pu prendre le temps de signer le devis transmis précédemment.
+
+Dans l’affirmative, je vous remercie de bien vouloir nous le faire parvenir, soit par retour d’email, soit par voie postale, selon votre convenance.
+
+Je reste à votre disposition pour toute question ou précision complémentaire.
+
+Bien cordialement,
+
+
+Vous avez dit :
+dit lui que c'est suite a notre conversation téléphonique du 19 novembre 
+
+ChatGPT a dit :
+Voici la version ajustée, toujours formelle et fluide, intégrant la référence à l’échange téléphonique :
+
+Objet : Relance – Retour du devis signé
+
+Bonjour Monsieur,
+
+Suite à notre conversation téléphonique du 19 novembre, je me permets de revenir vers vous afin de savoir si vous avez pu prendre le temps de signer le devis transmis.
+
+Dans l’affirmative, je vous remercie de bien vouloir nous le faire parvenir, soit par retour d’email, soit par voie postale, selon votre convenance.
+
+Je reste à votre disposition pour toute question ou précision complémentaire.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour [PERSONNE_087],
+
+je vous contact en urgence afin de vous demander s'il est possible de prendre en compte leconteat de mosieur [PERSONNE_064].
+
+Ce prospect nou a contacté debut d'année 2025 afin de souscire a une solution rapatrimeent, il souhaitait se laisser le temps de la rflecxion. il est donc revenu tres recemment vers nous afin de fianlsier son adhésion, echaniquement, ayant fais un devis chez vous en debut d'année nous lui avons refais le meme devis aupres de votre solution, sans verifier qu'entre temps, monsieur avait fete ses 70 ans. qu'ol a eu en juillet 2025. est ce que nous pouvons exceptionnelement valider la mise en place du contrat (nous avons receptionne sonc ontratsigné et le cèque de reglement ... je me vois mal lui renvoyer en annulant le tout.
+
+La limite d'dhésion est de 69 ans, met a ete depasée de 4 mois ...
+
+Jattends votre retour. cordialement
+
+ChatGPT a dit :
+Voici une version corrigée, professionnalisée et formelle, avec objet de mail conformément à vos consignes :
+
+Objet : Demande exceptionnelle de validation d’adhésion – Monsieur [PERSONNE_064]
+
+Bonjour [PERSONNE_087],
+
+Je vous contacte en urgence concernant le contrat de Monsieur [PERSONNE_064].
+
+Ce prospect nous a contactés en début d’année 2025 afin de souscrire une solution d’assistance rapatriement. Il souhaitait alors se laisser un temps de réflexion. Il est revenu très récemment vers nous pour finaliser son adhésion.
+
+Dans ce contexte, et sur la base du devis initialement établi auprès de vos services, nous avons relancé la même proposition sans avoir vérifié qu’entre-temps Monsieur [PERSONNE_111] avait atteint l’âge de 70 ans en juillet 2025.
+
+Nous avons depuis réceptionné le contrat signé ainsi que le chèque de règlement. La limite d’adhésion étant fixée à 69 ans, celle-ci est aujourd’hui dépassée de 4 mois seulement.
+
+Dans ces conditions, nous souhaitions savoir s’il vous serait possible, à titre tout à fait exceptionnel, de valider la mise en place du contrat, compte tenu de la situation et afin d’éviter une annulation auprès du client.
+
+Je vous remercie par avance pour votre retour et reste naturellement à votre disposition pour tout complément.
+
+Cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour Monsieur,   Je me eprmets de revenirs vers vous afin de vous confirmer que le certificatd 'adhésion de votre maman est bien en cours d'edtition, et que je vous le transmettrai des reception. egalement, je reviendrai vers vous l'année prochaine afin de proceder au renouvellemetn de ce dernier. egalement, avez vous pu reflechir concernant votre contrat famille vous concernant avec votre conjoite et vos enfants ?
+
+corialemnt
+
+ChatGPT a dit :
+Voici votre message corrigé, reformulé et professionnalisé, avec objet de mail :
+
+Objet : Suivi certificat d’adhésion – Dossier de votre maman
+
+Bonjour Monsieur,
+
+Je me permets de revenir vers vous afin de vous confirmer que le certificat d’adhésion de votre maman est actuellement en cours d’édition. Je vous le transmettrai dès sa réception.
+
+Je reviendrai également vers vous l’année prochaine afin de procéder au renouvellement de ce dernier.
+
+Par ailleurs, avez-vous eu le temps de réfléchir concernant votre propre contrat famille, vous concernant ainsi que votre conjointe et vos enfants.
+
+Je reste bien entendu à votre disposition pour toute information complémentaire.
+
+Cordialement,
+
+
+Vous avez dit :
+bonjour, vous trouverea ci joint la demande de reisliation duc ontratde de M. [PERSONNE_025] ref : [REFERENCE_CONTRAT]. merci de bien vuloir proceder à la resiliation de ce contrat a son eceance
+
+ChatGPT a dit :
+Voici votre message corrigé, reformulé et professionnalisé, avec objet de mail :
+
+Objet : Demande de résiliation à échéance – Contrat de Monsieur [PERSONNE_025] – Référence [REFERENCE_CONTRAT]
+
+Bonjour,
+
+Vous trouverez en pièce jointe la demande de résiliation du contrat de Monsieur [PERSONNE_025], référence [REFERENCE_CONTRAT].
+
+Je vous remercie de bien vouloir procéder à la résiliation de ce contrat à sa prochaine échéance.
+
+Je reste à votre disposition pour toute précision complémentaire.
+
+Cordialement,
+
+
+Vous avez dit :
+Bonjour monsieur [PERSONNE_105]. Etes vous e retourd e votre voyage ?
+
+la date de renovuelelemtn approchant a grands pas, nous souhatons nous organiser au lieux.
+
+
+
+Bien cordialement
+
+ChatGPT a dit :
+Voici votre message corrigé, reformulé et professionnalisé, avec objet de mail :
+
+Objet : Organisation en vue de l’échéance prochaine du contrat
+
+Bonjour Monsieur [PERSONNE_105],
+
+Êtes-vous de retour de votre voyage ?
+
+La date de renouvellement de votre contrat approchant à grands pas, nous souhaitions anticiper et nous organiser en conséquence.
+
+Je reste à votre disposition pour convenir d’un échange à votre convenance.
+
+Bien cordialement,
+
+
+Vous avez dit :
+Bonjour,
+
+Pouvez vousme confirmer la prise en clompte de la demande d'ahesion de Monsieur t Madame [PERSONNE_072] (cites en objet svp) ? egalement merci de bien vouloir modifier la date de prelvement dela cotisation actuelleemnt fixée au 01 de chaque moi pour la decacler au 10 afin d'eviter totu rejet cordialement.
+
+ChatGPT a dit :
+Voici votre message corrigé, reformulé et professionnalisé, avec objet de mail conformément à vos consignes :
+
+Objet : Confirmation d’adhésion et modification de la date de prélèvement – Monsieur et Madame [PERSONNE_072]
+
+Bonjour,
+
+Pouvez-vous me confirmer la prise en compte de la demande d’adhésion de Monsieur et Madame [PERSONNE_072], cités en objet, s’il vous plaît.
+
+Par ailleurs, je vous remercie de bien vouloir modifier la date de prélèvement de la cotisation, actuellement fixée au 01 de chaque mois, afin de la décaler au 10, dans le but d’éviter tout rejet.
+
+Je vous remercie par avance pour votre retour.
+
+Cordialement,
+
+
+Vous avez dit :
+RO des psychologues stp 
+
+ChatGPT a dit :
+Voici le régime obligatoire (RO) de rattachement des psychologues en France, de façon claire et professionnelle :
+
+Régime obligatoire des psychologues
+1. Psychologue libéral (exercice indépendant)
+Le psychologue libéral relève du régime des Travailleurs Non Salariés non agricoles.
+
+Il est affilié :
+
+à la Sécurité sociale des indépendants, intégrée au régime général,
+
+pour l’assurance maladie-maternité, les indemnités journalières, l’invalidité-décès,
+
+pour la retraite de base et complémentaire.
+
+Les cotisations sociales sont calculées sur le bénéfice professionnel.
+
+2. Psychologue salarié (hôpital, clinique, établissement médico-social, entreprise, éducation nationale, etc.)
+Le psychologue salarié relève du Régime Général de la Sécurité sociale :
+
+CPAM pour l’assurance maladie,
+
+Caisse de retraite du Régime Général,
+
+Régime de retraite complémentaire des salariés.
+
+3. Psychologue fonctionnaire hospitalier ou territorial
+Il relève :
+
+du Régime Général pour l’assurance maladie,
+
+et du régime spécial de retraite de la Fonction Publique.
+
+Point important
+Le régime obligatoire dépend exclusivement du mode d’exercice, et non du diplôme :
+
+Libéral = Travailleur non salarié,
+
+Salarié = Régime Général,
+
+Fonctionnaire = Régime Général + retraite Fonction Publique.
+
+Si vous le souhaitez, je peux aussi vous détailler :
+
+les conséquences en matière de prévoyance (accident, arrêt de travail, invalidité),
+
+ou vous faire un comparatif chiffré entre psychologue salarié et libéral.
+
+
+Vous avez dit :
+continue ce mail et lui expliquant a quoi sert simplement ses contrats et rappel lui aussi qu'on lui propose un audit de sa mutuelle. Il lui suffis de nous envoyer le tableaux de ses garanties et ses besoins par exemple optique dentaire et c: Bonjour Monsieur,
+Suite à notre appel téléphonique, vous trouverez joint a ce mail vos contrat concernant vos deux contrats:
+
+-Votre contrat Obsèque 
+
+
+-Votre contrat Garanties accident de la vie 
+
+ChatGPT a dit :
+Objet : Transmission de vos contrats et proposition d’audit de votre complémentaire santé
+
+Bonjour Monsieur,
+
+Suite à notre appel téléphonique, vous trouverez joint à ce mail vos contrats concernant vos deux couvertures :
+
+Votre contrat Obsèques, destiné à anticiper et financer les prestations liées à vos funérailles, afin de soulager vos proches de toute charge financière et organisationnelle le moment venu.
+
+Votre contrat Garantie des Accidents de la Vie, qui vous protège ainsi que votre famille en cas d’accident de la vie quotidienne (accident domestique, chute, blessure, etc.), avec le versement d’indemnités en cas d’invalidité ou de préjudice corporel.
+
+Par ailleurs, comme évoqué ensemble, nous vous proposons également de réaliser un audit gratuit de votre complémentaire santé, afin de vérifier l’adéquation de vos garanties avec vos besoins actuels.
+
+Pour cela, il vous suffit de nous transmettre :
+
+le tableau de vos garanties actuelles,
+
+ainsi que vos principaux besoins, par exemple en optique, dentaire, hospitalisation et soins courants.
+
+À réception de ces éléments, nous procéderons à l’analyse et reviendrons vers vous avec nos préconisations.
+
+Je reste bien entendu à votre disposition pour toute information complémentaire.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+peux tu modificier ce mail & destination de sa femme. Elle a en plus un contrat IJ hospitalisation 
+
+ChatGPT a dit :
+Objet : Transmission de vos contrats et proposition d’audit de votre complémentaire santé
+
+Bonjour Madame,
+
+Suite à notre échange téléphonique, vous trouverez joint à ce mail l’ensemble de vos contrats en cours, à savoir :
+
+Votre contrat Obsèques, qui permet d’anticiper et de financer les prestations liées à vos funérailles, afin de préserver vos proches de toute charge financière et organisationnelle le moment venu.
+
+Votre contrat Garantie des Accidents de la Vie, qui vous protège en cas d’accident de la vie quotidienne (accident domestique, chute, blessure, etc.), avec une indemnisation prévue en cas de préjudice corporel ou d’invalidité.
+
+Votre contrat Indemnités Journalières en cas d’Hospitalisation, qui vous permet de percevoir un revenu de remplacement pendant la durée de votre hospitalisation, afin de compenser la perte de revenus et faire face aux charges courantes.
+
+Comme évoqué ensemble, nous vous proposons également de réaliser un audit gratuit de votre complémentaire santé, afin de vérifier l’adéquation de vos garanties avec vos besoins actuels.
+
+Pour cela, il vous suffit de nous transmettre :
+
+le tableau de vos garanties actuelles,
+
+ainsi que vos principaux besoins, notamment en optique, dentaire, hospitalisation et soins courants.
+
+À réception de ces éléments, nous procéderons à l’analyse complète de votre situation et reviendrons vers vous avec nos préconisations.
+
+Je reste bien entendu à votre disposition pour toute information complémentaire.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+reformule ce message pour un connard de client: Bonjour Monsieur,
+Après avoir demandé une résiliation a la compagnie, celle-ci a été refusé par manque de justificatf cocnernat votre fésidence hors teritoire français comme évoqué dans mon dernier mail. 
+La derniere solution envisageable est que vous demandiez sous fromat ecris une résiliation Infra Annuelle a adresser a la compagnie. 
+Sans demande de résiliation , vous resterez redevable des cotisations en impayé qui vont s'accumuler 
+
+ChatGPT a dit :
+Objet : Refus de résiliation et démarches impératives à effectuer
+
+Bonjour Monsieur,
+
+Malgré la demande de résiliation transmise à la compagnie d’assurance, celle-ci a été formellement refusée en l’absence de justificatif attestant de votre résidence hors territoire français, conformément à ce qui vous a déjà été indiqué dans mon précédent message.
+
+À ce jour, la seule solution encore envisageable consiste à effectuer une demande de résiliation infra-annuelle par écrit, directement adressée à la compagnie.
+
+Je vous précise très clairement que, sans réception d’une demande de résiliation conforme, votre contrat demeure pleinement actif et les cotisations impayées continueront de s’accumuler, vous restant intégralement dues.
+
+Je vous invite donc à procéder à cette démarche sans délai, afin d’éviter toute aggravation de votre situation.
+
+Cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+fait moi un rapport d'activité stp : [PERSONNE_047]: suivi courrier 
+[PERSONNE_010]: suivi devis 
+[PERSONNE_001]: suivi résiliation + appel SP vie 
+[PERSONNE_021]: relance grc 
+[PERSONNE_022]: relance tel 
+[PERSONNE_048]: téléphone
+[PERSONNE_037]: suivi GRC 
+[PERSONNE_005]: relance GRC + mail en GED 
+[PERSONNE_019]: classement mail 
+[PERSONNE_018] tel + mail + contrat en GED 
+Tel [PERSONNE_107] 14 minutes  GED 
+Mail [PERSONNE_087] 
+[PERSONNE_026] : suivi résiliation 
+[PERSONNE_077]: reponse email 
+ 
+
+ChatGPT a dit :
+Rappel appel manqué : —
+
+[PERSONNE_047] : suivi courrier
+[PERSONNE_010] : suivi devis
+[PERSONNE_001] : suivi résiliation, Appel SP Vie
+[PERSONNE_021] : relance GRC
+[PERSONNE_022] : relance téléphone
+[PERSONNE_036] : Appel [PERSONNE_096], durée non précisée
+[PERSONNE_037] : suivi GRC
+[PERSONNE_005] : relance GRC, mail en GED
+[PERSONNE_041] : classement mail
+[PERSONNE_018] : Appel [PERSONNE_098], durée non précisée, mail, contrat en GED
+[PERSONNE_107] : Appel [PERSONNE_107], 14 minutes, GED
+[PERSONNE_087] : mail
+[PERSONNE_011] : suivi résiliation
+[PERSONNE_077] : réponse email
+
+
+Vous avez dit :
+reformule ce mail. Le but est d'expliquer les contrats a quelqun qui ni connait pas grand chose en assurance prévoyance : Bonjour [PERSONNE_112], 
+
+Nous avons trouvé deux solutions avec différentes protection pour ton client. 
+Avant tout nous avons approximativement estimé que ses revenus en tant que TNS sont aux alentours de 2 000€ mensuelle. 
+Le contrat est assez léger puisque ton client n’a pas de conjoint ni d’enfants donc la protection en cas de décès est moins prioritaire. 
+Les franchise sont plutot courte, je te les ai détaillé ci dessous. Si ton client a assez d’épargne de coté pour qu’il puisse palier a ses revenus TNS pendant + d’un mois, on peut allonger la franchise pour réduire le tarif de la cotisation. Après le but est de mettre en place un contrat qui vient couvrir l’arrêt de travail, donc selon moi je l’aiderais cette franchise la. Après tu as ce lever la si il trouve le Tarif trop excessif. 
+Bien évidement chaque point est modulable est nous pouvons faire une V2 avec les attentes de ton client etc. 
+
+
+April
+Franchise: 30/03/03. La prévoyance se déclenche a partir du 31 eme jours de maladie, du 3 eme jours d’hospitalisation et du 3 eme jours d’accident. 
+Capital décès de 72 000€
+66€ d’indemnité journalière: mettre a quoi ca sert 
+2 000€ de rente mensuelle en cas d’invalidité; a partir d’une invalidité de 33%
+Cotisations: 182 €
+
+UNIM:
+Franchise 30/0/05. La prévoyance se déclenche a partir du 31 eme jours de maladie, du 1er  jours d’hospitalisation et du 5 eme jours d’accident.
+Capital décès de 45 000€
+21 900€ annuel en cas d’invalidité permanente total qui se déclenche a partir de 10% de taux d’invalidité. C’est le taux le plus bas du marché de la prévoyance, donc c’est une belle couverture; 
+141€ de cotisation mensuelle
+60€ d’indemnité journalière: mettre a quoi ca sert 
+Nous avons ajouté aucune garantie optionnelle puisque au vu de son activité en parti salariale, il a une protection qui lui ai deja apporté.   
+
+Tu trouveras joins a ce mail les documents pour chaque proposition. Je reste disponible pour toute informations. 
+
+ChatGPT a dit :
+Objet : Présentation simple des 2 solutions de prévoyance pour votre client
+
+Bonjour [PERSONNE_112],
+
+Nous avons sélectionné deux solutions de prévoyance pour ton client, avec des niveaux de protection différents.
+Pour poser le cadre simplement, nous avons estimé ses revenus de Travailleur Non Salarié à environ 2000€ par mois.
+
+Ton client étant célibataire et sans enfant, la garantie en cas de décès est moins prioritaire que la protection en cas d’arrêt de travail ou d’invalidité. L’objectif principal de ces contrats est donc de maintenir un revenu s’il ne peut plus travailler.
+
+Les franchises correspondent au nombre de jours pendant lesquels l’assuré ne perçoit rien après un arrêt de travail. Plus la franchise est courte, plus l’indemnisation est rapide, mais plus la cotisation est élevée.
+Si ton client dispose d’une épargne suffisante pour couvrir plus d’un mois sans revenu, il est possible d’allonger la franchise afin de réduire le coût du contrat. Tout cela reste bien entendu entièrement modulable et nous pourrons ajuster les garanties dans une version V2 selon ses besoins.
+
+1. Solution APRIL
+Franchise 30/03/03
+Cela signifie que :
+
+l’indemnisation débute après 30 jours en cas de maladie,
+
+après 3 jours en cas d’hospitalisation,
+
+après 3 jours en cas d’accident.
+
+Capital décès : 72000€
+Montant versé aux bénéficiaires en cas de décès.
+
+Indemnités journalières : 66€ par jour
+C’est le montant versé chaque jour d’arrêt de travail, pour compenser la perte de revenus.
+
+Rente d’invalidité : 2000€ par mois
+Versée à partir d’un taux d’invalidité de 33%, si la personne ne peut plus travailler normalement sur le long terme.
+
+Cotisation mensuelle : 182€
+
+2. Solution UNIM
+Franchise 30/0/05
+Cela signifie que :
+
+l’indemnisation débute après 30 jours en cas de maladie,
+
+dès le 1er jour en cas d’hospitalisation,
+
+après 5 jours en cas d’accident.
+
+Capital décès : 45000€
+
+Indemnisation en cas d’invalidité permanente totale : 21900€ par an
+Cette garantie se déclenche dès 10% d’invalidité, ce qui est l’un des seuils les plus bas du marché et constitue donc une très bonne protection.
+
+Indemnités journalières : 60€ par jour
+Somme versée pendant les arrêts de travail pour remplacer les revenus.
+
+Cotisation mensuelle : 141€
+
+Aucune garantie optionnelle n’a été ajoutée volontairement, car son activité salariée lui apporte déjà une première protection de base. L’objectif est donc de compléter intelligemment sans surprotéger inutilement.
+
+Tu trouveras en pièces jointes les documents détaillés pour chaque proposition.
+Je reste bien entendu disponible pour toute question ou pour ajuster l’offre selon les attentes précises de ton client.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+répond a ce mail, dis lui que le contrat ets en cours, que sa maman sera prelevé en janvier de la cotisation de l'année 2026 . tu lui dis aussi que ca te ferais palisir de lui opffrir une audit de son assurance santé pour elle et sa maman et tu lui demandes les docs : madame,
+
+je vous contacte pour savoir comment doit se passer l'adhésion LTOA 2026 pour ma mère [PERSONNE_053] car pour 2025 les choses avaient été un peu nouvelles et je voudrais avoir les informations pour la prochaine année
+
+en vous remerciant pour votre retour
+
+cordialement
+
+[PERSONNE_060]
+
+ChatGPT a dit :
+Objet : Adhésion 2026 de votre maman et proposition d’audit santé
+
+Madame,
+
+Je vous remercie pour votre message.
+
+Je vous confirme que le contrat de votre maman, Madame [PERSONNE_053], est bien en cours. La cotisation relative à l’année 2026 sera prélevée automatiquement au mois de janvier, comme pour l’année précédente. Vous n’aurez donc aucune démarche particulière à effectuer pour le renouvellement.
+
+Par ailleurs, il me ferait plaisir de vous proposer un audit complet de votre assurance santé, pour vous et pour votre maman, afin de vérifier que vos garanties correspondent bien à vos besoins actuels (optique, dentaire, hospitalisation, soins courants, etc.).
+
+Pour cela, vous pouvez simplement nous transmettre, pour chacune de vous :
+
+le tableau de garanties de votre complémentaire santé actuelle,
+
+l’attestation ou carte de mutuelle,
+
+vos principaux besoins (par exemple : lunettes, soins dentaires, suivi spécifique, niveau de prise en charge souhaité).
+
+À réception de ces éléments, nous analyserons votre situation et je reviendrai vers vous avec un retour clair et personnalisé.
+
+Je reste bien entendu à votre disposition pour toute précision complémentaire.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+fait moi un mail pour une cliente pour recollecté son nouveau numéro de téléphone et sa nouvelle adresse parce qu'on arrive plus a la joindre et aussi l'informer que la compagnie April vas la résilier si elle ne paie pas sa cotisation 
+
+ChatGPT a dit :
+Objet : Mise à jour urgente de vos coordonnées et situation de votre contrat APRIL
+
+Madame,
+
+Nous tentons de vous joindre à plusieurs reprises par téléphone et par courriel, sans succès à ce jour. Afin de pouvoir assurer le bon suivi de votre dossier, nous vous remercions de bien vouloir nous transmettre dans les meilleurs délais :
+
+votre nouveau numéro de téléphone,
+
+votre nouvelle adresse postale complète.
+
+Par ailleurs, nous vous informons que la compagnie APRIL nous a signalé une situation d’impayé concernant votre cotisation. À défaut de régularisation rapide, la compagnie procédera à la résiliation de votre contrat, conformément aux conditions contractuelles.
+
+Cette résiliation entraînerait la perte immédiate de vos garanties, sans possibilité de maintien rétroactif.
+
+Nous vous invitons donc à nous contacter en urgence afin de régulariser votre situation et d’éviter toute rupture de couverture.
+
+Nous restons à votre disposition pour toute information complémentaire.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+répond a ce mail -, demande lui une preuve qu'il ne réside plus en france en nous précisant la date de son départ, comme ca nous pourrons résilier le contrat. Il doit comprenfre qu'on est de son coté : Je ne comprend pas ce que vous dites ,mais mois je ,e trouve à l'impuissance de continué à payer
+Cordialement
+[PERSONNE_049] 
+
+ChatGPT a dit :
+Objet : Résiliation de votre contrat – informations nécessaires
+
+Bonjour Monsieur [PERSONNE_049],
+
+Je comprends parfaitement votre situation et le fait que vous ne puissiez plus continuer à payer. De notre côté, nous essayons justement de trouver une solution pour vous aider à faire résilier le contrat dans les règles.
+
+Pour que nous puissions demander la résiliation à la compagnie, il nous faut une preuve que vous ne résidez plus en France, ainsi que la date de votre départ.
+
+Par exemple, vous pouvez nous envoyer (au choix) :
+
+une attestation de résidence dans votre nouveau pays,
+
+un contrat de travail à l’étranger,
+
+un justificatif de domicile à l’étranger (facture d’électricité, de téléphone, etc.),
+
+ou tout document officiel indiquant que vous vivez désormais hors de France.
+
+Dès que nous aurons ce document et la date de votre départ, nous pourrons transmettre une demande de résiliation à la compagnie en expliquant votre situation.
+
+N’hésitez pas à me répondre simplement avec le document en pièce jointe, je m’occupe du reste pour vous.
+
+Cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+répond a ce mail : Bonjour,
+
+ 
+
+Nous souhaitons régler par virement, toutefois, nous n’avons pas le RIB … vous est-il possible de nous en communiquer un afin que nous puissions procéder au règlement ?
+
+ 
+
+Cordialement,
+
+ChatGPT a dit :
+Objet : Transmission de notre RIB pour règlement par virement
+
+Bonjour,
+
+Merci pour votre message.
+
+Vous trouverez ci-joint notre relevé d’identité bancaire (RIB) afin que vous puissiez procéder au règlement par virement.
+Merci d’indiquer en référence de votre virement le numéro de contrat ou, à défaut, vos nom et prénom, afin de faciliter l’imputation de votre paiement.
+
+Je reste à votre disposition si besoin.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+repond a cet email : Bonjour, 
+
+Étant donné qu’il y a un grand nombre de pages (13 pages), j’ai des difficultés à vous les renvoyer par email : je ne peux pas les scanner et, en photo, les pages ne passent pas correctement en entier.
+
+Pourriez-vous s’il vous plaît me communiquer votre adresse postale afin que je puisse vous retourner l’ensemble des documents signés par courrier recommandé ? 
+
+Je vous ai déjà envoyé l’ensemble des documents par courrier simple, mais vous ne les avez pas reçus. Cette fois, je souhaite vous les envoyer par courrier recommandé afin de garantir leur bonne réception. 
+
+Je reste à votre disposition pour toute information complémentaire.
+
+ChatGPT a dit :
+Objet : Transmission de notre adresse postale pour l’envoi des documents
+
+Bonjour,
+
+Nous vous remercions pour votre message ainsi que pour votre diligence.
+
+Vous pouvez nous adresser l’ensemble des documents signés par courrier recommandé à l’adresse postale suivante :
+
+LTOA Assurances
+[Adresse du cabinet]
+[Code postal] [Ville]
+
+Nous vous remercions pour l’envoi en recommandé, qui permettra en effet d’en garantir la bonne réception.
+
+À toutes fins utiles, si cela peut vous simplifier la démarche, vous avez également la possibilité de nous transmettre les documents sous format PDF via une application de scan sur téléphone portable. Les photographies sont acceptées dès lors que chaque page est lisible et complète.
+
+Nous restons bien entendu à votre disposition pour toute information complémentaire.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+ok en faite suite a cette email je viens a l'instant de recvpoir le premier courrier de la cliente peut tu lmui faire un email recapitulatof 
+
+ChatGPT a dit :
+Objet : Bonne réception de votre courrier et suite du dossier
+
+Bonjour,
+
+Suite à notre précédent échange, je vous confirme avoir bien reçu ce jour le premier courrier que vous nous aviez adressé en envoi simple. Je vous en remercie.
+
+Nous procédons actuellement à la vérification complète des documents reçus. Si certaines pièces devaient encore manquer ou nécessiter un complément, nous ne manquerons pas de revenir vers vous rapidement.
+
+Dès lors, l’envoi en courrier recommandé n’est plus nécessaire à ce stade, sauf indication contraire de notre part après contrôle du dossier.
+
+Je reste bien entendu à votre disposition pour toute information complémentaire et je vous tiendrai informée de l’avancement.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+non fait un truc plus sympa 
+
+ChatGPT a dit :
+Objet : Bonne réception de votre courrier 😊
+
+Bonjour,
+
+Je reviens vers vous pour vous confirmer que nous venons de recevoir votre premier courrier envoyé en lettre simple. Tout est bien arrivé cette fois-ci, je vous remercie pour votre envoi et votre réactivité.
+
+Nous allons procéder à la vérification complète des documents dans les plus brefs délais. Si jamais un élément devait manquer ou nécessiter un complément, je reviendrai vers vous rapidement.
+
+De ce fait, l’envoi en courrier recommandé n’est plus nécessaire pour le moment.
+
+Encore merci pour votre suivi, et je reste bien entendu à votre disposition pour toute question.
+
+Bien cordialement,
+[PERSONNE_054]
+
+Après vérification des certificats d’adhésion, j’ai constaté plusieurs erreurs que je vous remercie de bien vouloir corriger.
+
+Concernant le dossier de [PERSONNE_012], né le [DATE_NAISSANCE], bénéficiaire du contrat de Madame [PERSONNE_052] :
+Il apparaît que le bénéficiaire indiqué est son fils, portant le même nom, né en [MOIS_ANNEE_NAISSANCE].
+Merci de bien vouloir rectifier l’attestation et d’y faire figurer correctement Madame [PERSONNE_052] et son époux [PERSONNE_012].
+
+Concernant Madame [PERSONNE_020] :
+Elle est assurée en individuel. Toutefois, l’attestation figurant dans sa fiche client sur l’extranet est celle de [PERSONNE_046], ce qui est incorrect.
+Madame [PERSONNE_046] doit apparaître en tant que bénéficiaire du contrat de Monsieur [PERSONNE_040], son conjoint.
+Merci donc de corriger l’attestation de Madame [PERSONNE_020], qui doit apparaître uniquement en individuel.
+
+Je vous remercie par avance pour votre diligence et reste à votre disposition pour toute précision complémentaire.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+
+Bonjour Monsieur [PERSONNE_078]; 
+Suite a notre conversation téléphonique je vous remercie par retour d'email de me confirmer la volonté de résilier votre contrat APril n° [TELEPHONE_OU_ID]. 
+La résiliation interviendra a l'échéance annuel du contrat
+
+ChatGPT a dit :
+Voici une version formelle, propre et conforme à vos règles :
+
+Objet : Confirmation de résiliation – Contrat APRIL n°[TELEPHONE_OU_ID]
+
+Bonjour Monsieur [PERSONNE_078],
+
+Suite à notre conversation téléphonique, je vous remercie de bien vouloir me confirmer par retour d’e-mail votre volonté de résilier votre contrat APRIL n°[TELEPHONE_OU_ID].
+
+La résiliation interviendra à l’échéance annuelle du contrat.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour,
+Vous trouverez lesq échanges avec noyre client qui souhaite résilier son contrat suite a son déoart de la france. 
+
+ChatGPT a dit :
+Voici une version corrigée, formelle et conforme à vos règles :
+
+Bonjour,
+
+Vous trouverez ci-joint les échanges avec notre client, qui souhaite résilier son contrat suite à son départ de la France.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+complete le mail stp 
+
+ChatGPT a dit :
+Voici une version complète, formelle et professionnelle, conforme à vos règles :
+
+Objet : Transmission des échanges – Demande de résiliation pour départ de France
+
+Bonjour,
+
+Vous trouverez ci-joint les échanges avec notre client, qui souhaite résilier son contrat suite à son départ de la France.
+
+Nous vous remercions de bien vouloir prendre en compte sa demande et de procéder à la résiliation conformément aux conditions contractuelles applicables.
+Merci également de nous tenir informés dès que la résiliation aura été enregistrée.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+complete le mail: Bonjour, 
+
+
+Nous avons eu un retour de la compagnie qui nous confirmze la résiliation des trois contrats au 31/12/2025. 
+
+ChatGPT a dit :
+Voici une version complète, formelle et conforme à vos règles :
+
+Objet : Confirmation des résiliations au 31/12/2025
+
+Bonjour,
+
+Nous avons eu un retour de la compagnie, qui nous confirme la résiliation des trois contrats à la date du 31/12/2025.
+
+Nous restons à votre disposition pour toute information complémentaire et vous remercions de bien vouloir nous tenir informés une fois les opérations finalisées.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+ajoute un rebond commercial sur l'assurance santé stp 
+
+ChatGPT a dit :
+Voici une version complète incluant un rebond commercial sur l’assurance santé, tout en restant formelle et professionnelle :
+
+Objet : Confirmation des résiliations au 31/12/2025
+
+Bonjour,
+
+Nous avons eu un retour de la compagnie, qui nous confirme la résiliation des trois contrats à la date du 31/12/2025.
+
+Par ailleurs, si vous ou l’un des assurés concernés souhaitez bénéficier d’une étude personnalisée pour une assurance santé, je peux vous proposer gratuitement une analyse comparative des garanties et des tarifs disponibles sur le marché.
+Cette étude permet généralement d’optimiser les coûts tout en améliorant le niveau de couverture.
+
+N’hésitez pas à me solliciter si vous souhaitez que je vous prépare une proposition adaptée.
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour suite a ma tentative d'papelle je me permets de vous crire afni de faie suite  a lecyhange que vous avez eu avec mon collegue fin de semaine derniere concenrant nos acdes a mlextranet qui nefcontionne plus. vous lui aviez informé la necessité de créer plusieurs profils de cnnexion. j evous laisse rveenir ver smoi cdt
+[PERSONNE_100]
+
+ChatGPT a dit :
+Objet : Difficultés d’accès à l’extranet – création de profils de connexion
+
+Bonjour,
+
+Suite à ma tentative d’appel, je me permets de vous écrire afin de faire suite à l’échange que vous avez eu avec mon collègue en fin de semaine dernière concernant nos accès à l’extranet, qui ne fonctionnent plus.
+
+Vous lui aviez indiqué la nécessité de créer plusieurs profils de connexion. Pourriez-vous, s’il vous plaît, revenir vers moi afin de m’indiquer la marche à suivre et procéder à la création de ces accès ?
+
+Je reste à votre disposition pour toute information complémentaire.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour mme [PERSONNE_062], je me permets de vous contacter concernant une offre itneressant epour votre fille, [PERSONNE_088].
+
+En effet, la cnie Maxance chez qui votre fille ets actuellemetn asurée pour sa Dacia d'un motnant de 96.58/mois.
+
+En effet, a la souscirtpion d'un conteat d'assurance garantie accidnt de la vie (que vous toruverez en pj) garantissant des 1% d'invalidité pour un mondant indemnitaire d'un plafond de 1M€. le montant mensuel de ce contrat est de 14.01€, mais la souscirptiond e ce contrat, permet une reuduction du cout total qui pour ces contrats mme paiera 79.73€ pour le contrat auto cumulé au contrat gav. a savoir que la refonte (reduction) auto n'est valabe qu epour souscirption de la gav
+
+ChatGPT a dit :
+
+Réflexion durant 21s
+Objet : Proposition d’optimisation du contrat auto d’[PERSONNE_088] avec garantie des accidents de la vie
+
+Bonjour Madame [PERSONNE_062],
+
+Je me permets de vous contacter concernant une opportunité intéressante pour le contrat d’assurance automobile de votre fille [PERSONNE_088].
+
+Actuellement, [PERSONNE_088] est assurée pour sa Dacia auprès de la compagnie d’assurance Maxance, pour une cotisation mensuelle de 96.58€/mois.
+
+Nous avons la possibilité de mettre en place, en complément, un contrat de garantie des accidents de la vie (dont vous trouverez la proposition en pièce jointe), qui indemnise dès 1 % d’invalidité, avec un plafond d’indemnisation pouvant aller jusqu’à 1M€. Le montant mensuel de ce contrat est de 14.01€.
+
+L’intérêt de cette solution réside dans le fait que la souscription de ce contrat de garantie des accidents de la vie permet une réduction du coût global :
+
+au lieu de 96.58€/mois pour l’assurance auto seule,
+
+le total « assurance auto + garantie des accidents de la vie » reviendrait à 79.73€/mois.
+
+Autrement dit, [PERSONNE_088] bénéficierait à la fois d’une meilleure protection (avec une garantie des accidents de la vie dédiée) et d’une économie de 16.85€/mois par rapport à la situation actuelle.
+À noter que la refonte tarifaire de l’assurance automobile n’est possible que dans le cadre de la souscription simultanée du contrat de garantie des accidents de la vie.
+
+Je reste bien entendu à votre disposition pour vous détailler les garanties et répondre à vos questions, par téléphone ou par mail, selon ce qui vous conviendra le mieux.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Nous avons la possibilité de mettre en place, en complément, un contrat de garantie des accidents de la vie (dont vous trouverez la proposition en pièce jointe), qui indemnise dès 1 % d’invalidité, avec un plafond d’indemnisation pouvant aller jusqu’à 1M€. Le montant mensuel de ce contrat est de 14.01€. dans ce pavé expliqueb bireveetn en quoi consiste une gav. succint clair et simple
+
+ChatGPT a dit :
+Vous pouvez remplacer le passage par ceci :
+
+Nous avons la possibilité de mettre en place, en complément, un contrat de garantie des accidents de la vie, qui couvre les accidents de la vie quotidienne (chute, accident domestique, loisirs, etc.) et verse une indemnisation dès 1 % d’invalidité, avec un plafond pouvant aller jusqu’à 1M€. Le montant mensuel de ce contrat est de 14.01€.
+
+
+Vous avez dit :
+Bonjour Madame,
+
+Sutie à notre echange vocal, je vous ai transmis le novueau devis par signatrue elctronique que je vuous adress egalement dans cet email en pj pour copei.
+
+je vous conrfirme le montant de la cotisation de 158€ pou l'année 20225-2026, et que le montant  de 3200€  reste largement suffisant pour la prise en charge des frais de rapatriement à la condition qu ela pompe funebr joue le jeu et n'abuse pas su rle prix des demarche,s mais c rareent le cas je vs rassure;
+
+je vous laisse signer le docuent et proceder a relgement de la cotisation, une fois effectué merci d eme le dire
+
+[PERSONNE_100]
+
+ChatGPT a dit :
+Objet : Validation du devis d’assistance rapatriement
+
+Bonjour Madame,
+
+Suite à notre échange téléphonique, je vous confirme vous avoir adressé le nouveau devis par signature électronique. Vous le trouverez également en pièce jointe au présent courriel, pour conservation.
+
+Je vous confirme que le montant de la cotisation s’élève à 158€ pour la période 2025-2026.
+
+Le capital de 3200€ prévu pour la prise en charge des frais de rapatriement est, en règle générale, suffisant pour couvrir l’ensemble des coûts, dès lors que l’opérateur funéraire applique des tarifs habituels et raisonnables. Les situations d’abus restent heureusement exceptionnelles, je tiens à vous rassurer sur ce point.
+
+Je vous laisse procéder à la signature du document ainsi qu’au règlement de la cotisation par le moyen de paiement qui vous conviendra le mieux. Une fois le règlement effectué, merci de bien vouloir m’en informer afin que je puisse finaliser la mise en place de votre contrat.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour Madame,
+
+Bien sur vous toruverez ci joint la proposition de mONSIEUR  [PERSONNE_083] avec l'infrmatiosur la pays de naissanc rrectifié.
+
+je vous prie de bne vouloir me trnamsettre mla cni de monseur;
+
+cordialemrn
+
+
+[PERSONNE_100]
+
+ChatGPT a dit :
+Objet : Proposition rectifiée – demande de pièce complémentaire
+
+Bonjour Madame,
+
+Bien sûr, vous trouverez en pièce jointe la proposition de Monsieur [PERSONNE_083], avec l’information relative au pays de naissance dûment corrigée.
+
+Je vous prie de bien vouloir me transmettre la carte nationale d’identité de Monsieur, afin que je puisse finaliser son dossier.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour Madame,
+
+Je reviens vers vous adfin de vous tenir informée que nous contunions ede relancer le service sinitre frequemment afin d'obtenir un retour rapide de la pris ene carge du billet d'avion transmis.
+
+Bien cordialemnt, sollciite la patiente, nous al tiendrons ifnormée
+
+ChatGPT a dit :
+Objet : Suivi de votre demande de prise en charge
+
+Bonjour Madame,
+
+Je reviens vers vous afin de vous informer que nous continuons de relancer régulièrement le service sinistres afin d’obtenir un retour rapide concernant la prise en charge du billet d’avion transmis.
+
+Nous sollicitons votre patience le temps d’obtenir leur réponse définitive et ne manquerons pas de vous tenir informée dès que nous aurons un retour de leur part.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjoru [PERSONNE_087] merci pour votre retoru. helas apres veirication toujours rien.
+
+j'aiprit pour exemple Moinsueur et Madame [PERSONNE_070], qui sont su rle meme cnitrat fmaille mais Touzeur n'apparait nulpart. vous pouvez le sprendre poru test ealement de votre coté.
+
+bien cordalùee,t
+[PERSONNE_093]
+
+ChatGPT a dit :
+Objet : Absence persistante de données sur l’extranet
+
+Bonjour [PERSONNE_087],
+
+Merci pour votre retour.
+
+Hélas, après vérification, aucune évolution : l’information n’apparaît toujours pas.
+
+À titre d’exemple, Monsieur et Madame [PERSONNE_070] sont également sur le même contrat familial, mais Touzeur n’apparaît nulle part. Vous pouvez vous appuyer sur cet exemple pour vos tests de votre côté.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour Monsieur [PERSONNE_024],
+
+Suite à notre échange, je tiens tout d’abord à vous remercier pour la confiance que vous accordez à LTOA Assurances.
+
+Afin de pouvoir vous adresser immédiatement votre proposition, j’ai utilisé pour le moment l’adresse de Monsieur [PERSONNE_083]. Il ne faudra pas vous inquiéter si ce n’est pas la bonne, nous la modifierons dès que vous nous communiquerez l’adresse exacte.
+
+J’ai le plaisir de vous présenter une solution parfaitement adaptée au Maroc, que nous avons sélectionnée après analyse de l’ensemble des offres disponibles sur le marché. En tant que cabinet de courtage indépendant, nous travaillons avec plusieurs partenaires capables d’assurer une couverture solide, simple et durable.
+
+Votre proposition
+
+La cotisation s’élève à 121€ la première année, puis 101€ les années suivantes.Par souci de transparence, et puisque ce point n’avait pas été évoqué lors de notre échange téléphonique, je souhaite le préciser par écrit : des frais d’adhésion de 20€ sont appliqués une seule fois par la compagnie. Ils figurent bien sur la proposition, mais je préfère vous en rappeler l’existence afin que tous les éléments tarifaires soient parfaitement clairs dès le départ. Ce fonctionnement est identique à celui constaté sur la proposition REPAM de Monsieur [PERSONNE_083].
+
+Une protection complète pour le Maroc
+
+La solution proposée (Pack Obsèques Sérénité – ECA Assurances) vous garantit notamment :
+
+Une prise en charge intégrale aux frais réels du rapatriement vers le Maroc, sans plafond et sans avance de frais.
+
+Le transport local au Maroc jusqu’à 800€ TTC (de l’aéroport jusqu’au lieu d’inhumation).
+
+La couverture des frais annexes (cercueil conforme aux normes internationales, démarches administratives, soins de conservation).
+
+Un accompagnement administratif dédié pour vos proches.
+
+La prise en charge d’un billet d’avion pour un accompagnateur.
+
+Un soutien psychologique (jusqu’à 300€).
+
+Les points importants
+
+Protection immédiate en cas d’accident.
+
+Carence de 9 mois uniquement en cas de décès suite à maladie.
+
+Assistance disponible 24h/24 et 7j/7.
+
+En tant que courtier totalement indépendant, nous pouvons également vous accompagner pour l’ensemble de vos autres besoins (santé, habitation, automobile, prévoyance…).
+
+Je reste bien entendu à votre entière disposition pour tout complément d’information ou pour finaliser votre adhésion.
+
+Dans l’attente de votre retour,
+
+Bien cordialement,
+[PERSONNE_054]
+
+ relance simpmle points essneitels seuleùe,nt
+
+ChatGPT a dit :
+Objet : Relance concernant votre proposition d’assurance rapatriement
+
+Bonjour Monsieur [PERSONNE_024],
+
+Je me permets de revenir vers vous concernant la proposition d’assurance que je vous ai adressée.
+
+Pour rappel, la solution proposée présente les points essentiels suivants :
+
+• Cotisation : 121€ la première année, puis 101€ les années suivantes,
+• Frais d’adhésion uniques : 20€,
+• Prise en charge intégrale du rapatriement vers le Maroc, sans plafond,
+• Transport local au Maroc jusqu’à 800€,
+• Billet d’avion pour un accompagnateur,
+• Assistance 24h/24 et 7j/7.
+
+N’hésitez pas à me confirmer votre accord ou à me contacter si vous souhaitez davantage de précisions.
+
+Dans l’attente de votre retour,
+
+Bien cordialement,
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour,
+
+veuillez trouver ci joint la porposition signé par monseur.
+
+coridlament,
+
+ChatGPT a dit :
+Objet : Transmission de la proposition signée
+
+Bonjour,
+
+Veuillez trouver ci-joint la proposition signée par Monsieur.
+
+Cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour Monsieur [PERSONNE_066],
+
+je reviens vers vouq concernant le sporposition d'assurances auto pour le toyota et la fiat, ains_iqueque votre moto et votre phabitation non occupant. n'yavant pas toruvé d" solution compettitive pour votre habitation.
+
+Vous trouverez ci apres le dteail des cotisation et des agranties de chaque porpositon avec leur motant et ne pj les doucents liées à chaque porpositions.
+
+
+concernant votre toyota CHR, la cotisation est de 58€ par mois pour des garanties : 
+
+
+Garantie du conducteur jusqu’à 500000€
+
+Bris de glace (pare-brise, vitres, toit vitré, blocs optiques avant)
+
+Vol, incendie, événements climatiques, attentat, vandalisme, dommages tous accidents
+
+Catastrophes naturelles et catastrophes technologiques
+
+Assistance 24h/24, 7j/7, sans franchise kilométrique, y compris en cas de panne
+
+Franchises applicables :
+
+Responsabilité civile automobile : aucune franchise
+
+Responsabilité civile pour préjudice écologique : aucune franchise
+
+Responsabilité civile fonctionnement : 500€ hors dommages corporels
+
+Garantie du conducteur : franchise de 10% uniquement sur le déficit fonctionnel permanent
+
+Bris de glace : aucune franchise
+
+Vol, incendie, événements climatiques, attentat, dommages tous accidents, vandalisme : 190€+10% du montant des dommages (franchise totale maximale 445€)
+
+Catastrophe naturelle : franchise fixée par arrêté ministériel
+
+Catastrophe technologique : aucune franchise
+
+la conduite accompanée etant incluse dans l'offre.
+
+
+ 
+
+concernant la fiat, cotisation : 37 garanties : 
+
+
+Garantie du conducteur jusqu’à 250000€
+
+Assistance dépannage et remorquage 24h/24, 7j/7
+
+Bris de glace (pare-brise, vitres, toit vitré, blocs optiques) sans franchise
+
+Vol, incendie, événements climatiques, attentats, catastrophes naturelles, dommages tous accidents et vandalisme
+
+Contenu du véhicule (effets personnels) garanti jusqu’à 1000€ en cas de vol ou de dommages
+
+Véhicule de prêt en cas de sinistre :
+
+Vol : jusqu’à 30 jours
+
+Accident : jusqu’à 15 jours
+
+Panne : jusqu’à 7 jours
+
+Franchises :
+
+Responsabilité civile, responsabilité civile pour préjudice écologique, catastrophes technologiques : aucune franchise
+
+Responsabilité civile fonctionnement : 500€ hors dommages corporels
+
+Garantie du conducteur : 10% de franchise sur le seul déficit fonctionnel permanent
+
+Bris de glace : aucune franchise
+
+Vol, incendie, événements climatiques, attentats, dommages tous accidents, vandalisme : 285€ + 10% du montant des dommages, plafonnée à 595€
+
+Catastrophes naturelles : franchise réglementaire fixée par arrêté ministériel
+
+Pour seulement 1€ de plus par mois, vous bénéficiez de garanties non présentes sur votre contrat actuel :
+
+mise à disposition d’un véhicule de prêt en cas de panne, accident ou vol,
+
+aucune franchise sur le bris de glace (pare-brise, vitres, toit vitré, optiques),
+
+contenu du véhicule garanti jusqu’à 1000€ (effets personnels) en cas de vol ou de dommages.
+
+
+
+
+CONCERNANT VOTRE MOTO : cotisation :  garanties : 
+
+
+Assistance 0 km, 24h/24, 7j/7, même en cas de panne.
+
+Bris de glace (bulle, optiques, parties vitrées).
+
+Incendie, vol, tentative de vol.
+
+Événements climatiques, attentats.
+
+Catastrophes naturelles et technologiques.
+
+Dommages tous accidents et vandalisme.
+
+Protection du conducteur (indemnisation jusqu’à 500000€, portée à 1000000€ avec gilet airbag).
+
+Indemnisation de l’équipement du motard (casque, gants, airbag, etc.).
+
+Franchises principales :
+
+Responsabilité civile : pas de franchise.
+
+Responsabilité civile « fonctionnement » : 500€ (hors dommages corporels).
+
+Bris de glace :
+
+réparation : pas de franchise,
+
+remplacement : 50€ + 10% des dommages (plafond 260€).
+
+Vol, incendie, événements climatiques, attentats, vandalisme, dommages tous accidents : 250€.
+
+Catastrophes naturelles : franchise légale (fixée par l’État).
+
+Catastrophes technologiques : pas de franchise.
+
+Protection du conducteur : 10% de franchise uniquement sur le déficit fonctionnel permanent.
+
+
+
+
+
+
+
+
+
+
+
+ET ENFIN POUR VOTRE  habitation non occupant : 
+
+
+
+Garanties principales PNO (bien occupé ou inoccupé moins de 4 mois) :
+
+Incendie, explosion, implosion, enfumage
+
+Attentats et actes de terrorisme
+
+Dégâts des eaux, gel (uniquement si inoccupation ≤ 4 mois)
+
+Évènements climatiques
+
+Catastrophes naturelles
+
+Catastrophes technologiques
+
+Vol, tentative de vol avec effraction et vandalisme
+
+Bris de glace (uniquement si inoccupation ≤ 4 mois)
+
+Responsabilité civile du propriétaire non occupant
+
+Défense et recours
+
+Plafond global : jusqu’à 1000000€ par sinistre, tous postes confondus, dont :
+
+mobilier : 3000€ par pièce, 5000€ maximum en cas de vol/tentative de vol
+
+bâtiment : valeur de reconstruction à neuf avec majoration de 25% 
+
+
+
+
+Biens inoccupés depuis plus de 4 mois :
+
+Garanties maintenues : incendie, explosion, implosion, enfumage, attentat/terrorisme, évènement climatique, catastrophes naturelles et technologiques, vol/tentative de vol avec effraction, vandalisme, responsabilité civile, défense et recours
+
+Dégâts des eaux, gel, bris de glace et options : non garantis au-delà de 4 mois d’inoccupation 
+
+devis-assurance-proprietaire-no…
+
+Franchises :
+
+Biens occupés (ou inoccupés ≤ 4 mois) :
+
+170€ pour tous les évènements (hors catastrophes naturelles et technologiques)
+
+catastrophes naturelles et technologiques : franchise légale
+
+Biens totalement inoccupés depuis plus de 4 mois :
+
+1000€ de franchise (ou franchise légale si supérieure, pour cat. nat/tech)
+
+En cas de non-respect des mesures de prévention (détecteurs, électricité, coupure eau/gaz/élec en cas d’absence prolongée, etc.) :
+
+franchise portée à 50% du montant des dommages en cas de sinistre causé ou aggravé par ce manquement
+
+ChatGPT a dit :
+
+Réflexion durant 26s
+Objet : Propositions d’assurances auto, moto et Propriétaire non occupant
+
+Bonjour Monsieur [PERSONNE_066],
+
+Je reviens vers vous concernant les propositions d’assurances pour :
+votre Toyota C-HR, votre Fiat, votre moto, ainsi que votre logement en Propriétaire Non Occupant (PNO).
+
+Nous n’avons pas identifié d’offre réellement plus compétitive que votre contrat actuel pour votre habitation principale. En revanche, vous trouverez ci-dessous le détail des garanties pour les véhicules et la PNO, ainsi qu’en pièces jointes les documents relatifs à chaque proposition.
+
+1. Toyota C-HR – cotisation : 58€ par mois
+Principales garanties :
+Garantie du conducteur jusqu’à 500000€
+Bris de glace : pare-brise, vitres, toit vitré, blocs optiques avant
+Vol, incendie, événements climatiques, attentat, vandalisme, dommages tous accidents
+Catastrophes naturelles et catastrophes technologiques
+Assistance 24h/24, 7j/7, sans franchise kilométrique, y compris en cas de panne
+Conduite accompagnée incluse
+
+Franchises :
+Responsabilité civile automobile : aucune franchise
+Responsabilité civile pour préjudice écologique : aucune franchise
+Responsabilité civile « fonctionnement » : 500€ hors dommages corporels
+Garantie du conducteur : franchise de 10% uniquement sur le déficit fonctionnel permanent
+Bris de glace : aucune franchise
+Vol, incendie, événements climatiques, attentat, dommages tous accidents, vandalisme : 190€ + 10% du montant des dommages (franchise totale maximale 445€)
+Catastrophe naturelle : franchise fixée par arrêté ministériel
+Catastrophe technologique : aucune franchise
+
+2. Fiat – cotisation : 37€ par mois
+Principales garanties :
+Garantie du conducteur jusqu’à 250000€
+Assistance dépannage et remorquage 24h/24, 7j/7
+Bris de glace (pare-brise, vitres, toit vitré, blocs optiques) sans franchise
+Vol, incendie, événements climatiques, attentats, catastrophes naturelles, dommages tous accidents, vandalisme
+Contenu du véhicule (effets personnels) garanti jusqu’à 1000€ en cas de vol ou de dommages
+
+Véhicule de prêt en cas de sinistre :
+vol : jusqu’à 30 jours
+accident : jusqu’à 15 jours
+panne : jusqu’à 7 jours
+
+Franchises :
+Responsabilité civile, responsabilité civile pour préjudice écologique, catastrophes technologiques : aucune franchise
+Responsabilité civile « fonctionnement » : 500€ hors dommages corporels
+Garantie du conducteur : 10% de franchise sur le seul déficit fonctionnel permanent
+Bris de glace : aucune franchise
+Vol, incendie, événements climatiques, attentats, dommages tous accidents, vandalisme : 285€ + 10% du montant des dommages, plafonnée à 595€
+Catastrophes naturelles : franchise réglementaire fixée par arrêté ministériel
+
+Point important par rapport à votre contrat actuel :
+Pour seulement 1€ de plus par mois, vous bénéficiez de garanties supplémentaires qui ne figurent pas dans votre contrat actuel :
+mise à disposition d’un véhicule de prêt en cas de panne, accident ou vol,
+absence totale de franchise sur le bris de glace,
+contenu du véhicule garanti jusqu’à 1000€ en cas de vol ou de dommages.
+
+3. Moto – cotisation : [cf. devis joint]
+Principales garanties :
+Assistance 0 km, 24h/24, 7j/7, même en cas de panne
+Bris de glace (bulle, optiques, parties vitrées)
+Incendie, vol, tentative de vol
+Événements climatiques, attentats
+Catastrophes naturelles et technologiques
+Dommages tous accidents et vandalisme
+Protection du conducteur : indemnisation jusqu’à 500000€, portée à 1000000€ avec gilet airbag
+Indemnisation de l’équipement du motard (casque, gants, airbag, etc.)
+
+Franchises principales :
+Responsabilité civile : aucune franchise
+Responsabilité civile « fonctionnement » : 500€ hors dommages corporels
+
+Bris de glace :
+réparation : aucune franchise
+remplacement : 50€ + 10% des dommages (plafond 260€)
+
+Vol, incendie, événements climatiques, attentats, vandalisme, dommages tous accidents : 250€
+Catastrophes naturelles : franchise légale fixée par l’État
+Catastrophes technologiques : aucune franchise
+Protection du conducteur : 10% de franchise uniquement sur le déficit fonctionnel permanent
+
+4. Contrat Propriétaire Non Occupant (PNO) – logement non occupé
+Garanties principales (bien occupé ou inoccupé moins de 4 mois) :
+Incendie, explosion, implosion, enfumage
+Attentats et actes de terrorisme
+Dégâts des eaux, gel (si inoccupation ≤ 4 mois)
+Événements climatiques
+Catastrophes naturelles et technologiques
+Vol, tentative de vol avec effraction, vandalisme
+Bris de glace (si inoccupation ≤ 4 mois)
+Responsabilité civile du propriétaire non occupant
+Défense et recours
+
+Plafonds d’indemnisation :
+Plafond global : jusqu’à 1000000€ par sinistre, tous postes confondus
+Mobilier : 3000€ par pièce, 5000€ maximum en cas de vol ou tentative de vol
+Bâtiment : valeur de reconstruction à neuf, avec majoration de 25%
+
+Biens inoccupés depuis plus de 4 mois :
+Garanties maintenues : incendie, explosion, implosion, enfumage, attentat/terrorisme, évènements climatiques, catastrophes naturelles et technologiques, vol/tentative de vol avec effraction, vandalisme, responsabilité civile, défense et recours
+Dégâts des eaux, gel, bris de glace et options : non garantis au-delà de 4 mois d’inoccupation
+
+Franchises :
+Biens occupés (ou inoccupés ≤ 4 mois) :
+170€ pour tous les évènements (hors catastrophes naturelles et technologiques)
+Catastrophes naturelles et technologiques : franchise légale
+
+Biens totalement inoccupés depuis plus de 4 mois :
+1000€ de franchise (ou franchise légale si supérieure pour les catastrophes naturelles/technologiques)
+
+En cas de non-respect des mesures de prévention (détecteurs, électricité, coupure eau/gaz/électricité en cas d’absence prolongée, etc.), la franchise peut être portée à 50% du montant des dommages si le sinistre est causé ou aggravé par ce manquement.
+
+Je reste bien entendu à votre disposition pour répondre à vos questions, ajuster les garanties si nécessaire ou procéder à la mise en place des contrats de votre choix.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour,
+
+je vous remercie, suite a la demande de notre client, bien vouloir reislier els conteats des assurés suivants en loi chatel au 01/01/2026
+[PERSONNE_003]
+[PERSONNE_030]
+[PERSONNE_002]
+
+ChatGPT a dit :
+Objet : Demande de résiliation de contrats au titre de la loi Chatel au 01/01/2026
+
+Bonjour,
+
+Je vous remercie.
+
+Suite à la demande de notre client, je vous remercie de bien vouloir procéder à la résiliation, au titre de la loi Chatel, des contrats des assurés suivants, à effet du 01/01/2026 :
+
+[PERSONNE_003]
+
+[PERSONNE_030]
+
+[PERSONNE_002]
+
+Dans l’attente de votre confirmation de prise en compte,
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+Bonjour,
+
+nous avons demande a la cnie les justifictifs d'envoie ainsi que votre demande de reisliation en loi chatel.
+
+Nous attendons leur retour et reivnedrons vers vous
+
+Bien coridalment;,
+
+
+[PERSONNE_100]
+
+ChatGPT a dit :
+
+Réflexion durant 11s
+Objet : Suivi de votre demande de résiliation au titre de la loi Chatel
+
+Bonjour,
+
+Nous avons sollicité la compagnie d’assurance afin d’obtenir les justificatifs d’envoi, ainsi qu’une copie de votre demande de résiliation au titre de la loi Chatel.
+
+Nous sommes dans l’attente de leur retour et nous reviendrons vers vous dès réception de leur réponse.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+Vous avez dit :
+nn lenvoi de lavis decheance; mais la copie de la demande c moi qui l'ai tranmsise a la cnie
+
+ChatGPT a dit :
+Objet : Suivi de votre demande de résiliation au titre de la loi Chatel
+
+Bonjour,
+
+Nous avons sollicité la compagnie d’assurance afin d’obtenir les justificatifs d’envoi de l’avis d’échéance.
+
+Pour information, la copie de votre demande de résiliation au titre de la loi Chatel leur a déjà été transmise par nos soins.
+
+Nous restons dans l’attente de leur retour et reviendrons vers vous dès réception de leur réponse.
+
+Bien cordialement,
+
+[PERSONNE_054]
+
+
+
+Vous avez dit :
+
+Bonjour Madame [PERSONNE_104], Vous trouverez joint a ce mail le devis actualisé.  La cotusation représente la coyverture pour l'année 2026, ensuite il faudra acquitter une nouvelle facture au momùent de l'émisison d'un nouveau devis.     Je reste bien entendu à votre disposition pour toute information complémentaire.  Cordialement,  [PERSONNE_045]
+
+ChatGPT a dit :
+
+Voici la version corrigée, formelle et prête à être envoyée, avec un objet conforme à vos règles :
+
+Objet : Transmission du devis actualisé – Année 2026
+
+Bonjour Madame [PERSONNE_104],
+
+Vous trouverez en pièce jointe le devis actualisé.
+
+La cotisation correspond à la couverture pour l’année 2026. Une nouvelle facture sera ensuite émise lors de l’établissement d’un nouveau devis pour l’année suivante.
+
+Je reste bien entendu à votre disposition pour toute information complémentaire.
+
+Cordialement, [PERSONNE_045]

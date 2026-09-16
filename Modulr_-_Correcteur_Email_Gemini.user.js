@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.7
+// @version      3.3.8
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples anonymisée
 // @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -38,8 +38,8 @@
                 return;
             }
             try {
-                const cached = GM_getValue('exemples_cache', '');
-                const cachedTime = GM_getValue('exemples_cache_time', 0);
+                const cached = GM_getValue('exemples_cache_full_v2', '');
+                const cachedTime = GM_getValue('exemples_cache_full_v2_time', 0);
                 if (cached && (now - cachedTime) < CACHE_DURATION) {
                     exemplesCache = cached;
                     exemplesCacheTime = cachedTime;
@@ -56,15 +56,15 @@
                         exemplesCache = response.responseText;
                         exemplesCacheTime = now;
                         try {
-                            GM_setValue('exemples_cache', response.responseText);
-                            GM_setValue('exemples_cache_time', now);
+                            GM_setValue('exemples_cache_full_v2', response.responseText);
+                            GM_setValue('exemples_cache_full_v2_time', now);
                         } catch(e) {}
                         resolve(response.responseText);
                     } else {
-                        resolve(GM_getValue('exemples_cache', '') || '');
+                        resolve(GM_getValue('exemples_cache_full_v2', '') || '');
                     }
                 },
-                onerror: () => resolve(GM_getValue('exemples_cache', '') || '')
+                onerror: () => resolve(GM_getValue('exemples_cache_full_v2', '') || '')
             });
         });
     }
