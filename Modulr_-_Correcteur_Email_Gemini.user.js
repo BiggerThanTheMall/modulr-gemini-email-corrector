@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.6
-// @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples externe
+// @version      3.3.7
+// @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples anonymisée
 // @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @connect      generativelanguage.googleapis.com
-// @connect      gist.githubusercontent.com
+// @connect      raw.githubusercontent.com
 // @updateURL    https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/Modulr_-_Correcteur_Email_Gemini.user.js
 // @downloadURL  https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/Modulr_-_Correcteur_Email_Gemini.user.js
 // @homepageURL  https://github.com/BiggerThanTheMall/modulr-gemini-email-corrector
@@ -21,7 +21,7 @@
     // ============================================
     // CONFIGURATION
     // ============================================
-    const EXEMPLES_URL = 'https://gist.githubusercontent.com/BiggerThanTheMall/ed3677e5396db3a07e74f98fb523b3a4/raw/exemples-emails.txt';
+    const EXEMPLES_URL = 'https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/exemples-emails-anonymises.txt';
     const CACHE_DURATION = 60 * 60 * 1000;
 
     let exemplesCache = null;
