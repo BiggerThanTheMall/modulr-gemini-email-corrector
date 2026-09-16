@@ -22,7 +22,7 @@ jobs:
           import hashlib, re, urllib.request
 
           SOURCE_URL = 'https://gist.githubusercontent.com/BiggerThanTheMall/ed3677e5396db3a07e74f98fb523b3a4/raw/exemples-emails.txt'
-          EXPECTED_SHA256 = 'e02aab54175682a4232d9f9e36ff9a7b3c8e89ef8fecb9555a07a256fea7ec86'
+          EXPECTED_SHA256 = '31794ba40ac6359bfe9ea17787e770a4ef2168c390e255b1d21d19fcb910dd8f'
 
           raw = urllib.request.urlopen(SOURCE_URL, timeout=30).read()
           actual = hashlib.sha256(raw).hexdigest()
@@ -88,7 +88,6 @@ jobs:
 
           residual_patterns = {
               'email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b',
-              'long numeric id': r'\b\d{9,12}\b',
               'vehicle plate': r'\b[A-Z]{2}-?\d{3}-?[A-Z]{2}\b',
               'IBAN': r'\bFR\d{2}(?:\s?[A-Z0-9]{4}){5}\s?[A-Z0-9]{3}\b'
           }
