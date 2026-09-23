@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.9
+// @version      3.3.10
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples anonymisée
 // @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -70,9 +70,9 @@
     }
 
 
-    const EXAMPLE_LIMIT = 15;
-    const EXAMPLE_TOTAL_CHAR_LIMIT = 26000;
-    const MAX_CONTEXT_CHARS = 6000;
+    const EXAMPLE_LIMIT = 8;
+    const EXAMPLE_TOTAL_CHAR_LIMIT = 12000;
+    const MAX_CONTEXT_CHARS = 4000;
     const SEARCH_STOP_WORDS = new Set(
         'alors au aux avec ce ces dans de des du elle en et eux il je la le les leur lui ma mais me meme mes moi mon ne nos notre nous on ou par pas pour qu que qui sa se ses son sur ta te tes toi ton tu un une vos votre vous bonjour bonsoir cordialement bien merci monsieur madame objet email mail personne collaborateur date reference adresse telephone iban bic montant'.split(' ')
     );
@@ -369,8 +369,8 @@ BROUILLON À RÉÉCRIRE :`;
     // APPEL GEMINI
     // ============================================
     const GEMINI_MODELS = [
-        'gemini-3.5-flash',
-        'gemini-3.5-flash-lite'
+        'gemini-3.5-flash-lite',
+        'gemini-3.5-flash'
     ];
 
     async function callGemini(text, fullPrompt, modelIndex = 0) {
@@ -391,7 +391,7 @@ BROUILLON À RÉÉCRIRE :`;
                 headers: { 'Content-Type': 'application/json' },
                 data: JSON.stringify({
                     contents: [{ parts: [{ text: fullPrompt + text }] }],
-                    generationConfig: { thinkingConfig: { thinkingLevel: 'low' } }
+                    generationConfig: { thinkingConfig: { thinkingLevel: 'minimal' } }
                 }),
                 onload: async function(response) {
                     try {
@@ -440,6 +440,7 @@ BROUILLON À RÉÉCRIRE :`;
     }
 
     async function handleCorrection() {
+        const correctionStartedAt = performance.now();
         const btn = document.querySelector('.gemini-correction-btn');
         const originalIcon = btn.innerHTML;
         btn.innerHTML = '<span class="tox-icon tox-tbtn__icon-wrap">⏳</span>';
@@ -449,12 +450,25 @@ BROUILLON À RÉÉCRIRE :`;
             const content = getMessageContent();
             if (!content || !content.text) return alert('Écris un brouillon d\'abord.');
 
+            const examplesStartedAt = performance.now();
             const exemples = await loadExemples();
+            const examplesLoadedAt = performance.now();
             const selectionQuery = [content.text, content.context].filter(Boolean).join('\n\n');
             const exemplesPertinents = selectRelevantExemples(exemples, selectionQuery);
+            const examplesSelectedAt = performance.now();
             const fullPrompt = buildPrompt(exemplesPertinents, content.recipient, content.context);
 
             const response = await callGemini(content.text, fullPrompt);
+            const geminiCompletedAt = performance.now();
+
+            console.debug('[GeminiCorrector] timings', {
+                loadExamplesMs: Math.round(examplesLoadedAt - examplesStartedAt),
+                selectExamplesMs: Math.round(examplesSelectedAt - examplesLoadedAt),
+                geminiMs: Math.round(geminiCompletedAt - examplesSelectedAt),
+                totalMs: Math.round(geminiCompletedAt - correctionStartedAt),
+                selectedExamplesChars: exemplesPertinents.length,
+                contextChars: (content.context || '').length
+            });
 
             let result;
             try {
@@ -473,7 +487,8 @@ BROUILLON À RÉÉCRIRE :`;
                     sub.dispatchEvent(new Event('change', { bubbles: true }));
                 }
             }
-            showNotification('✅ Email corrigé !');
+            const elapsedSeconds = ((performance.now() - correctionStartedAt) / 1000).toFixed(1);
+            showNotification('✅ Email corrigé en ' + elapsedSeconds + ' s');
         } catch (e) {
             alert('Erreur : ' + e.message);
         } finally {
