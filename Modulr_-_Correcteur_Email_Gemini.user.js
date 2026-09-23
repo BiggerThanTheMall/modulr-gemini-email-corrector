@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.12
+// @version      3.3.13
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples anonymisée
 // @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -369,12 +369,14 @@ BROUILLON À RÉÉCRIRE :`;
     // APPEL GEMINI
     // ============================================
     const GEMINI_MODELS = [
-        'gemini-3.5-flash-lite'
+        { name: 'gemini-3.5-flash-lite', thinkingLevel: 'minimal' },
+        { name: 'gemini-3.1-flash-lite', thinkingLevel: 'minimal' }
     ];
-    const GEMINI_TIMEOUT_MS = 20000;
+    const GEMINI_HEDGE_DELAY_MS = 5000;
+    const GEMINI_REQUEST_TIMEOUT_MS = 20000;
     let lastGeminiModelUsed = null;
 
-    async function callGemini(text, fullPrompt, modelIndex = 0) {
+    async function callGemini(text, fullPrompt) {
         let apiKey = GM_getValue('gemini_api_key', '');
         if (!apiKey) {
             apiKey = prompt('Entre ta clé API Gemini :');
@@ -382,64 +384,127 @@ BROUILLON À RÉÉCRIRE :`;
             else throw new Error('Clé API requise');
         }
 
-        const model = GEMINI_MODELS[modelIndex];
-        if (!model) throw new Error('Modèles non supportés ou erreur de clé.');
-
         return new Promise((resolve, reject) => {
-            const tryNextModel = (error) => {
-                if (modelIndex < GEMINI_MODELS.length - 1) {
-                    console.warn('[GeminiCorrector] fallback', {
-                        from: model,
-                        to: GEMINI_MODELS[modelIndex + 1],
-                        reason: error && error.message ? error.message : String(error)
-                    });
-                    resolve(callGemini(text, fullPrompt, modelIndex + 1));
-                } else {
-                    reject(error);
+            let settled = false;
+            let hedgeTimer = null;
+            const started = new Set();
+            const finished = new Set();
+            const requests = [];
+            const errors = [];
+
+            const abortOtherRequests = (winnerIndex) => {
+                requests.forEach((entry, index) => {
+                    if (index !== winnerIndex && entry && typeof entry.abort === 'function') {
+                        try { entry.abort(); } catch (e) {}
+                    }
+                });
+            };
+
+            const failIfDone = () => {
+                if (settled) return;
+                if (started.size === GEMINI_MODELS.length && finished.size === started.size) {
+                    settled = true;
+                    if (hedgeTimer) clearTimeout(hedgeTimer);
+                    const details = errors.map(item => item.model + ' : ' + item.message).join(' | ');
+                    reject(new Error(details || 'Tous les modèles Gemini ont échoué.'));
                 }
             };
 
-            GM_xmlhttpRequest({
-                method: 'POST',
-                url: `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-                headers: { 'Content-Type': 'application/json' },
-                timeout: GEMINI_TIMEOUT_MS,
-                data: JSON.stringify({
-                    contents: [{ parts: [{ text: fullPrompt + text }] }],
-                    generationConfig: { thinkingConfig: { thinkingLevel: 'minimal' } }
-                }),
-                onload: function(response) {
-                    let data;
-                    try {
-                        data = JSON.parse(response.responseText);
-                    } catch (e) {
-                        tryNextModel(e);
-                        return;
+            const startModel = (modelIndex, reason) => {
+                if (settled || started.has(modelIndex) || !GEMINI_MODELS[modelIndex]) return;
+
+                const modelConfig = GEMINI_MODELS[modelIndex];
+                const model = modelConfig.name;
+                started.add(modelIndex);
+
+                if (modelIndex > 0) {
+                    console.warn('[GeminiCorrector] fallback démarré', {
+                        model,
+                        reason: reason || 'latence du modèle principal'
+                    });
+                }
+
+                const request = GM_xmlhttpRequest({
+                    method: 'POST',
+                    url: `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+                    headers: { 'Content-Type': 'application/json' },
+                    timeout: GEMINI_REQUEST_TIMEOUT_MS,
+                    data: JSON.stringify({
+                        contents: [{ parts: [{ text: fullPrompt + text }] }],
+                        generationConfig: {
+                            thinkingConfig: { thinkingLevel: modelConfig.thinkingLevel }
+                        }
+                    }),
+                    onload: function(response) {
+                        if (settled) return;
+
+                        let data;
+                        try {
+                            data = JSON.parse(response.responseText);
+                        } catch (e) {
+                            finished.add(modelIndex);
+                            errors.push({ model, message: 'Réponse JSON invalide' });
+                            if (modelIndex === 0) startModel(1, 'réponse invalide du modèle principal');
+                            failIfDone();
+                            return;
+                        }
+
+                        if (data.error) {
+                            const message = data.error.message || 'Erreur Gemini';
+                            finished.add(modelIndex);
+                            errors.push({ model, message });
+                            if (modelIndex === 0) startModel(1, message);
+                            failIfDone();
+                            return;
+                        }
+
+                        const candidateText = data.candidates
+                            && data.candidates[0]
+                            && data.candidates[0].content
+                            && data.candidates[0].content.parts
+                            && data.candidates[0].content.parts[0]
+                            && data.candidates[0].content.parts[0].text;
+
+                        if (!candidateText) {
+                            finished.add(modelIndex);
+                            errors.push({ model, message: 'Réponse vide' });
+                            if (modelIndex === 0) startModel(1, 'réponse vide du modèle principal');
+                            failIfDone();
+                            return;
+                        }
+
+                        settled = true;
+                        if (hedgeTimer) clearTimeout(hedgeTimer);
+                        lastGeminiModelUsed = model;
+                        abortOtherRequests(modelIndex);
+                        resolve(candidateText);
+                    },
+                    ontimeout: function() {
+                        if (settled) return;
+                        finished.add(modelIndex);
+                        errors.push({ model, message: 'délai dépassé (' + GEMINI_REQUEST_TIMEOUT_MS + ' ms)' });
+                        if (modelIndex === 0) startModel(1, 'timeout du modèle principal');
+                        failIfDone();
+                    },
+                    onerror: function() {
+                        if (settled) return;
+                        finished.add(modelIndex);
+                        errors.push({ model, message: 'erreur réseau' });
+                        if (modelIndex === 0) startModel(1, 'erreur réseau du modèle principal');
+                        failIfDone();
                     }
+                });
 
-                    if (data.error) {
-                        tryNextModel(new Error(data.error.message || 'Erreur Gemini'));
-                        return;
-                    }
+                requests[modelIndex] = request;
+            };
 
-                    const candidateText = data.candidates
-                        && data.candidates[0]
-                        && data.candidates[0].content
-                        && data.candidates[0].content.parts
-                        && data.candidates[0].content.parts[0]
-                        && data.candidates[0].content.parts[0].text;
+            startModel(0, 'modèle principal');
 
-                    if (!candidateText) {
-                        tryNextModel(new Error('Réponse vide'));
-                        return;
-                    }
-
-                    lastGeminiModelUsed = model;
-                    resolve(candidateText);
-                },
-                ontimeout: () => reject(new Error('Délai Gemini dépassé (' + GEMINI_TIMEOUT_MS + ' ms)')),
-                onerror: () => tryNextModel(new Error('Erreur réseau'))
-            });
+            hedgeTimer = setTimeout(() => {
+                if (!settled && !started.has(1)) {
+                    startModel(1, 'aucune réponse du modèle principal après ' + GEMINI_HEDGE_DELAY_MS + ' ms');
+                }
+            }, GEMINI_HEDGE_DELAY_MS);
         });
     }
 
