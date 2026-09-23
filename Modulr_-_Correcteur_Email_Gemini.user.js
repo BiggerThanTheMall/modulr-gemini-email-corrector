@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.10
+// @version      3.3.11
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples anonymisée
 // @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -369,9 +369,11 @@ BROUILLON À RÉÉCRIRE :`;
     // APPEL GEMINI
     // ============================================
     const GEMINI_MODELS = [
-        'gemini-3.5-flash-lite',
-        'gemini-3.5-flash'
+        'gemini-3.1-flash-lite',
+        'gemini-3.5-flash-lite'
     ];
+    const GEMINI_TIMEOUT_MS = 8000;
+    let lastGeminiModelUsed = null;
 
     async function callGemini(text, fullPrompt, modelIndex = 0) {
         let apiKey = GM_getValue('gemini_api_key', '');
@@ -385,32 +387,59 @@ BROUILLON À RÉÉCRIRE :`;
         if (!model) throw new Error('Modèles non supportés ou erreur de clé.');
 
         return new Promise((resolve, reject) => {
+            const tryNextModel = (error) => {
+                if (modelIndex < GEMINI_MODELS.length - 1) {
+                    console.warn('[GeminiCorrector] fallback', {
+                        from: model,
+                        to: GEMINI_MODELS[modelIndex + 1],
+                        reason: error && error.message ? error.message : String(error)
+                    });
+                    resolve(callGemini(text, fullPrompt, modelIndex + 1));
+                } else {
+                    reject(error);
+                }
+            };
+
             GM_xmlhttpRequest({
                 method: 'POST',
                 url: `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
                 headers: { 'Content-Type': 'application/json' },
+                timeout: GEMINI_TIMEOUT_MS,
                 data: JSON.stringify({
                     contents: [{ parts: [{ text: fullPrompt + text }] }],
                     generationConfig: { thinkingConfig: { thinkingLevel: 'minimal' } }
                 }),
-                onload: async function(response) {
+                onload: function(response) {
+                    let data;
                     try {
-                        const data = JSON.parse(response.responseText);
-                        if (data.error) {
-                            if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
-                            else reject(new Error(data.error.message));
-                        } else if (data.candidates && data.candidates[0]) {
-                            resolve(data.candidates[0].content.parts[0].text);
-                        } else {
-                            if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
-                            else reject(new Error('Réponse vide'));
-                        }
+                        data = JSON.parse(response.responseText);
                     } catch (e) {
-                        if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
-                        else reject(e);
+                        tryNextModel(e);
+                        return;
                     }
+
+                    if (data.error) {
+                        tryNextModel(new Error(data.error.message || 'Erreur Gemini'));
+                        return;
+                    }
+
+                    const candidateText = data.candidates
+                        && data.candidates[0]
+                        && data.candidates[0].content
+                        && data.candidates[0].content.parts
+                        && data.candidates[0].content.parts[0]
+                        && data.candidates[0].content.parts[0].text;
+
+                    if (!candidateText) {
+                        tryNextModel(new Error('Réponse vide'));
+                        return;
+                    }
+
+                    lastGeminiModelUsed = model;
+                    resolve(candidateText);
                 },
-                onerror: () => reject(new Error('Erreur réseau'))
+                ontimeout: () => tryNextModel(new Error('Délai Gemini dépassé (' + GEMINI_TIMEOUT_MS + ' ms)')),
+                onerror: () => tryNextModel(new Error('Erreur réseau'))
             });
         });
     }
@@ -467,7 +496,8 @@ BROUILLON À RÉÉCRIRE :`;
                 geminiMs: Math.round(geminiCompletedAt - examplesSelectedAt),
                 totalMs: Math.round(geminiCompletedAt - correctionStartedAt),
                 selectedExamplesChars: exemplesPertinents.length,
-                contextChars: (content.context || '').length
+                contextChars: (content.context || '').length,
+                model: lastGeminiModelUsed
             });
 
             let result;
