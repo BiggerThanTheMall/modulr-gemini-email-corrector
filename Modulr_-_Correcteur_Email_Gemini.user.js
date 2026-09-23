@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.3.13
+// @version      3.3.14
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples anonymisée
 // @author       le YVL
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -370,9 +370,10 @@ BROUILLON À RÉÉCRIRE :`;
     // ============================================
     const GEMINI_MODELS = [
         { name: 'gemini-3.5-flash-lite', thinkingLevel: 'minimal' },
-        { name: 'gemini-3.1-flash-lite', thinkingLevel: 'minimal' }
+        { name: 'gemini-3.1-flash-lite', thinkingLevel: 'minimal' },
+        { name: 'gemini-3.6-flash', thinkingLevel: 'minimal' }
     ];
-    const GEMINI_HEDGE_DELAY_MS = 5000;
+    const GEMINI_HEDGE_DELAYS_MS = [5000, 10000];
     const GEMINI_REQUEST_TIMEOUT_MS = 20000;
     let lastGeminiModelUsed = null;
 
@@ -386,7 +387,7 @@ BROUILLON À RÉÉCRIRE :`;
 
         return new Promise((resolve, reject) => {
             let settled = false;
-            let hedgeTimer = null;
+            const hedgeTimers = [];
             const started = new Set();
             const finished = new Set();
             const requests = [];
@@ -404,7 +405,7 @@ BROUILLON À RÉÉCRIRE :`;
                 if (settled) return;
                 if (started.size === GEMINI_MODELS.length && finished.size === started.size) {
                     settled = true;
-                    if (hedgeTimer) clearTimeout(hedgeTimer);
+                    hedgeTimers.forEach(timer => clearTimeout(timer));
                     const details = errors.map(item => item.model + ' : ' + item.message).join(' | ');
                     reject(new Error(details || 'Tous les modèles Gemini ont échoué.'));
                 }
@@ -444,7 +445,7 @@ BROUILLON À RÉÉCRIRE :`;
                         } catch (e) {
                             finished.add(modelIndex);
                             errors.push({ model, message: 'Réponse JSON invalide' });
-                            if (modelIndex === 0) startModel(1, 'réponse invalide du modèle principal');
+                            startModel(modelIndex + 1, 'réponse invalide de ' + model);
                             failIfDone();
                             return;
                         }
@@ -453,7 +454,7 @@ BROUILLON À RÉÉCRIRE :`;
                             const message = data.error.message || 'Erreur Gemini';
                             finished.add(modelIndex);
                             errors.push({ model, message });
-                            if (modelIndex === 0) startModel(1, message);
+                            startModel(modelIndex + 1, message);
                             failIfDone();
                             return;
                         }
@@ -468,13 +469,13 @@ BROUILLON À RÉÉCRIRE :`;
                         if (!candidateText) {
                             finished.add(modelIndex);
                             errors.push({ model, message: 'Réponse vide' });
-                            if (modelIndex === 0) startModel(1, 'réponse vide du modèle principal');
+                            startModel(modelIndex + 1, 'réponse vide de ' + model);
                             failIfDone();
                             return;
                         }
 
                         settled = true;
-                        if (hedgeTimer) clearTimeout(hedgeTimer);
+                        hedgeTimers.forEach(timer => clearTimeout(timer));
                         lastGeminiModelUsed = model;
                         abortOtherRequests(modelIndex);
                         resolve(candidateText);
@@ -483,14 +484,14 @@ BROUILLON À RÉÉCRIRE :`;
                         if (settled) return;
                         finished.add(modelIndex);
                         errors.push({ model, message: 'délai dépassé (' + GEMINI_REQUEST_TIMEOUT_MS + ' ms)' });
-                        if (modelIndex === 0) startModel(1, 'timeout du modèle principal');
+                        startModel(modelIndex + 1, 'timeout de ' + model);
                         failIfDone();
                     },
                     onerror: function() {
                         if (settled) return;
                         finished.add(modelIndex);
                         errors.push({ model, message: 'erreur réseau' });
-                        if (modelIndex === 0) startModel(1, 'erreur réseau du modèle principal');
+                        startModel(modelIndex + 1, 'erreur réseau de ' + model);
                         failIfDone();
                     }
                 });
@@ -500,11 +501,15 @@ BROUILLON À RÉÉCRIRE :`;
 
             startModel(0, 'modèle principal');
 
-            hedgeTimer = setTimeout(() => {
-                if (!settled && !started.has(1)) {
-                    startModel(1, 'aucune réponse du modèle principal après ' + GEMINI_HEDGE_DELAY_MS + ' ms');
-                }
-            }, GEMINI_HEDGE_DELAY_MS);
+            GEMINI_HEDGE_DELAYS_MS.forEach((delay, index) => {
+                const modelIndex = index + 1;
+                const timer = setTimeout(() => {
+                    if (!settled && !started.has(modelIndex)) {
+                        startModel(modelIndex, 'aucune réponse suffisante après ' + delay + ' ms');
+                    }
+                }, delay);
+                hedgeTimers.push(timer);
+            });
         });
     }
 
