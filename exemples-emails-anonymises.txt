@@ -1,0 +1,656 @@
+BASE D’EXEMPLES GÉNÉRIQUES — STYLE UNIQUEMENT
+
+Ces exemples sont des modèles génériques réécrits. Ils ne décrivent aucun dossier client. Les identités, sociétés, coordonnées, références, dates, montants et circonstances individuelles des échanges sources ont été retirés. Ne jamais déduire les faits ou les garanties d’un dossier à partir de cette base.
+
+--- EXEMPLE 01 ---
+Objet : Transmission de votre devis
+
+Bonjour Monsieur,
+
+Suite à notre échange, vous trouverez en pièce jointe votre devis d’assurance.
+
+Je reste à votre disposition pour vous présenter les garanties et répondre à vos questions.
+
+Je vous remercie pour votre confiance.
+
+Cordialement,
+
+--- EXEMPLE 02 ---
+Objet : Relance concernant votre proposition
+
+Bonjour Madame,
+
+Je me permets de revenir vers vous concernant la proposition que nous vous avons transmise.
+
+Avez-vous pu en prendre connaissance ? Je reste à votre disposition pour échanger sur les garanties ou ajuster la proposition selon vos besoins.
+
+Merci de nous en tenir informés.
+
+Cordialement,
+
+--- EXEMPLE 03 ---
+Objet : Retour du devis signé
+
+Bonjour Monsieur,
+
+Suite à notre conversation téléphonique, je me permets de revenir vers vous afin de savoir si vous avez pu signer le devis transmis.
+
+Vous pouvez nous le retourner par courriel ou par voie postale, selon votre convenance.
+
+Je reste à votre disposition pour toute précision complémentaire.
+
+Cordialement,
+
+--- EXEMPLE 04 ---
+Objet : Documents nécessaires à votre souscription
+
+Bonjour Madame,
+
+Afin de compléter votre dossier et de poursuivre la souscription, je vous remercie de nous transmettre :
+- une copie de votre pièce d’identité ;
+- votre relevé d’identité bancaire ;
+- les documents contractuels signés.
+
+Dès réception, nous pourrons transmettre le dossier à la compagnie pour validation.
+
+Cordialement,
+
+--- EXEMPLE 05 ---
+Objet : Confirmation de réception de vos documents
+
+Bonjour Monsieur,
+
+Je vous remercie pour la transmission de vos documents et pour votre réactivité.
+
+Nous procédons à leur vérification et reviendrons vers vous si un complément est nécessaire.
+
+Je reste à votre disposition pour toute information complémentaire.
+
+Cordialement,
+
+--- EXEMPLE 06 ---
+Objet : Transmission du document demandé
+
+Bonjour,
+
+Je vous remercie pour votre retour.
+
+Vous trouverez en pièce jointe le document demandé.
+
+Merci de bien vouloir nous confirmer sa bonne réception. Je reste à votre disposition pour toute précision complémentaire.
+
+Cordialement,
+
+--- EXEMPLE 07 ---
+Objet : Éléments manquants pour finaliser votre devis
+
+Bonjour Madame,
+
+Suite à notre échange téléphonique, certaines informations restent nécessaires pour finaliser votre devis.
+
+Je vous remercie de nous communiquer votre adresse complète ainsi que les renseignements demandés dans notre précédent message.
+
+Dès réception, nous pourrons poursuivre l’étude.
+
+Cordialement,
+
+--- EXEMPLE 08 ---
+Objet : Vérification de votre signature électronique
+
+Bonjour Monsieur,
+
+La compagnie nous indique que votre signature reste nécessaire pour finaliser la souscription.
+
+Je vous invite à consulter le courriel de signature électronique qui vous a été adressé.
+
+Si vous rencontrez une difficulté, merci de nous en tenir informés afin que nous puissions vous accompagner.
+
+Cordialement,
+
+--- EXEMPLE 09 ---
+Objet : Confirmation de transmission à la compagnie
+
+Bonjour Madame,
+
+Nous vous confirmons avoir transmis l’ensemble des éléments à la compagnie pour validation.
+
+Nous reviendrons vers vous dès réception de sa confirmation et des documents contractuels.
+
+Je vous remercie pour votre confiance.
+
+Cordialement,
+
+--- EXEMPLE 10 ---
+Objet : Suivi de votre certificat d’adhésion
+
+Bonjour Monsieur,
+
+Je me permets de revenir vers vous concernant votre certificat d’adhésion.
+
+Nous sommes dans l’attente de son édition par la compagnie et vous le transmettrons dès réception.
+
+Je reste à votre disposition pour toute précision concernant votre dossier.
+
+Cordialement,
+
+--- EXEMPLE 11 ---
+Objet : Bonne réception de votre courrier
+
+Bonjour Madame,
+
+Je vous confirme avoir reçu votre courrier et vous remercie pour votre envoi.
+
+Nous allons vérifier les documents transmis. Si un élément manque, nous reviendrons vers vous.
+
+Un nouvel envoi n’est donc pas nécessaire à ce stade.
+
+Cordialement,
+
+--- EXEMPLE 12 ---
+Objet : Envoi de vos documents par voie postale
+
+Bonjour Monsieur,
+
+Vous pouvez nous retourner les documents signés à l’adresse indiquée dans notre signature.
+
+Vous pouvez également nous les transmettre par courriel, sous forme de fichiers lisibles et complets.
+
+Je reste à votre disposition si vous avez besoin d’aide pour leur transmission.
+
+Cordialement,
+
+--- EXEMPLE 13 ---
+Objet : Choix du mode de règlement
+
+Bonjour Madame,
+
+Je vous remercie pour le retour du document signé.
+
+Afin de poursuivre la mise en place du contrat, merci de nous indiquer le mode de règlement que vous souhaitez utiliser.
+
+Nous vous communiquerons ensuite les éléments nécessaires au paiement.
+
+Cordialement,
+
+--- EXEMPLE 14 ---
+Objet : Transmission du relevé d’identité bancaire
+
+Bonjour,
+
+Vous trouverez en pièce jointe notre relevé d’identité bancaire afin de procéder au règlement par virement.
+
+Merci d’indiquer la référence de votre dossier dans le libellé du virement pour faciliter son identification.
+
+Je reste à votre disposition pour toute précision complémentaire.
+
+Cordialement,
+
+--- EXEMPLE 15 ---
+Objet : Suivi de votre règlement
+
+Bonjour Monsieur,
+
+Sauf erreur de notre part, nous n’avons pas encore reçu la confirmation de votre règlement.
+
+Si le paiement a déjà été effectué, je vous remercie de nous transmettre le justificatif correspondant afin que nous puissions vérifier sa prise en compte.
+
+Merci de nous en tenir informés.
+
+Cordialement,
+
+--- EXEMPLE 16 ---
+Objet : Vérification du règlement par chèque
+
+Bonjour Madame,
+
+Après vérification auprès de la compagnie, le règlement par chèque n’apparaît pas encore comme réceptionné.
+
+Pouvez-vous nous confirmer sa date d’envoi et vérifier s’il a été débité ?
+
+Ces éléments nous permettront de poursuivre les recherches.
+
+Cordialement,
+
+--- EXEMPLE 17 ---
+Objet : Demande de régularisation de votre cotisation
+
+Bonjour Monsieur,
+
+La compagnie nous a signalé un impayé concernant votre contrat.
+
+Nous vous invitons à nous contacter afin de vérifier la situation et de connaître les modalités de régularisation.
+
+Je reste à votre disposition pour vous accompagner dans cette démarche.
+
+Cordialement,
+
+--- EXEMPLE 18 ---
+Objet : Mise à jour de vos coordonnées
+
+Bonjour Madame,
+
+Nous ne parvenons pas à vous joindre avec les coordonnées dont nous disposons.
+
+Afin d’assurer le suivi de votre dossier, merci de nous confirmer votre numéro de téléphone, votre adresse électronique et votre adresse postale actuels.
+
+Je vous remercie par avance pour votre retour.
+
+Cordialement,
+
+--- EXEMPLE 19 ---
+Objet : Suivi de votre demande de résiliation
+
+Bonjour Monsieur,
+
+Nous vous confirmons avoir transmis votre demande de résiliation à la compagnie.
+
+Nous attendons son retour et vous informerons dès réception de sa réponse.
+
+Je reste à votre disposition pour toute précision complémentaire.
+
+Cordialement,
+
+--- EXEMPLE 20 ---
+Objet : Demande de résiliation à échéance
+
+Bonjour,
+
+Vous trouverez en pièce jointe la demande de résiliation signée par notre assuré.
+
+Merci de bien vouloir vérifier sa recevabilité et nous confirmer la date d’effet retenue.
+
+Nous restons à votre disposition pour transmettre tout complément nécessaire.
+
+Cordialement,
+
+--- EXEMPLE 21 ---
+Objet : Confirmation de votre demande de résiliation
+
+Bonjour Madame,
+
+Suite à notre échange téléphonique, merci de nous confirmer par retour de courriel votre souhait de résilier le contrat concerné.
+
+Nous pourrons ensuite transmettre votre demande à la compagnie pour examen.
+
+Je reste à votre disposition pour vous accompagner.
+
+Cordialement,
+
+--- EXEMPLE 22 ---
+Objet : Justificatifs nécessaires à l’étude de votre résiliation
+
+Bonjour Monsieur,
+
+Pour poursuivre l’étude de votre demande, la compagnie sollicite un justificatif correspondant au changement de situation que vous nous avez indiqué.
+
+Je vous remercie de nous transmettre le document demandé ainsi que la date de ce changement.
+
+Dès réception, nous compléterons votre dossier.
+
+Cordialement,
+
+--- EXEMPLE 23 ---
+Objet : Confirmation de résiliation
+
+Bonjour Madame,
+
+La compagnie nous a confirmé la résiliation de votre contrat à la date indiquée dans le document joint.
+
+Vous trouverez en pièce jointe la confirmation correspondante.
+
+Je reste à votre disposition pour toute information complémentaire.
+
+Cordialement,
+
+--- EXEMPLE 24 ---
+Objet : Suivi de l’avis d’échéance
+
+Bonjour,
+
+Nous avons sollicité la compagnie afin d’obtenir les justificatifs d’envoi de l’avis d’échéance.
+
+La demande de résiliation lui a également été transmise pour examen.
+
+Nous reviendrons vers vous dès réception de sa réponse.
+
+Cordialement,
+
+--- EXEMPLE 25 ---
+Objet : Correction des documents contractuels
+
+Bonjour,
+
+Après vérification des documents reçus, nous avons constaté une incohérence dans les informations de l’assuré.
+
+Merci de bien vouloir vérifier le dossier concerné et nous transmettre les documents rectifiés.
+
+Nous restons à votre disposition pour toute précision.
+
+Cordialement,
+
+--- EXEMPLE 26 ---
+Objet : Relance concernant les documents rectifiés
+
+Bonjour,
+
+Je me permets de revenir vers vous concernant notre demande de correction des documents contractuels.
+
+Pouvez-vous nous confirmer sa prise en compte et nous indiquer le délai prévu pour l’envoi des documents rectifiés ?
+
+Je vous remercie par avance pour votre retour.
+
+Cordialement,
+
+--- EXEMPLE 27 ---
+Objet : Documents non disponibles sur l’espace partenaire
+
+Bonjour,
+
+Je vous remercie pour votre retour.
+
+Sauf erreur de notre part, les documents annoncés ne sont pas encore accessibles sur l’espace partenaire.
+
+Pouvez-vous nous les transmettre directement ou nous indiquer la rubrique dans laquelle ils sont disponibles ?
+
+Cordialement,
+
+--- EXEMPLE 28 ---
+Objet : Difficultés d’accès à l’extranet
+
+Bonjour,
+
+Suite à notre échange, nous revenons vers vous concernant les difficultés d’accès à l’extranet.
+
+Merci de nous préciser les démarches nécessaires pour rétablir les accès et vérifier les profils de connexion.
+
+Nous restons disponibles pour effectuer les vérifications utiles.
+
+Cordialement,
+
+--- EXEMPLE 29 ---
+Objet : Accès à votre espace client
+
+Bonjour Madame,
+
+Votre espace client vous permet de consulter les documents liés à votre contrat.
+
+Je vous invite à utiliser la procédure de connexion indiquée dans le courriel de la compagnie.
+
+En cas de difficulté, merci de nous en tenir informés.
+
+Cordialement,
+
+--- EXEMPLE 30 ---
+Objet : Suivi de votre demande de prise en charge
+
+Bonjour Monsieur,
+
+Je reviens vers vous concernant votre demande de prise en charge.
+
+Nous avons relancé le service sinistres et restons dans l’attente de sa réponse.
+
+Nous vous tiendrons informé dès réception de nouveaux éléments et vous remercions pour votre patience.
+
+Cordialement,
+
+--- EXEMPLE 31 ---
+Objet : Transmission des justificatifs du sinistre
+
+Bonjour,
+
+Vous trouverez en pièce jointe les justificatifs transmis par notre assuré concernant le sinistre déclaré.
+
+Merci de nous confirmer leur bonne réception et de nous indiquer si des éléments complémentaires sont nécessaires.
+
+Nous restons à votre disposition pour faciliter le suivi du dossier.
+
+Cordialement,
+
+--- EXEMPLE 32 ---
+Objet : Étude de votre assurance automobile
+
+Bonjour Madame,
+
+Vous trouverez en pièce jointe notre proposition d’assurance automobile.
+
+Afin de vérifier précisément les différences avec votre couverture actuelle, merci de nous transmettre le détail de vos garanties et de vos franchises.
+
+Je reste à votre disposition pour vous commenter la proposition.
+
+Cordialement,
+
+--- EXEMPLE 33 ---
+Objet : Modification des garanties de votre contrat
+
+Bonjour Monsieur,
+
+Conformément à votre demande, vous trouverez en pièce jointe la proposition de modification des garanties.
+
+Je vous invite à prendre connaissance des conditions et des franchises figurant dans le document.
+
+Merci de nous confirmer votre accord avant toute demande de mise en place.
+
+Cordialement,
+
+--- EXEMPLE 34 ---
+Objet : Transmission de votre devis habitation
+
+Bonjour Madame,
+
+Vous trouverez en pièce jointe votre devis d’assurance habitation.
+
+Je vous invite à consulter les garanties, les franchises et les conditions d’assistance présentées dans la proposition.
+
+Je reste à votre disposition pour vérifier que la couverture correspond à vos besoins.
+
+Cordialement,
+
+--- EXEMPLE 35 ---
+Objet : Documents pour l’étude de votre assurance professionnelle
+
+Bonjour Monsieur,
+
+Afin de réaliser l’étude de votre assurance professionnelle, merci de nous transmettre :
+- un extrait d’immatriculation de votre société ;
+- une présentation de votre activité ;
+- votre contrat d’assurance actuel ;
+- les éléments financiers et les valeurs à assurer.
+
+Nous reviendrons vers vous si un complément est nécessaire.
+
+Cordialement,
+
+--- EXEMPLE 36 ---
+Objet : Présentation de votre proposition santé
+
+Bonjour Madame,
+
+Vous trouverez en pièce jointe votre proposition de complémentaire santé.
+
+Nous pouvons vous présenter les principaux postes de remboursement, notamment l’hospitalisation, les soins courants, l’optique et le dentaire.
+
+Je reste à votre disposition pour vérifier leur adéquation avec vos besoins.
+
+Cordialement,
+
+--- EXEMPLE 37 ---
+Objet : Comparatif de vos propositions
+
+Bonjour Monsieur,
+
+Vous trouverez en pièce jointe le comparatif des propositions étudiées.
+
+Les différences portent notamment sur le niveau des garanties, les franchises et les conditions de prise en charge.
+
+Nous pouvons les examiner ensemble afin de déterminer la solution la plus adaptée à vos priorités.
+
+Cordialement,
+
+--- EXEMPLE 38 ---
+Objet : Proposition d’étude de votre complémentaire santé
+
+Bonjour Madame,
+
+Nous vous proposons de réaliser une étude de votre complémentaire santé.
+
+Pour cela, merci de nous transmettre votre tableau de garanties actuel et de nous préciser vos principaux besoins.
+
+Nous pourrons ensuite vous présenter les éventuelles possibilités d’ajustement.
+
+Cordialement,
+
+--- EXEMPLE 39 ---
+Objet : Présentation de votre proposition de prévoyance
+
+Bonjour Monsieur,
+
+Vous trouverez en pièce jointe votre proposition de prévoyance.
+
+Ce contrat vise notamment à prévoir une protection en cas d’arrêt de travail, d’invalidité ou de décès, selon les garanties retenues.
+
+Je reste à votre disposition pour vous expliquer les franchises et les conditions d’indemnisation.
+
+Cordialement,
+
+--- EXEMPLE 40 ---
+Objet : Formalités de votre assurance emprunteur
+
+Bonjour Madame,
+
+Suite à notre échange, vous trouverez en pièce jointe la proposition d’assurance emprunteur.
+
+La compagnie vous précisera les formalités nécessaires à l’étude de votre adhésion.
+
+Merci de nous confirmer si vous souhaitez poursuivre la démarche.
+
+Cordialement,
+
+--- EXEMPLE 41 ---
+Objet : Demande de documents relatifs à votre prêt
+
+Bonjour Monsieur,
+
+Afin de compléter l’étude de votre assurance emprunteur, merci de nous transmettre l’offre de prêt, les éventuels avenants et le tableau d’amortissement actualisé.
+
+Ces documents nous permettront de vérifier les éléments nécessaires à la proposition.
+
+Je reste à votre disposition pour toute précision.
+
+Cordialement,
+
+--- EXEMPLE 42 ---
+Objet : Présentation de votre assurance rapatriement
+
+Bonjour Madame,
+
+Vous trouverez en pièce jointe votre proposition d’assurance rapatriement.
+
+Je vous invite à consulter les prestations d’assistance, les plafonds, les délais de carence et les conditions de renouvellement indiqués dans les documents.
+
+Nous restons à votre disposition pour vous les expliquer.
+
+Cordialement,
+
+--- EXEMPLE 43 ---
+Objet : Renouvellement de votre contrat
+
+Bonjour Monsieur,
+
+Je reviens vers vous concernant le prochain renouvellement de votre contrat.
+
+Vous trouverez en pièce jointe les documents précisant la cotisation et les conditions applicables.
+
+Merci de nous confirmer votre choix ou de nous contacter si vous souhaitez des précisions.
+
+Cordialement,
+
+--- EXEMPLE 44 ---
+Objet : Organisation de notre rendez-vous
+
+Bonjour Madame,
+
+Sauf erreur de notre part, nous n’avons pas reçu votre retour concernant la proposition de rendez-vous.
+
+Pouvez-vous nous confirmer vos disponibilités afin que nous puissions organiser cet échange ?
+
+Je vous remercie par avance.
+
+Cordialement,
+
+--- EXEMPLE 45 ---
+Objet : Remerciements pour notre échange
+
+Bonjour Monsieur,
+
+Je vous remercie pour le temps accordé lors de notre rendez-vous et pour la qualité de nos échanges.
+
+Nous allons poursuivre l’étude à partir des éléments transmis et reviendrons vers vous avec une proposition adaptée.
+
+Je reste à votre disposition pour toute information complémentaire.
+
+Cordialement,
+
+--- EXEMPLE 46 ---
+Objet : Suite à votre message
+
+Bonjour Madame,
+
+Je vous remercie pour votre message et pour les précisions apportées.
+
+Nous comprenons que vous ayez besoin de temps avant de prendre votre décision. Nous restons disponibles pour reprendre l’étude lorsque vous le souhaiterez.
+
+Merci pour la confiance que vous nous accordez.
+
+Cordialement,
+
+--- EXEMPLE 47 ---
+Objet : Suivi de votre devis
+
+Bonjour Monsieur,
+
+En l’absence de retour, votre devis a été classé sans suite.
+
+Si vous souhaitez reprendre l’étude ou si nos précédents messages ne vous sont pas parvenus, je vous invite à nous contacter.
+
+Nous restons à votre disposition.
+
+Cordialement,
+
+--- EXEMPLE 48 ---
+Objet : Transmission de la quittance de règlement
+
+Bonjour Madame,
+
+La quittance de règlement est actuellement en cours d’édition.
+
+Nous vous la transmettrons dès qu’elle sera disponible.
+
+Je vous remercie pour votre patience et reste à votre disposition pour toute précision.
+
+Cordialement,
+
+--- EXEMPLE 49 ---
+Objet : Demande d’étude d’une clause de garantie
+
+Bonjour,
+
+Nous vous transmettons la demande de notre assuré concernant la modification d’une clause de son contrat.
+
+Merci de bien vouloir examiner sa demande et nous préciser les documents nécessaires à son traitement.
+
+Nous restons à votre disposition pour compléter le dossier.
+
+Cordialement,
+
+--- EXEMPLE 50 ---
+Objet : Suite à notre échange téléphonique
+
+Bonjour,
+
+Merci pour les éléments transmis.
+
+Je reviens vers vous dès que j’ai le retour attendu. Vous pouvez également me communiquer vos disponibilités si vous souhaitez que nous fassions un point.
+
+À bientôt.
+
+Cordialement,
