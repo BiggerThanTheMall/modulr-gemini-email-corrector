@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Modulr - Correcteur Email Gemini
 // @namespace    http://tampermonkey.net/
-// @version      3.4.0
+// @version      3.4.1
 // @description  Corrige le corps des emails via Gemini dans Modulr - Style professionnel LTOA avec base d'exemples anonymisée
 // @author       Mainteneurs du projet
 // @match        https://courtage.modulr.fr/fr/scripts/documents/documents_send.php*
@@ -527,6 +527,38 @@ BROUILLON À RÉÉCRIRE :`;
         'gemini-3.5-flash'
     ];
 
+    function parseEmailResponse(response) {
+        if (typeof response !== 'string') throw new Error('Réponse Gemini vide.');
+        // Accepter une enveloppe Markdown complète, jamais un JSON partiel.
+        const clean = response.trim().replace(/^```(?:json)?\s*\n?([\s\S]*?)\n?```$/i, '$1').trim();
+        let result;
+        try { result = JSON.parse(clean); }
+        catch (e) { throw new Error('Réponse Gemini invalide ou incomplète.'); }
+        if (!result || Array.isArray(result) || typeof result !== 'object'
+            || typeof result.objet !== 'string' || !result.objet.trim()
+            || typeof result.corps !== 'string' || !result.corps.trim()) {
+            throw new Error('La réponse Gemini ne contient pas un objet et un corps valides.');
+        }
+        // Refuser également un objet JSON recopié comme corps du mail.
+        if (/^\s*\{\s*"(?:objet|corps)"\s*:/.test(result.corps)) {
+            throw new Error('Gemini a renvoyé du JSON dans le corps du mail.');
+        }
+        return { objet: result.objet.trim(), corps: result.corps.trim() };
+    }
+
+    function readGeminiResponse(data) {
+        if (data.error) throw new Error(data.error.message || 'Erreur Gemini.');
+        const candidate = data.candidates && data.candidates[0];
+        if (!candidate || candidate.finishReason !== 'STOP') {
+            throw new Error('Réponse Gemini interrompue ou bloquée.');
+        }
+        const parts = candidate.content && candidate.content.parts;
+        const text = Array.isArray(parts) ? parts
+            .filter(part => !part.thought && typeof part.text === 'string')
+            .map(part => part.text).join('') : '';
+        return parseEmailResponse(text);
+    }
+
     async function callGemini(text, fullPrompt, modelIndex = 0) {
         let apiKey = GM_getValue('gemini_api_key', '');
         if (!apiKey) {
@@ -545,22 +577,28 @@ BROUILLON À RÉÉCRIRE :`;
                 headers: { 'Content-Type': 'application/json' },
                 data: JSON.stringify({
                     contents: [{ parts: [{ text: fullPrompt + text }] }],
-                    generationConfig: { thinkingConfig: { thinkingLevel: 'minimal' } }
+                    generationConfig: {
+                        thinkingConfig: { thinkingLevel: 'minimal' },
+                        responseMimeType: 'application/json',
+                        responseSchema: {
+                            type: 'OBJECT',
+                            properties: {
+                                objet: { type: 'STRING' },
+                                corps: { type: 'STRING' }
+                            },
+                            required: ['objet', 'corps']
+                        }
+                    }
                 }),
-                onload: async function(response) {
+                onload: function(response) {
                     try {
                         const data = JSON.parse(response.responseText);
-                        if (data.error) {
-                            if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
-                            else reject(new Error(data.error.message));
-                        } else if (data.candidates && data.candidates[0]) {
-                            resolve(data.candidates[0].content.parts[0].text);
-                        } else {
-                            if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
-                            else reject(new Error('Réponse vide'));
+                        if (response.status < 200 || response.status >= 300) {
+                            throw new Error((data.error && data.error.message) || 'Erreur HTTP Gemini ' + response.status);
                         }
+                        resolve(readGeminiResponse(data));
                     } catch (e) {
-                        if (modelIndex < GEMINI_MODELS.length - 1) resolve(await callGemini(text, fullPrompt, modelIndex + 1));
+                        if (modelIndex < GEMINI_MODELS.length - 1) callGemini(text, fullPrompt, modelIndex + 1).then(resolve, reject);
                         else reject(e);
                     }
                 },
@@ -574,7 +612,9 @@ BROUILLON À RÉÉCRIRE :`;
     // ============================================
     function replaceMessageContent(content, newText) {
         const body = content.body;
-        const newHtml = newText.split('\n').map(line => line.trim() === '' ? '<div><br></div>' : `<div>${line}</div>`).join('');
+        // Le corps est du texte : les chevrons et esperluettes doivent rester visibles.
+        const escapeHtml = text => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const newHtml = newText.split('\n').map(line => line.trim() === '' ? '<div><br></div>' : `<div>${escapeHtml(line)}</div>`).join('');
 
         if (content.useFullBody || content.elements.length === 0) {
             const sig = body.querySelector('table') || body.querySelector('img');
@@ -618,7 +658,7 @@ BROUILLON À RÉÉCRIRE :`;
             const examplesSelectedAt = performance.now();
             const fullPrompt = buildPrompt(exemplesPertinents, content.recipient, content.context, priorityData.instructions, collaboratorSignature);
 
-            const response = await callGemini(draftForGemini, fullPrompt);
+            const result = await callGemini(draftForGemini, fullPrompt);
             const geminiCompletedAt = performance.now();
 
             console.debug('[GeminiCorrector] timings', {
@@ -632,14 +672,6 @@ BROUILLON À RÉÉCRIRE :`;
                 collaboratorSignature: collaboratorSignature || '',
                 contextChars: (content.context || '').length
             });
-
-            let result;
-            try {
-                const clean = response.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-                result = JSON.parse(clean);
-            } catch(e) {
-                result = { corps: response, objet: null };
-            }
 
             if (result.corps) {
                 result.corps = enforceCollaboratorSignature(result.corps, collaboratorSignature);
@@ -656,7 +688,7 @@ BROUILLON À RÉÉCRIRE :`;
             const elapsedSeconds = ((performance.now() - correctionStartedAt) / 1000).toFixed(1);
             showNotification('✅ Email corrigé en ' + elapsedSeconds + ' s');
         } catch (e) {
-            alert('Erreur : ' + e.message);
+            alert('Correction impossible : ' + e.message + '\nLe brouillon n’a pas été remplacé par une réponse Gemini invalide.');
         } finally {
             btn.innerHTML = originalIcon;
             btn.disabled = false;

@@ -7,7 +7,7 @@ Liens publics vérifiés sans connexion GitHub le 4 novembre 2026. Partager le l
 
 | Fichier | Version | Installation / `@downloadURL` | `@updateURL` |
 |---|---|---|---|
-| `Modulr_-_Correcteur_Email_Gemini.user.js` | 3.4.0 | [Installer](https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/Modulr_-_Correcteur_Email_Gemini.user.js) | [Vérifier la version](https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/Modulr_-_Correcteur_Email_Gemini.user.js) |
+| `Modulr_-_Correcteur_Email_Gemini.user.js` | 3.4.1 | [Installer](https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/Modulr_-_Correcteur_Email_Gemini.user.js) | [Vérifier la version](https://raw.githubusercontent.com/BiggerThanTheMall/modulr-gemini-email-corrector/main/Modulr_-_Correcteur_Email_Gemini.user.js) |
 
 ### Si le lien affiche du code au lieu d'ouvrir l'installation
 
@@ -21,3 +21,9 @@ Une modification du code sur GitHub doit être accompagnée d'une augmentation d
 
 Documentation officielle : [import depuis une URL](https://www.tampermonkey.net/faq.php?q=Q106), [version du script](https://www.tampermonkey.net/documentation.php?q=version), [adresses de mise à jour](https://www.tampermonkey.net/documentation.php?q=update_url).
 <!-- LTOA-INSTALLATION-END -->
+
+## Correctif 3.4.1
+
+Les réponses Gemini sont demandées en JSON structuré puis validées avant toute insertion. Une réponse tronquée, bloquée ou mal formée déclenche une tentative avec le second modèle. Si les 2 réponses sont inutilisables, le brouillon et l’objet restent inchangés et une erreur s’affiche. Le JSON brut ne sert plus de texte de secours. Les parties de texte sont assemblées et les caractères HTML sont échappés avant insertion.
+
+Tests sans appel API : `node --test tests/gemini-response.test.cjs`.
